@@ -1,0 +1,801 @@
+{
+ "a7|Primary: CKGR+Okavango, all 96, conservative|windows": 8,
+ "a7|Primary: CKGR+Okavango, all 96, conservative|onsets": 584,
+ "a7|Primary: CKGR+Okavango, all 96, conservative|floor_h_median": [
+  12.625,
+  12.379166666666666,
+  12.879166666666666
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|reach_pct_median": [
+  80.00163518927316,
+  70.73928440029434,
+  89.40637519417872
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|region_t95_h_median": [
+  10.587499999999999,
+  4.8916666666666675,
+  16.28333333333333
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|region_t95_reached_pct": [
+  24.828767123287673,
+  7.876712328767123,
+  44.00684931506849
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|ecc_images_median": [
+  10.625,
+  7.875,
+  13.375
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|coverage_first_images_median": [
+  19.875,
+  15.5,
+  24.25
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|time_aware_images_median": [
+  20.125,
+  15.625,
+  24.5
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|fcfs_unbudgeted_images_median": [
+  18.0,
+  14.0,
+  21.875
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|ecc_saving_vs_coverage_first_mean": [
+  9.58904109589041,
+  7.102568493150684,
+  11.674871575342463
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|ecc_saving_vs_fcfs_mean": [
+  7.333904109589041,
+  5.13013698630137,
+  9.537671232876711
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|ecc_fewer_than_coverage_first_pct": [
+  100.0,
+  100.0,
+  100.0
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|ecc_gap_min_max": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|cloud_floor_h_median": [
+  32.93541666666667,
+  32.74583333333332,
+  33.14791666666667
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|h1b_pct": [
+  95.54794520547945,
+  86.64383561643835,
+  100.0
+ ],
+ "a7|Primary: CKGR+Okavango, all 96, conservative|h2_diff": [
+  2.2791983484588343,
+  1.1186738614994693,
+  3.5187139747363263
+ ],
+ "a7|PlanetScope optimistic swath|windows": 8,
+ "a7|PlanetScope optimistic swath|onsets": 584,
+ "a7|PlanetScope optimistic swath|floor_h_median": [
+  12.59375,
+  12.352083333333333,
+  12.852083333333333
+ ],
+ "a7|PlanetScope optimistic swath|reach_pct_median": [
+  86.32675169650886,
+  79.93418363175537,
+  92.8358269969749
+ ],
+ "a7|PlanetScope optimistic swath|region_t95_h_median": [
+  13.256666666666666,
+  7.056666666666667,
+  19.35
+ ],
+ "a7|PlanetScope optimistic swath|region_t95_reached_pct": [
+  25.0,
+  8.047945205479452,
+  44.01113013698624
+ ],
+ "a7|PlanetScope optimistic swath|ecc_images_median": [
+  9.5,
+  7.625,
+  11.25
+ ],
+ "a7|PlanetScope optimistic swath|coverage_first_images_median": [
+  18.75,
+  14.75,
+  22.875
+ ],
+ "a7|PlanetScope optimistic swath|time_aware_images_median": [
+  19.125,
+  15.0,
+  23.5
+ ],
+ "a7|PlanetScope optimistic swath|fcfs_unbudgeted_images_median": [
+  17.125,
+  13.875,
+  20.5
+ ],
+ "a7|PlanetScope optimistic swath|ecc_saving_vs_coverage_first_mean": [
+  10.14041095890411,
+  7.768835616438356,
+  12.42666952054794
+ ],
+ "a7|PlanetScope optimistic swath|ecc_saving_vs_fcfs_mean": [
+  7.972602739726027,
+  6.28595890410959,
+  9.816780821917808
+ ],
+ "a7|PlanetScope optimistic swath|ecc_fewer_than_coverage_first_pct": [
+  100.0,
+  100.0,
+  100.0
+ ],
+ "a7|PlanetScope optimistic swath|ecc_gap_min_max": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "a7|PlanetScope optimistic swath|cloud_floor_h_median": [
+  33.003125000000004,
+  32.80729166666667,
+  33.202083333333334
+ ],
+ "a7|PlanetScope optimistic swath|h1b_pct": [
+  100.0,
+  100.0,
+  100.0
+ ],
+ "a7|PlanetScope optimistic swath|h2_diff": [
+  2.760557190744829,
+  1.5680954132940896,
+  4.185458568391791
+ ],
+ "a7|Without Sentinel-2A|windows": 8,
+ "a7|Without Sentinel-2A|onsets": 584,
+ "a7|Without Sentinel-2A|floor_h_median": [
+  12.725000000000001,
+  12.504166666666666,
+  12.945833333333333
+ ],
+ "a7|Without Sentinel-2A|reach_pct_median": [
+  73.7173984138664,
+  65.57619982012919,
+  82.84073256479437
+ ],
+ "a7|Without Sentinel-2A|region_t95_h_median": [
+  10.725,
+  5.166666666666667,
+  16.28333333333333
+ ],
+ "a7|Without Sentinel-2A|region_t95_reached_pct": [
+  12.5,
+  0.0,
+  29.623287671232877
+ ],
+ "a7|Without Sentinel-2A|ecc_images_median": [
+  12.0,
+  9.0,
+  15.125
+ ],
+ "a7|Without Sentinel-2A|coverage_first_images_median": [
+  21.0,
+  17.5,
+  24.5
+ ],
+ "a7|Without Sentinel-2A|time_aware_images_median": [
+  21.125,
+  17.625,
+  24.625
+ ],
+ "a7|Without Sentinel-2A|fcfs_unbudgeted_images_median": [
+  18.125,
+  14.375,
+  21.875
+ ],
+ "a7|Without Sentinel-2A|ecc_saving_vs_coverage_first_mean": [
+  9.039383561643836,
+  6.41091609589041,
+  11.347602739726028
+ ],
+ "a7|Without Sentinel-2A|ecc_saving_vs_fcfs_mean": [
+  6.1284246575342465,
+  4.347602739726028,
+  7.960830479452051
+ ],
+ "a7|Without Sentinel-2A|ecc_fewer_than_coverage_first_pct": [
+  100.0,
+  100.0,
+  100.0
+ ],
+ "a7|Without Sentinel-2A|ecc_gap_min_max": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "a7|Without Sentinel-2A|cloud_floor_h_median": [
+  33.07291666666667,
+  32.85104166666666,
+  33.27083333333333
+ ],
+ "a7|Without Sentinel-2A|h1b_pct": [
+  95.54794520547945,
+  86.64383561643835,
+  100.0
+ ],
+ "a7|Without Sentinel-2A|h2_diff": [
+  1.7658000163518934,
+  0.8514737143324348,
+  2.756393845556372
+ ],
+ "a7|Earth-resources only (no PlanetScope)|windows": 8,
+ "a7|Earth-resources only (no PlanetScope)|onsets": 465,
+ "a7|Earth-resources only (no PlanetScope)|floor_h_median": [
+  10.637500000000001,
+  7.8957291666666665,
+  13.079166666666667
+ ],
+ "a7|Earth-resources only (no PlanetScope)|reach_pct_median": [
+  52.976044477148236,
+  33.20660616466356,
+  71.08065571089854
+ ],
+ "a7|Earth-resources only (no PlanetScope)|region_t95_h_median": [
+  14.855555555555554,
+  4.616666666666667,
+  23.666666666666668
+ ],
+ "a7|Earth-resources only (no PlanetScope)|region_t95_reached_pct": [
+  12.609398782343987,
+  0.17123287671232876,
+  29.328386605783862
+ ],
+ "a7|Earth-resources only (no PlanetScope)|ecc_images_median": [
+  2.0,
+  1.5,
+  2.625
+ ],
+ "a7|Earth-resources only (no PlanetScope)|coverage_first_images_median": [
+  2.5,
+  1.875,
+  3.25
+ ],
+ "a7|Earth-resources only (no PlanetScope)|time_aware_images_median": [
+  2.5,
+  1.875,
+  3.25
+ ],
+ "a7|Earth-resources only (no PlanetScope)|fcfs_unbudgeted_images_median": [
+  2.875,
+  2.125,
+  3.75
+ ],
+ "a7|Earth-resources only (no PlanetScope)|ecc_saving_vs_coverage_first_mean": [
+  0.5924657534246576,
+  0.2208904109589041,
+  0.9965753424657535
+ ],
+ "a7|Earth-resources only (no PlanetScope)|ecc_saving_vs_fcfs_mean": [
+  0.9657534246575343,
+  0.4503424657534247,
+  1.5513698630136987
+ ],
+ "a7|Earth-resources only (no PlanetScope)|ecc_fewer_than_coverage_first_pct": [
+  46.40410958904109,
+  16.95205479452055,
+  78.5958904109589
+ ],
+ "a7|Earth-resources only (no PlanetScope)|ecc_gap_min_max": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "a7|Earth-resources only (no PlanetScope)|cloud_floor_h_median": [
+  26.65833333333334,
+  17.808281249999997,
+  32.63333333333333
+ ],
+ "a7|Earth-resources only (no PlanetScope)|h1b_pct": [
+  62.32876712328767,
+  28.995433789954337,
+  89.49771689497716
+ ],
+ "a7|Earth-resources only (no PlanetScope)|h2_diff": [
+  0.07787588913416724,
+  0.0024527839097377322,
+  0.15329899435859673
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|windows": 8,
+ "a7|Earth-resources only, without Sentinel-2A|onsets": 465,
+ "a7|Earth-resources only, without Sentinel-2A|floor_h_median": [
+  10.568750000000001,
+  7.85625,
+  12.989895833333332
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|reach_pct_median": [
+  40.69066306925026,
+  22.428409369634537,
+  56.71776633145287
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|region_t95_h_median": [
+  23.666666666666668,
+  null,
+  null
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|region_t95_reached_pct": [
+  0.17123287671232876,
+  0.0,
+  0.5136986301369862
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|ecc_images_median": [
+  1.75,
+  1.375,
+  2.0
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|coverage_first_images_median": [
+  2.125,
+  1.5,
+  2.875
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|time_aware_images_median": [
+  2.125,
+  1.5,
+  2.875
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|fcfs_unbudgeted_images_median": [
+  2.375,
+  1.625,
+  3.25
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|ecc_saving_vs_coverage_first_mean": [
+  0.46061643835616434,
+  0.1695205479452055,
+  0.7876712328767124
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|ecc_saving_vs_fcfs_mean": [
+  0.6643835616438356,
+  0.2945205479452055,
+  1.1061643835616437
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|ecc_fewer_than_coverage_first_pct": [
+  33.9041095890411,
+  13.356164383561643,
+  58.56592465753419
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|ecc_gap_min_max": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|cloud_floor_h_median": [
+  23.602083333333333,
+  14.666614583333333,
+  32.45432291666666
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|h1b_pct": [
+  54.52054794520548,
+  21.643835616438356,
+  87.39726027397259
+ ],
+ "a7|Earth-resources only, without Sentinel-2A|h2_diff": [
+  0.16638050854386394,
+  null,
+  null
+ ],
+ "a7|Lower Zambezi|windows": 8,
+ "a7|Lower Zambezi|onsets": 584,
+ "a7|Lower Zambezi|floor_h_median": [
+  12.23125,
+  11.995833333333334,
+  12.495833333333334
+ ],
+ "a7|Lower Zambezi|reach_pct_median": [
+  84.52380952380952,
+  65.49479166666667,
+  98.54910714285714
+ ],
+ "a7|Lower Zambezi|region_t95_h_median": [
+  12.178571428571429,
+  8.283333333333333,
+  15.53095238095238
+ ],
+ "a7|Lower Zambezi|region_t95_reached_pct": [
+  53.5958904109589,
+  33.73287671232877,
+  72.43150684931507
+ ],
+ "a7|Lower Zambezi|ecc_images_median": [
+  3.0,
+  1.5,
+  4.75
+ ],
+ "a7|Lower Zambezi|coverage_first_images_median": [
+  4.375,
+  2.25,
+  6.875
+ ],
+ "a7|Lower Zambezi|time_aware_images_median": [
+  4.375,
+  2.25,
+  6.875
+ ],
+ "a7|Lower Zambezi|fcfs_unbudgeted_images_median": [
+  4.25,
+  2.375,
+  6.375
+ ],
+ "a7|Lower Zambezi|ecc_saving_vs_coverage_first_mean": [
+  1.256849315068493,
+  0.7996575342465753,
+  1.7791523972602734
+ ],
+ "a7|Lower Zambezi|ecc_saving_vs_fcfs_mean": [
+  1.1369863013698631,
+  0.7294520547945206,
+  1.582191780821918
+ ],
+ "a7|Lower Zambezi|ecc_fewer_than_coverage_first_pct": [
+  74.31506849315068,
+  58.732876712328775,
+  90.41095890410959
+ ],
+ "a7|Lower Zambezi|ecc_gap_min_max": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "a7|Lower Zambezi|cloud_floor_h_median": [
+  25.18854166666667,
+  17.793697916666666,
+  31.295885416666668
+ ],
+ "a7|Lower Zambezi|h1b_pct": [
+  89.72195042400521,
+  79.24820613176779,
+  99.70238095238096
+ ],
+ "a7|Lower Zambezi|h2_diff": [
+  1.1734693877551023,
+  0.44430272108843577,
+  1.9961734693877549
+ ],
+ "a7|Karoo Nature Reserve|windows": 8,
+ "a7|Karoo Nature Reserve|onsets": 513,
+ "a7|Karoo Nature Reserve|floor_h_median": [
+  11.277083333333334,
+  8.979166666666668,
+  13.274999999999999
+ ],
+ "a7|Karoo Nature Reserve|reach_pct_median": [
+  77.734375,
+  53.125,
+  96.484375
+ ],
+ "a7|Karoo Nature Reserve|region_t95_h_median": [
+  10.62857142857143,
+  7.092857142857143,
+  13.854761904761906
+ ],
+ "a7|Karoo Nature Reserve|region_t95_reached_pct": [
+  66.60958904109589,
+  41.60958904109589,
+  91.0958904109589
+ ],
+ "a7|Karoo Nature Reserve|ecc_images_median": [
+  1.125,
+  1.0,
+  1.375
+ ],
+ "a7|Karoo Nature Reserve|coverage_first_images_median": [
+  1.375,
+  1.125,
+  1.75
+ ],
+ "a7|Karoo Nature Reserve|time_aware_images_median": [
+  1.375,
+  1.125,
+  1.75
+ ],
+ "a7|Karoo Nature Reserve|fcfs_unbudgeted_images_median": [
+  1.375,
+  1.0,
+  1.875
+ ],
+ "a7|Karoo Nature Reserve|ecc_saving_vs_coverage_first_mean": [
+  0.2910958904109589,
+  0.04452054794520548,
+  0.6267123287671232
+ ],
+ "a7|Karoo Nature Reserve|ecc_saving_vs_fcfs_mean": [
+  0.3938356164383562,
+  0.1558219178082192,
+  0.6438784246575336
+ ],
+ "a7|Karoo Nature Reserve|ecc_fewer_than_coverage_first_pct": [
+  24.657534246575338,
+  4.4520547945205475,
+  52.39726027397259
+ ],
+ "a7|Karoo Nature Reserve|ecc_gap_min_max": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "a7|Karoo Nature Reserve|cloud_floor_h_median": [
+  14.579166666666666,
+  8.537447916666666,
+  23.402135416666667
+ ],
+ "a7|Karoo Nature Reserve|h1b_pct": [
+  97.87234042553192,
+  95.74468085106383,
+  100.0
+ ],
+ "a7|Karoo Nature Reserve|h2_diff": [
+  1.09375,
+  0.234375,
+  1.953125
+ ],
+ "a7|Primary design, wet season (A5)|windows": 8,
+ "a7|Primary design, wet season (A5)|onsets": 584,
+ "a7|Primary design, wet season (A5)|floor_h_median": [
+  12.420833333333334,
+  12.295833333333333,
+  12.533333333333333
+ ],
+ "a7|Primary design, wet season (A5)|reach_pct_median": [
+  80.7323603957158,
+  69.03053715967624,
+  91.3788478047584
+ ],
+ "a7|Primary design, wet season (A5)|region_t95_h_median": [
+  15.61,
+  9.45,
+  20.95
+ ],
+ "a7|Primary design, wet season (A5)|region_t95_reached_pct": [
+  28.253424657534246,
+  8.21917808219178,
+  47.77397260273973
+ ],
+ "a7|Primary design, wet season (A5)|ecc_images_median": [
+  12.0,
+  8.25,
+  16.375
+ ],
+ "a7|Primary design, wet season (A5)|coverage_first_images_median": [
+  19.625,
+  16.125,
+  23.375
+ ],
+ "a7|Primary design, wet season (A5)|time_aware_images_median": [
+  19.375,
+  15.875,
+  23.25
+ ],
+ "a7|Primary design, wet season (A5)|fcfs_unbudgeted_images_median": [
+  18.25,
+  13.25,
+  23.375
+ ],
+ "a7|Primary design, wet season (A5)|ecc_saving_vs_coverage_first_mean": [
+  8.167808219178081,
+  6.784246575342465,
+  9.601027397260273
+ ],
+ "a7|Primary design, wet season (A5)|ecc_saving_vs_fcfs_mean": [
+  6.241438356164384,
+  4.797945205479452,
+  7.830479452054794
+ ],
+ "a7|Primary design, wet season (A5)|ecc_fewer_than_coverage_first_pct": [
+  100.0,
+  100.0,
+  100.0
+ ],
+ "a7|Primary design, wet season (A5)|ecc_gap_min_max": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "a7|Primary design, wet season (A5)|cloud_floor_h_median": [
+  33.05104166666667,
+  32.92708333333333,
+  33.15625
+ ],
+ "a7|Primary design, wet season (A5)|h1b_pct": [
+  99.82876712328766,
+  99.48630136986301,
+  100.0
+ ],
+ "a7|Primary design, wet season (A5)|h2_diff": [
+  1.896053061891914,
+  0.6783237776960179,
+  3.2913805085438645
+ ],
+ "archive|pred_overpasses": 24,
+ "archive|matched": 24,
+ "archive|offset_range": [
+  0.04,
+  0.53
+ ],
+ "archive|actual_tiles_predicted_range": [
+  94.50549450549453,
+  98.87227383377216
+ ],
+ "archive|pred_confirmed_range": [
+  100.0,
+  100.0
+ ],
+ "archive|cloud_meta": [
+  0.002,
+  0.313,
+  0.202,
+  0.001,
+  0.142,
+  4.872,
+  0.019,
+  57.512
+ ],
+ "h1b_by_window": [
+  100.0,
+  100.0,
+  100.0,
+  100.0,
+  100.0,
+  100.0,
+  64.38,
+  100.0
+ ],
+ "h2_by_window": [
+  0.85,
+  2.535,
+  4.669,
+  5.041,
+  0.867,
+  1.047,
+  0.206,
+  3.018
+ ],
+ "a8|dry|overpasses": 14,
+ "a8|dry|full": 10,
+ "a8|dry|cloudy_pooled": 6.944523228770775,
+ "a8|dry|fail": 1,
+ "a8|dry|le5": 13,
+ "a8|dry|ge50": 1,
+ "a8|dry|corr": 0.9959314238046181,
+ "a8|dry|scenes": 309,
+ "a8|dry|obs48": 66.35495871147086,
+ "a8|dry|clear48": 60.68493990679421,
+ "a8|dry|t95reached": 7,
+ "a8|dry|08|cloudy": 0.3402083776312992,
+ "a8|dry|09|cloudy": 33.41619318181818,
+ "a8|wet|overpasses": 10,
+ "a8|wet|full": 7,
+ "a8|wet|cloudy_pooled": 35.72982926012722,
+ "a8|wet|fail": 5,
+ "a8|wet|le5": 2,
+ "a8|wet|ge50": 5,
+ "a8|wet|corr": 0.9812685165442759,
+ "a8|wet|scenes": 223,
+ "a8|wet|obs48": 47.02804349603467,
+ "a8|wet|clear48": 29.82176436922574,
+ "a8|wet|t95reached": 2,
+ "a8|wet|01|cloudy": 37.809265922326496,
+ "a8|wet|02|cloudy": 33.038928622857966,
+ "a9|pairs": 1216,
+ "a9|unknown": 0,
+ "a9|dry|k5": {
+  "no k-cover exists": 126,
+  "ECC at floor": 26
+ },
+ "a9|dry|k10": {
+  "ECC at floor": 77,
+  "no k-cover exists": 52,
+  "ECC at exact time": 23
+ },
+ "a9|dry|k15": {
+  "ECC at floor": 132,
+  "no k-cover exists": 13,
+  "ECC at exact time": 7
+ },
+ "a9|dry|k20": {
+  "ECC at floor": 151,
+  "ECC at exact time": 1
+ },
+ "a9|wet|k5": {
+  "no k-cover exists": 133,
+  "ECC at floor": 19
+ },
+ "a9|wet|k10": {
+  "no k-cover exists": 77,
+  "ECC at floor": 56,
+  "ECC at exact time": 19
+ },
+ "a9|wet|k15": {
+  "ECC at floor": 126,
+  "no k-cover exists": 12,
+  "ECC missed a cover": 7,
+  "ECC at exact time": 7
+ },
+ "a9|wet|k20": {
+  "ECC at floor": 140,
+  "ECC at exact time": 12
+ },
+ "a9|excess_max": 0.0,
+ "a9|dry|fs": {
+  "n": 160,
+  "never": 20,
+  "q": [
+   0.0,
+   0.0,
+   0.2333333333333333
+  ],
+  "sooner": 47.5,
+  "same": 28.125,
+  "later": 24.375,
+  "gain_mean": 2.765706866378447,
+  "less": 20
+ },
+ "a9|wet|fs": {
+  "n": 160,
+  "never": 36,
+  "q": [
+   -0.39166666666666666,
+   0.0,
+   0.054166666666666655
+  ],
+  "sooner": 33.125,
+  "same": 20.0,
+  "later": 46.875,
+  "gain_mean": 2.2441306168575528,
+  "less": 36
+ },
+ "a11|label": "POST HOC (A11, correcting A10 and A6)",
+ "a11|onsets": 584,
+ "a11|saving_gb_median_per_onset": [
+  8.28000027587962,
+  12.959426070859903
+ ],
+ "a11|reduction_pct_median_per_onset": [
+  26.119392713650328,
+  26.55000081669628
+ ],
+ "a11|reduction_pct_iqr_low_rate": [
+  4.160664224345294,
+  50.22507253891554
+ ],
+ "a11|reduction_pct_range": [
+  0.0,
+  92.52370190757507
+ ],
+ "a11|onsets_saving_positive": 558,
+ "a11|onsets_saving_zero": 26,
+ "a11|onsets_ecc_more_data": 0,
+ "a11|planetscope_share_of_saving_high_pooled": 0.9928112925068902,
+ "a11|planetscope_share_min_window": 0.9665835382450261,
+ "a11|window_mean_of_median_saving_gb|low|mean": 9.636862573678407,
+ "a11|window_mean_of_median_saving_gb|low|ci95": [
+  4.062874689565027,
+  15.800927277369558
+ ],
+ "a11|window_mean_of_median_saving_gb|high|mean": 15.074643892960443,
+ "a11|window_mean_of_median_saving_gb|high|ci95": [
+  6.354637733628856,
+  24.720518608176313
+ ],
+ "a11|window_mean_of_median_reduction_pct|low|mean": 29.128231083017887,
+ "a11|window_mean_of_median_reduction_pct|low|ci95": [
+  13.452828796076547,
+  45.842865582067574
+ ],
+ "a11|window_mean_of_median_reduction_pct|high|mean": 29.959276024640317,
+ "a11|window_mean_of_median_reduction_pct|high|ci95": [
+  13.588476736252133,
+  47.64658115157457
+ ],
+ "a11|source": "ARF_batch/data_volume_a11/a11_onsets.csv (Colab 2026-10-31), summarise_a11.py",
+ "a11|supersedes": "A10, A6"
+}

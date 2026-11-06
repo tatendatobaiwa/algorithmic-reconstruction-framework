@@ -1,0 +1,10 @@
+PASS primary and exploratory (without Sentinel-2A) designs each find their own 8 windows
+PASS the release-1.5.0 run is excluded (not pooled)
+PASS alpha: primary 0.0167 (Bonferroni over 3), exploratory 0.0500
+PASS means and one-sided lower bounds equal an independent Student-t computation (both designs, 3 hypotheses)
+PASS statuses follow the frozen decision rules: H1a SUPPORTED, H1b SUPPORTED, H2 SUPPORTED, H1a NOT SUPPORTED, H1b NOT SUPPORTED, H2 NOT SUPPORTED
+PASS a design with 3 of 8 windows (min_windows 5) is NOT EVALUABLE
+PASS window table carries per-platform archive precision and the exclusion key
+PASS results record the protocol amendments (A1)
+
+8/8 checks passed

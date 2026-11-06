@@ -1,0 +1,94 @@
+{
+  "stac_url": "https://earth-search.aws.element84.com/v1",
+  "match_tolerance_min": 15.0,
+  "archive_lag_h": 48.0,
+  "window_start_utc": "2026-08-03T00:00:00",
+  "archive_lag_h_by_platform": {
+    "landsat-8": 456.0,
+    "landsat-9": 96.0,
+    "sentinel-2a": 48.0,
+    "sentinel-2b": 48.0,
+    "sentinel-2c": 48.0
+  },
+  "evaluated_until_utc_by_platform": {
+    "landsat-8": "2026-08-05T00:00:00",
+    "landsat-9": "2026-08-05T00:00:00",
+    "sentinel-2a": "2026-08-05T00:00:00",
+    "sentinel-2b": "2026-08-05T00:00:00",
+    "sentinel-2c": "2026-08-05T00:00:00"
+  },
+  "evaluated_until_utc": "2026-08-05T00:00:00",
+  "platforms": [
+    "landsat-8",
+    "landsat-9",
+    "sentinel-2a",
+    "sentinel-2b",
+    "sentinel-2c"
+  ],
+  "status": "ok",
+  "catalogue_items_returned": 114,
+  "by_platform": {
+    "landsat-8": {
+      "evaluated": true,
+      "archive_lag_h": 456.0,
+      "predicted_overpasses": 0,
+      "actual_overpasses": 0,
+      "matched": 0,
+      "precision": null,
+      "recall": null,
+      "evaluated_until_utc": "2026-08-05T00:00:00"
+    },
+    "landsat-9": {
+      "evaluated": true,
+      "archive_lag_h": 96.0,
+      "predicted_overpasses": 1,
+      "actual_overpasses": 1,
+      "matched": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "evaluated_until_utc": "2026-08-05T00:00:00"
+    },
+    "sentinel-2a": {
+      "evaluated": true,
+      "archive_lag_h": 48.0,
+      "predicted_overpasses": 1,
+      "actual_overpasses": 1,
+      "matched": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "evaluated_until_utc": "2026-08-05T00:00:00"
+    },
+    "sentinel-2b": {
+      "evaluated": true,
+      "archive_lag_h": 48.0,
+      "predicted_overpasses": 1,
+      "actual_overpasses": 1,
+      "matched": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "evaluated_until_utc": "2026-08-05T00:00:00"
+    },
+    "sentinel-2c": {
+      "evaluated": true,
+      "archive_lag_h": 48.0,
+      "predicted_overpasses": 0,
+      "actual_overpasses": 0,
+      "matched": 0,
+      "precision": null,
+      "recall": null,
+      "evaluated_until_utc": "2026-08-05T00:00:00"
+    }
+  },
+  "predicted_overpasses": 3,
+  "actual_overpasses": 3,
+  "matched": 3,
+  "precision": 1.0,
+  "recall": 1.0,
+  "median_time_offset_min": 0.53,
+  "predicted_tiles_confirmed_pct": 100.0,
+  "actual_tiles_predicted_pct": 98.48900133530114,
+  "actual_cloud_cover_mean_pct": 0.0021073725490196077,
+  "actual_cloud_cover_median_pct": 6.811764705882353e-05,
+  "model_cloud_probability_pct": 35.0,
+  "note": "PlanetScope passes are not validated (no open archive)."
+}

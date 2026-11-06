@@ -1,0 +1,11 @@
+PASS 16 runs done
+PASS each run in ARF_wetseason_A5/<variant>/<window> with its own cloud setting
+PASS nothing written under /content
+PASS A4 folder unchanged
+PASS second call: all 16 skipped
+PASS a missing element-set cache is refused
+PASS a missing EarthEnv file is refused
+PASS a changed A4 runner is refused
+PASS a run that touches an A4 folder stops the batch
+PASS a release file other than 1.5.3 is refused
+10/10 passed

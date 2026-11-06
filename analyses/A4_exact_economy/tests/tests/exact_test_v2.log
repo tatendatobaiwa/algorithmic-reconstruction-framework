@@ -1,0 +1,42 @@
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+PASS run made with the exact altitude and period
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+   parity replay: period np.float64(94.06915712481067) vs run 94.06915712481076
+   decay_tau_min: 4 rows differ, max |diff| 7.11e-14, max rel 7.55e-16
+PASS negative control: the parity replay's onset CSV is NOT byte-identical (the Colab failure)
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+2026-08-03: replay byte-identical to the run's arf_onset_robustness.csv
+  2026-08-03 onset +0 min: ECC 7, FCFS 27, exact 7 (optimal, 6.19 s; sample)
+  2026-08-03 onset +80 min: ECC 2, FCFS 10, exact 2 (optimal, 14.38 s; sample)
+  2026-08-03 onset +160 min: ECC 2, FCFS 8, exact 2 (optimal, 15.03 s; sample)
+  2026-08-03 onset +240 min: ECC 2, FCFS 8, exact 2 (optimal, 14.65 s; sample)
+  2026-08-03 onset +320 min: ECC 2, FCFS 8, exact 2 (optimal, 15.23 s; sample)
+  2026-08-03 onset +400 min: ECC 2, FCFS 8, exact 2 (optimal, 14.12 s; sample)
+  2026-08-03 onset +480 min: ECC 2, FCFS 8, exact 2 (optimal, 13.6 s; sample)
+  2026-08-03 onset +560 min: ECC 2, FCFS 8, exact 2 (optimal, 14.47 s; sample)
+  2026-08-03 onset +640 min: ECC 2, FCFS 8, exact 2 (optimal, 14.17 s; sample)
+  2026-08-03 onset +720 min: ECC 2, FCFS 8, exact 2 (optimal, 13.48 s; sample)
+  2026-08-03 onset +800 min: ECC 2, FCFS 8, exact 2 (optimal, 13.99 s; sample)
+  2026-08-03 onset +880 min: ECC 2, FCFS 8, exact 2 (optimal, 14.52 s; sample)
+  2026-08-03 onset +960 min: ECC 2, FCFS 8, exact 2 (optimal, 14.88 s; sample)
+  2026-08-03 onset +1040 min: ECC 2, FCFS 8, exact 2 (optimal, 13.94 s; sample)
+  2026-08-03 onset +1120 min: ECC 2, FCFS 8, exact 2 (optimal, 14.45 s; sample)
+  2026-08-03 onset +1200 min: ECC 2, FCFS 8, exact 2 (optimal, 13.72 s; sample)
+  2026-08-03 onset +1280 min: ECC 2, FCFS 8, exact 2 (optimal, 14.67 s; sample)
+  2026-08-03 onset +1360 min: ECC 2, FCFS 8, exact 2 (optimal, 13.6 s; sample)
+  2026-08-03 onset +1440 min: ECC 2, FCFS 9, exact 2 (optimal, 13.15 s; sample)
+{"window": "2026-08-03", "replay_identical": true, "replay_differences": [], "seconds": 486.7, "onsets_solved": 19, "ecc_optimal": 19, "ecc_extra_images_max": 0.0, "onsets_tie_or_loss": 0, "tie_or_loss_solved": 0, "tie_or_loss_no_economy_possible": 0, "tie_or_loss_ecc_above_exact": 0, "sample_solved": 19, "sample_ecc_optimal": 19}
+    window  replay_identical replay_differences  seconds  onsets_solved  ecc_optimal  ecc_extra_images_max  onsets_tie_or_loss  tie_or_loss_solved  tie_or_loss_no_economy_possible  tie_or_loss_ecc_above_exact  sample_solved  sample_ecc_optimal
+2026-08-03              True                 []    486.7             19           19                   0.0                   0                   0                                0                            0             19                  19
+Files: /tmp/exact2_xmvwhql2/ARF_batch/sensitivity_a4/a4_exact_economy.csv, a4_exact_economy_summary.json
+PASS revised script: replay byte-identical to the run
+PASS 1e-12 relative change in decay_tau_min accepted and reported
+PASS one extra ECC image refused
+PASS a value turned missing is refused
+PASS per-onset values equal the run's CSV
+PASS 19 exact solves optimal; exact <= ECC and <= FCFS
+PASS a Cell 2 period that differs from the manifest is refused
+9/9 passed

@@ -1,0 +1,8 @@
+PASS lower_zambezi: 672 tiles, identical to the Colab runs' tile list (SHA-256); tiled area +0.88% of GIS_AREA (tolerance 5.0%)
+PASS karoo_nature_reserve: 32 tiles, identical to the Colab runs' tile list (SHA-256); tiled area +16.69% of GIS_AREA (tolerance 18.2%)
+PASS CKGR (7510): 8831 tiles, all inside the 12231-tile CKGR + Okavango ROI of the Colab runs; designation ['Game Reserve']
+PASS deterministic; read from a zip two folders deep; zip + extracted copy read once (area not doubled)
+PASS identity checks refuse: Ramsar file for a World Heritage Site, wrong REP_AREA, missing site, point-only record ([('ramsar', True), ('rep_area', True), ('missing', True), ('point', True)])
+PASS sample tile: min(tiles) identical under three hash seeds ({'879620698ffffff'}); next(iter(set)) gave 3 different tiles (v1.5.1 rule)
+
+6/6 checks passed

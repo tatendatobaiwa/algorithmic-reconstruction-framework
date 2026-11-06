@@ -1,0 +1,22 @@
+PASS defaults accepted; version 1.5.3; arf_config.json written; cell registry reset
+PASS arf_config.json equals the config used
+PASS 39 invalid values each raise ConfigurationError
+PASS analysis_epoch with the Starlink proxy is rejected
+PASS reference_epoch_utc with the Starlink proxy is rejected
+PASS a future analysis_epoch is rejected
+PASS analysis_epoch and reference_epoch_utc together are rejected
+PASS unknown override field is rejected by name
+PASS analysis_epoch with +02:00 -> 2026-08-17T00:00:00.000000 UTC, folder tag earth-resources_from20260817
+PASS reference_epoch_utc -> 2026-10-12T08:27:09.000000, folder tag earth-resources_planet-optimistic_384h_at20261012T0827
+PASS list overrides become tuples (targets sorted); the applied overrides are recorded
+PASS mission table (conservative): PlanetScope FOV 3.0 deg, S2 290 km (sun 5 deg ASSUMPTION), Landsat 185 km (sun 5 deg sourced), Planet sun 10 deg; tag planet-conservative
+PASS mission table (optimistic): PlanetScope FOV 4.0 deg, S2 290 km (sun 5 deg ASSUMPTION), Landsat 185 km (sun 5 deg sourced), Planet sun 10 deg; tag planet-optimistic
+PASS name patterns: Sentinel-2A-C, Landsat 8/9 and FLOCK match; Sentinel-1/3, Landsat 7, SkySat, Pelican do not
+PASS Cell 0 re-run without overrides returns to the cell's own settings (fleet earth-resources+planet; overrides applied: none)
+PASS v1.5.2 default: ckgr_okavango, earth-resources+planet, conservative; scenario key = fleet tag earth-resources_planet-conservative
+PASS Starlink proxy keeps (ROI, N) as its scenario key
+PASS exclude_satellites from a JSON list: names upper-cased, folder tag earth-resources_planet-conservative_without-LANDSAT8-SENTINEL2A
+PASS exclude_satellites: a bare string, an empty name, a non-string, or the Starlink proxy is rejected
+PASS acquisition exclusions: sourced entries with ISO times; Sentinel-2A tandem pause 13 Jan - 8 Mar 2026 (end inclusive), pattern matches 2A only
+
+20/20 checks passed

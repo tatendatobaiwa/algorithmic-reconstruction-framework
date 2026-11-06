@@ -1,0 +1,9 @@
+PASS A5 appended, A1-A4 unchanged
+PASS A4 protocol kept
+PASS three scripts installed
+PASS release and A4 files untouched
+PASS second run: nothing to do
+PASS a damaged package is refused
+PASS a changed release file is refused
+PASS a protocol without A4 is refused
+8/8 passed

@@ -1,0 +1,70 @@
+{
+ "release": "1.5.3",
+ "windows": [
+  "2026-08-03",
+  "2026-08-10",
+  "2026-08-17",
+  "2026-08-24",
+  "2026-08-31",
+  "2026-09-07",
+  "2026-09-14",
+  "2026-09-21"
+ ],
+ "tests": {
+  "note": "POST HOC: exact one-sided tests over windows (window = unit of inference); the protocol's decisions are the Student-t lower bounds of arf_confirmatory_analysis.py",
+  "H1a_vs_threshold": {
+   "windows": 8,
+   "above": 8,
+   "equal": 0,
+   "below": 0,
+   "sign_p": 0.00390625,
+   "wilcoxon_p": 0.00390625,
+   "min_attainable_p": 0.00390625
+  },
+  "H1b_vs_threshold": {
+   "windows": 8,
+   "above": 7,
+   "equal": 0,
+   "below": 1,
+   "sign_p": 0.03515625,
+   "wilcoxon_p": 0.09765625,
+   "min_attainable_p": 0.00390625
+  },
+  "H2_vs_zero": {
+   "windows": 8,
+   "above": 8,
+   "equal": 0,
+   "below": 0,
+   "sign_p": 0.00390625,
+   "wilcoxon_p": 0.00390625,
+   "min_attainable_p": 0.00390625
+  }
+ },
+ "archive_cloud": {
+  "scenes_with_cloud": 24,
+  "mean_pct": 2.913082041164168,
+  "median_pct": 0.00148478274005845,
+  "share_below_10pct": 95.83333333333334,
+  "share_above_50pct": 4.166666666666666,
+  "model_probability_pct": 35.0,
+  "note": "observed: real acquisitions' scene cloud cover from the archive catalogue (Cell 7D); model: the protocol's constant per-tile cloud probability"
+ },
+ "optimality_pooled": {
+  "ecc_instances": 8,
+  "ecc_matches": 3,
+  "ecc_extra_images_max": 4.0,
+  "coverage_first_ratio_min": 1.0,
+  "time_aware_ratio_min": 0.9277251248982932,
+  "fcfs_ratio_min": 0.3910015866423839,
+  "ilp_seconds_max": 1.48
+ },
+ "h2_pooled": {
+  "cov_adaptive": "77.71 [61.59--88.97]",
+  "cov_openloop_expected": "76.41 [61.39--83.93]",
+  "cov_openloop_clear": "72.36 [61.63--77.88]",
+  "cov_oracle": "78.27 [62.86--88.27]",
+  "diff_vs_expected_mean": "1.79 [0.21--5.04]",
+  "diff_vs_clear_mean": "4.42 [-0.03--17.74]",
+  "share_oracle_gain_median": "0.72 [0.28--1.00]"
+ }
+}

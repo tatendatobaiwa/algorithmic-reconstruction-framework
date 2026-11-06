@@ -1,0 +1,15 @@
+{
+ "window": "2026-08-03",
+ "N": [
+  100,
+  500,
+  1000,
+  2000,
+  4000
+ ],
+ "slope_run_minutes_vs_N": 1.0356466706812226,
+ "slope_candidate_events_vs_N": 0.9990917318034949,
+ "slope_floor_t95r_median_vs_N": -0.35628679385847317,
+ "slope_ecc_t95r_median_vs_N": -0.35628679385847317,
+ "note": "descriptive log-log least-squares slope over the fleet sizes run in window 1"
+}

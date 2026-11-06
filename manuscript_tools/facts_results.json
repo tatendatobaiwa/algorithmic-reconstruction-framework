@@ -1,0 +1,2556 @@
+{
+"8": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1a windows",
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1b windows",
+"confirmatory ckgr_okavango earth-resources+planet conservative None H2 windows",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1a windows",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1b windows",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H2 windows",
+"confirmatory lower_zambezi earth-resources+planet conservative None H1a windows",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1a windows",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1b windows",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H2 windows",
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_reached_pct ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_images_median ci",
+"a7 PlanetScope optimistic swath region_t95_reached_pct ci",
+"a7 PlanetScope optimistic swath ecc_images_median ci",
+"a7 PlanetScope optimistic swath ecc_saving_vs_coverage_first_mean ci",
+"a7 PlanetScope optimistic swath ecc_saving_vs_fcfs_mean mean",
+"a7 Without Sentinel-2A ecc_saving_vs_fcfs_mean ci",
+"a7 Earth-resources only (no PlanetScope) floor_h_median ci",
+"a7 Earth-resources only, without Sentinel-2A floor_h_median ci",
+"a7 Lower Zambezi region_t95_h_median ci",
+"a7 Primary design, wet season (A5) region_t95_reached_pct ci",
+"a7 Primary design, wet season (A5) ecc_images_median ci",
+"a7 Primary design, wet season (A5) ecc_saving_vs_coverage_first_mean mean",
+"a7 Primary design, wet season (A5) ecc_saving_vs_fcfs_mean ci",
+"a4 2026-09-21 optimal",
+"a4 k10 ecc_images_median",
+"a4 k15 ecc_images_median",
+"a4 ilp48 ecc images",
+"a5 earthenv h1a_pct above",
+"a5 earthenv h1b_pct above",
+"a5 p035 h1a_pct above",
+"a5 p035 h1b_pct above",
+"a11",
+"a11 2026-08-24 ecc_img",
+"a11 2026-08-31 ecc_img"
+],
+"100.0": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1a mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1a lcb_0.9833",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1a mean",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1a lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1b mean",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1b lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources conservative None H1a mean",
+"confirmatory ckgr_okavango earth-resources conservative None H1a lcb_0.9500",
+"confirmatory lower_zambezi earth-resources+planet conservative None H1a mean",
+"confirmatory lower_zambezi earth-resources+planet conservative None H1a lcb_0.9500",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1a mean",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1a lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1a mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1a lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1a mean",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1a lcb_0.9500",
+"h1b window 0",
+"h1b window 1",
+"h1b window 2",
+"h1b window 3",
+"h1b window 4",
+"h1b window 5",
+"h1b window 7",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_fewer_than_coverage_first_pct mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_fewer_than_coverage_first_pct ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_fewer_than_coverage_first_pct ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative h1b_pct ci",
+"a7 PlanetScope optimistic swath ecc_fewer_than_coverage_first_pct mean",
+"a7 PlanetScope optimistic swath ecc_fewer_than_coverage_first_pct ci",
+"a7 PlanetScope optimistic swath ecc_fewer_than_coverage_first_pct ci",
+"a7 PlanetScope optimistic swath h1b_pct mean",
+"a7 PlanetScope optimistic swath h1b_pct ci",
+"a7 PlanetScope optimistic swath h1b_pct ci",
+"a7 Without Sentinel-2A ecc_fewer_than_coverage_first_pct mean",
+"a7 Without Sentinel-2A ecc_fewer_than_coverage_first_pct ci",
+"a7 Without Sentinel-2A ecc_fewer_than_coverage_first_pct ci",
+"a7 Without Sentinel-2A h1b_pct ci",
+"a7 Karoo Nature Reserve h1b_pct ci",
+"a7 Primary design, wet season (A5) ecc_fewer_than_coverage_first_pct mean",
+"a7 Primary design, wet season (A5) ecc_fewer_than_coverage_first_pct ci",
+"a7 Primary design, wet season (A5) ecc_fewer_than_coverage_first_pct ci",
+"a7 Primary design, wet season (A5) h1b_pct ci",
+"a4 k20 h1a_mean",
+"a4 k20 h1a_min",
+"a4 k30 h1a_mean",
+"a4 k30 h1a_min",
+"a5 earthenv h1a_pct mean",
+"a5 earthenv h1a_pct lcb_alpha",
+"a5 earthenv h1a_pct lcb_alpha_over_3",
+"a5 p035 h1a_pct mean",
+"a5 p035 h1a_pct lcb_alpha",
+"a5 p035 h1a_pct lcb_alpha_over_3"
+],
+"100.00": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1a mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1a lcb_0.9833",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1a mean",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1a lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1b mean",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1b lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources conservative None H1a mean",
+"confirmatory ckgr_okavango earth-resources conservative None H1a lcb_0.9500",
+"confirmatory lower_zambezi earth-resources+planet conservative None H1a mean",
+"confirmatory lower_zambezi earth-resources+planet conservative None H1a lcb_0.9500",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1a mean",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1a lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1a mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1a lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1a mean",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1a lcb_0.9500",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_fewer_than_coverage_first_pct mean",
+"a7 PlanetScope optimistic swath ecc_fewer_than_coverage_first_pct mean",
+"a7 PlanetScope optimistic swath h1b_pct mean",
+"a7 Without Sentinel-2A ecc_fewer_than_coverage_first_pct mean",
+"a7 Primary design, wet season (A5) ecc_fewer_than_coverage_first_pct mean",
+"a5 earthenv h1a_pct mean",
+"a5 earthenv h1a_pct lcb_alpha",
+"a5 earthenv h1a_pct lcb_alpha_over_3",
+"a5 p035 h1a_pct mean",
+"a5 p035 h1a_pct lcb_alpha",
+"a5 p035 h1a_pct lcb_alpha_over_3"
+],
+"100": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1a mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1a lcb_0.9833",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1a mean",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1a lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1b mean",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1b lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources conservative None H1a mean",
+"confirmatory ckgr_okavango earth-resources conservative None H1a lcb_0.9500",
+"confirmatory lower_zambezi earth-resources+planet conservative None H1a mean",
+"confirmatory lower_zambezi earth-resources+planet conservative None H1a lcb_0.9500",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1a mean",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1a lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1a mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1a lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1a mean",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1a lcb_0.9500",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_fewer_than_coverage_first_pct mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_fewer_than_coverage_first_pct ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_fewer_than_coverage_first_pct ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative h1b_pct ci",
+"a7 PlanetScope optimistic swath ecc_fewer_than_coverage_first_pct mean",
+"a7 PlanetScope optimistic swath ecc_fewer_than_coverage_first_pct ci",
+"a7 PlanetScope optimistic swath ecc_fewer_than_coverage_first_pct ci",
+"a7 PlanetScope optimistic swath h1b_pct mean",
+"a7 PlanetScope optimistic swath h1b_pct ci",
+"a7 PlanetScope optimistic swath h1b_pct ci",
+"a7 Without Sentinel-2A ecc_fewer_than_coverage_first_pct mean",
+"a7 Without Sentinel-2A ecc_fewer_than_coverage_first_pct ci",
+"a7 Without Sentinel-2A ecc_fewer_than_coverage_first_pct ci",
+"a7 Without Sentinel-2A h1b_pct ci",
+"a7 Lower Zambezi h1b_pct ci",
+"a7 Karoo Nature Reserve h1b_pct ci",
+"a7 Primary design, wet season (A5) ecc_fewer_than_coverage_first_pct mean",
+"a7 Primary design, wet season (A5) ecc_fewer_than_coverage_first_pct ci",
+"a7 Primary design, wet season (A5) ecc_fewer_than_coverage_first_pct ci",
+"a7 Primary design, wet season (A5) h1b_pct mean",
+"a7 Primary design, wet season (A5) h1b_pct ci",
+"a4 k20 h1a_mean",
+"a4 k20 h1a_min",
+"a4 k30 h1a_mean",
+"a4 k30 h1a_min"
+],
+"0.0": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1a sd",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1a sd",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1b sd",
+"confirmatory ckgr_okavango earth-resources conservative None H1a sd",
+"confirmatory lower_zambezi earth-resources+planet conservative None H1a sd",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1a sd",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1a sd",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1a sd",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_gap_min_max mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_gap_min_max ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_gap_min_max ci",
+"a7 PlanetScope optimistic swath ecc_gap_min_max mean",
+"a7 PlanetScope optimistic swath ecc_gap_min_max ci",
+"a7 PlanetScope optimistic swath ecc_gap_min_max ci",
+"a7 Without Sentinel-2A region_t95_reached_pct ci",
+"a7 Without Sentinel-2A ecc_gap_min_max mean",
+"a7 Without Sentinel-2A ecc_gap_min_max ci",
+"a7 Without Sentinel-2A ecc_gap_min_max ci",
+"a7 Earth-resources only (no PlanetScope) ecc_gap_min_max mean",
+"a7 Earth-resources only (no PlanetScope) ecc_gap_min_max ci",
+"a7 Earth-resources only (no PlanetScope) ecc_gap_min_max ci",
+"a7 Earth-resources only (no PlanetScope) h2_diff ci",
+"a7 Earth-resources only, without Sentinel-2A region_t95_reached_pct ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_gap_min_max mean",
+"a7 Earth-resources only, without Sentinel-2A ecc_gap_min_max ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_gap_min_max ci",
+"a7 Lower Zambezi ecc_gap_min_max mean",
+"a7 Lower Zambezi ecc_gap_min_max ci",
+"a7 Lower Zambezi ecc_gap_min_max ci",
+"a7 Karoo Nature Reserve ecc_saving_vs_coverage_first_mean ci",
+"a7 Karoo Nature Reserve ecc_gap_min_max mean",
+"a7 Karoo Nature Reserve ecc_gap_min_max ci",
+"a7 Karoo Nature Reserve ecc_gap_min_max ci",
+"a7 Primary design, wet season (A5) ecc_gap_min_max mean",
+"a7 Primary design, wet season (A5) ecc_gap_min_max ci",
+"a7 Primary design, wet season (A5) ecc_gap_min_max ci",
+"a4 k5 h1a_min",
+"a4 k10 h1a_min",
+"a5 p035 h2_diff lcb_alpha_over_3",
+"a9 dry t50 diff median",
+"a9 dry t80 diff median",
+"a9 wet t50 diff median",
+"a9 wet t80 diff median",
+"a11"
+],
+"0.00": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1a sd",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1a sd",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H1b sd",
+"confirmatory ckgr_okavango earth-resources conservative None H1a sd",
+"confirmatory lower_zambezi earth-resources+planet conservative None H1a sd",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1a sd",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1a sd",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1a sd",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_gap_min_max mean",
+"a7 PlanetScope optimistic swath ecc_gap_min_max mean",
+"a7 Without Sentinel-2A ecc_gap_min_max mean",
+"a7 Earth-resources only (no PlanetScope) ecc_gap_min_max mean",
+"a7 Earth-resources only, without Sentinel-2A ecc_gap_min_max mean",
+"a7 Lower Zambezi ecc_gap_min_max mean",
+"a7 Karoo Nature Reserve ecc_gap_min_max mean",
+"a7 Primary design, wet season (A5) ecc_gap_min_max mean",
+"a9 dry fs quartile",
+"a9 dry fs quartile",
+"a9 wet fs quartile"
+],
+"95.5": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1b mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1b mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative h1b_pct mean",
+"a7 Without Sentinel-2A h1b_pct mean",
+"a4 k20 h1b_mean",
+"a4 k30 h1b_mean"
+],
+"95.55": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1b mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1b mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative h1b_pct mean",
+"a7 Without Sentinel-2A h1b_pct mean"
+],
+"96": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1b mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1b mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative h1b_pct mean",
+"a7 Without Sentinel-2A h1b_pct mean",
+"a7 Karoo Nature Reserve reach_pct_median ci",
+"a7 Karoo Nature Reserve h1b_pct ci",
+"a4 k20 h1b_mean",
+"a4 k30 h1b_mean"
+],
+"83.8": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1b lcb_0.9833"
+],
+"83.79": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1b lcb_0.9833"
+],
+"84": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1b lcb_0.9833",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1b lcb_0.9500"
+],
+"12.6": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1b sd",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1b sd",
+"a7 Primary: CKGR+Okavango, all 96, conservative floor_h_median mean",
+"a7 PlanetScope optimistic swath floor_h_median mean",
+"a7 Earth-resources only (no PlanetScope) region_t95_reached_pct mean"
+],
+"12.59": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H1b sd",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1b sd",
+"a7 PlanetScope optimistic swath floor_h_median mean"
+],
+"2.3": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H2 mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative h2_diff mean",
+"a11 2026-09-14 red_low",
+"a11 2026-09-14 red_high",
+"LiChen2020"
+],
+"2.28": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H2 mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative h2_diff mean"
+],
+"2": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H2 mean",
+"confirmatory ckgr_okavango earth-resources conservative None H2 windows",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1b windows",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H2 mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative h2_diff mean",
+"a7 PlanetScope optimistic swath h2_diff ci",
+"a7 Without Sentinel-2A h2_diff mean",
+"a7 Earth-resources only (no PlanetScope) ecc_images_median mean",
+"a7 Earth-resources only (no PlanetScope) ecc_images_median ci",
+"a7 Earth-resources only (no PlanetScope) coverage_first_images_median mean",
+"a7 Earth-resources only (no PlanetScope) coverage_first_images_median ci",
+"a7 Earth-resources only (no PlanetScope) time_aware_images_median mean",
+"a7 Earth-resources only (no PlanetScope) time_aware_images_median ci",
+"a7 Earth-resources only (no PlanetScope) fcfs_unbudgeted_images_median ci",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_fcfs_mean ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_images_median mean",
+"a7 Earth-resources only, without Sentinel-2A ecc_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A coverage_first_images_median mean",
+"a7 Earth-resources only, without Sentinel-2A coverage_first_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A time_aware_images_median mean",
+"a7 Earth-resources only, without Sentinel-2A time_aware_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A fcfs_unbudgeted_images_median mean",
+"a7 Earth-resources only, without Sentinel-2A fcfs_unbudgeted_images_median ci",
+"a7 Lower Zambezi ecc_images_median ci",
+"a7 Lower Zambezi coverage_first_images_median ci",
+"a7 Lower Zambezi time_aware_images_median ci",
+"a7 Lower Zambezi fcfs_unbudgeted_images_median ci",
+"a7 Lower Zambezi ecc_saving_vs_coverage_first_mean ci",
+"a7 Lower Zambezi ecc_saving_vs_fcfs_mean ci",
+"a7 Lower Zambezi h2_diff ci",
+"a7 Karoo Nature Reserve coverage_first_images_median ci",
+"a7 Karoo Nature Reserve time_aware_images_median ci",
+"a7 Karoo Nature Reserve fcfs_unbudgeted_images_median ci",
+"a7 Karoo Nature Reserve h2_diff ci",
+"a7 Primary design, wet season (A5) h2_diff mean",
+"a8 wet le5",
+"a8 wet t95reached"
+],
+"0.6": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H2 lcb_0.9833",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_coverage_first_mean mean",
+"a7 Karoo Nature Reserve ecc_saving_vs_coverage_first_mean ci",
+"a7 Karoo Nature Reserve ecc_saving_vs_fcfs_mean ci"
+],
+"0.56": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H2 lcb_0.9833"
+],
+"1": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H2 lcb_0.9833",
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H2 lcb_0.9500",
+"confirmatory lower_zambezi earth-resources+planet conservative None H2 mean",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H2 mean",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H2 lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H2 windows",
+"a7 Primary: CKGR+Okavango, all 96, conservative h2_diff ci",
+"a7 Without Sentinel-2A h2_diff ci",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_coverage_first_mean mean",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_coverage_first_mean ci",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_fcfs_mean mean",
+"a7 Earth-resources only, without Sentinel-2A region_t95_reached_pct ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_coverage_first_mean ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_fcfs_mean mean",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_fcfs_mean ci",
+"a7 Lower Zambezi ecc_saving_vs_coverage_first_mean mean",
+"a7 Lower Zambezi ecc_saving_vs_coverage_first_mean ci",
+"a7 Lower Zambezi ecc_saving_vs_fcfs_mean mean",
+"a7 Lower Zambezi ecc_saving_vs_fcfs_mean ci",
+"a7 Lower Zambezi h2_diff mean",
+"a7 Karoo Nature Reserve ecc_images_median mean",
+"a7 Karoo Nature Reserve ecc_images_median ci",
+"a7 Karoo Nature Reserve ecc_images_median ci",
+"a7 Karoo Nature Reserve coverage_first_images_median mean",
+"a7 Karoo Nature Reserve coverage_first_images_median ci",
+"a7 Karoo Nature Reserve time_aware_images_median mean",
+"a7 Karoo Nature Reserve time_aware_images_median ci",
+"a7 Karoo Nature Reserve fcfs_unbudgeted_images_median mean",
+"a7 Karoo Nature Reserve fcfs_unbudgeted_images_median ci",
+"a7 Karoo Nature Reserve ecc_saving_vs_coverage_first_mean ci",
+"a7 Karoo Nature Reserve ecc_saving_vs_fcfs_mean ci",
+"a7 Karoo Nature Reserve h2_diff mean",
+"a7 Primary design, wet season (A5) h2_diff ci",
+"a4 excess",
+"a4 k20 gap max",
+"a8 dry fail",
+"a8 dry ge50",
+"a9 dry k20 ECC at exact time"
+],
+"1.8": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H2 sd",
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H2 mean",
+"a7 Without Sentinel-2A h2_diff mean",
+"a7 Earth-resources only, without Sentinel-2A ecc_images_median mean",
+"a7 Lower Zambezi ecc_saving_vs_coverage_first_mean ci",
+"a7 Karoo Nature Reserve coverage_first_images_median ci",
+"a7 Karoo Nature Reserve time_aware_images_median ci"
+],
+"1.84": [
+"confirmatory ckgr_okavango earth-resources+planet conservative None H2 sd"
+],
+"2.8": [
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H2 mean",
+"a7 PlanetScope optimistic swath h2_diff mean",
+"a7 Without Sentinel-2A h2_diff ci",
+"a9 dry fs gain"
+],
+"2.76": [
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H2 mean",
+"a7 PlanetScope optimistic swath h2_diff mean"
+],
+"3": [
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H2 mean",
+"a7 PlanetScope optimistic swath h2_diff mean",
+"a7 Without Sentinel-2A h2_diff ci",
+"a7 Earth-resources only (no PlanetScope) ecc_images_median ci",
+"a7 Earth-resources only (no PlanetScope) coverage_first_images_median ci",
+"a7 Earth-resources only (no PlanetScope) time_aware_images_median ci",
+"a7 Earth-resources only (no PlanetScope) fcfs_unbudgeted_images_median mean",
+"a7 Earth-resources only, without Sentinel-2A coverage_first_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A time_aware_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A fcfs_unbudgeted_images_median ci",
+"a7 Lower Zambezi ecc_images_median mean",
+"a7 Primary design, wet season (A5) h2_diff ci",
+"a4 ilp48 exact",
+"a4 ilp48 ecc images",
+"a4 ilp48 exact"
+],
+"1.4": [
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H2 lcb_0.9500",
+"a7 Earth-resources only, without Sentinel-2A ecc_images_median ci",
+"a7 Karoo Nature Reserve ecc_images_median ci",
+"a7 Karoo Nature Reserve coverage_first_images_median mean",
+"a7 Karoo Nature Reserve time_aware_images_median mean",
+"a7 Karoo Nature Reserve fcfs_unbudgeted_images_median mean"
+],
+"1.41": [
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H2 lcb_0.9500"
+],
+"2.0": [
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H2 sd",
+"a7 Earth-resources only (no PlanetScope) ecc_images_median mean",
+"a7 Earth-resources only, without Sentinel-2A ecc_images_median ci",
+"a7 Lower Zambezi h2_diff ci",
+"a7 Karoo Nature Reserve h2_diff ci"
+],
+"2.02": [
+"confirmatory ckgr_okavango earth-resources+planet optimistic None H2 sd"
+],
+"6": [
+"confirmatory ckgr_okavango earth-resources conservative None H1a windows",
+"confirmatory ckgr_okavango earth-resources conservative None H1b windows",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1a windows",
+"a7 PlanetScope optimistic swath ecc_saving_vs_fcfs_mean ci",
+"a7 Without Sentinel-2A ecc_saving_vs_coverage_first_mean ci",
+"a7 Without Sentinel-2A ecc_saving_vs_fcfs_mean mean",
+"a7 Lower Zambezi fcfs_unbudgeted_images_median ci",
+"a7 Primary design, wet season (A5) ecc_saving_vs_fcfs_mean mean",
+"a5 earthenv h2_diff above"
+],
+"62.3": [
+"confirmatory ckgr_okavango earth-resources conservative None H1b mean",
+"a7 Earth-resources only (no PlanetScope) h1b_pct mean"
+],
+"62.33": [
+"confirmatory ckgr_okavango earth-resources conservative None H1b mean",
+"a7 Earth-resources only (no PlanetScope) h1b_pct mean"
+],
+"62": [
+"confirmatory ckgr_okavango earth-resources conservative None H1b mean",
+"a7 Earth-resources only (no PlanetScope) h1b_pct mean"
+],
+"26.6": [
+"confirmatory ckgr_okavango earth-resources conservative None H1b lcb_0.9500",
+"a11",
+"a11 2026-09-07 red_high"
+],
+"26.61": [
+"confirmatory ckgr_okavango earth-resources conservative None H1b lcb_0.9500"
+],
+"27": [
+"confirmatory ckgr_okavango earth-resources conservative None H1b lcb_0.9500",
+"a7 Earth-resources only (no PlanetScope) cloud_floor_h_median mean",
+"a11"
+],
+"43.4": [
+"confirmatory ckgr_okavango earth-resources conservative None H1b sd"
+],
+"43.42": [
+"confirmatory ckgr_okavango earth-resources conservative None H1b sd"
+],
+"0.1": [
+"confirmatory ckgr_okavango earth-resources conservative None H2 mean",
+"confirmatory ckgr_okavango earth-resources conservative None H2 sd",
+"a7 Earth-resources only (no PlanetScope) h2_diff mean",
+"a5 earthenv h2_diff lcb_alpha",
+"a11 2026-08-17 saving_low",
+"a11 2026-08-17 saving_high"
+],
+"0.08": [
+"confirmatory ckgr_okavango earth-resources conservative None H2 mean",
+"a7 Earth-resources only (no PlanetScope) h2_diff mean"
+],
+"0": [
+"confirmatory ckgr_okavango earth-resources conservative None H2 mean",
+"confirmatory lower_zambezi earth-resources+planet conservative None H2 lcb_0.9500",
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H2 mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_gap_min_max mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_gap_min_max ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_gap_min_max ci",
+"a7 PlanetScope optimistic swath ecc_gap_min_max mean",
+"a7 PlanetScope optimistic swath ecc_gap_min_max ci",
+"a7 PlanetScope optimistic swath ecc_gap_min_max ci",
+"a7 Without Sentinel-2A region_t95_reached_pct ci",
+"a7 Without Sentinel-2A ecc_gap_min_max mean",
+"a7 Without Sentinel-2A ecc_gap_min_max ci",
+"a7 Without Sentinel-2A ecc_gap_min_max ci",
+"a7 Earth-resources only (no PlanetScope) region_t95_reached_pct ci",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_coverage_first_mean ci",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_fcfs_mean ci",
+"a7 Earth-resources only (no PlanetScope) ecc_gap_min_max mean",
+"a7 Earth-resources only (no PlanetScope) ecc_gap_min_max ci",
+"a7 Earth-resources only (no PlanetScope) ecc_gap_min_max ci",
+"a7 Earth-resources only (no PlanetScope) h2_diff mean",
+"a7 Earth-resources only (no PlanetScope) h2_diff ci",
+"a7 Earth-resources only (no PlanetScope) h2_diff ci",
+"a7 Earth-resources only, without Sentinel-2A region_t95_reached_pct mean",
+"a7 Earth-resources only, without Sentinel-2A region_t95_reached_pct ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_coverage_first_mean mean",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_coverage_first_mean ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_fcfs_mean ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_gap_min_max mean",
+"a7 Earth-resources only, without Sentinel-2A ecc_gap_min_max ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_gap_min_max ci",
+"a7 Earth-resources only, without Sentinel-2A h2_diff mean",
+"a7 Lower Zambezi ecc_gap_min_max mean",
+"a7 Lower Zambezi ecc_gap_min_max ci",
+"a7 Lower Zambezi ecc_gap_min_max ci",
+"a7 Lower Zambezi h2_diff ci",
+"a7 Karoo Nature Reserve ecc_saving_vs_coverage_first_mean mean",
+"a7 Karoo Nature Reserve ecc_saving_vs_coverage_first_mean ci",
+"a7 Karoo Nature Reserve ecc_saving_vs_fcfs_mean mean",
+"a7 Karoo Nature Reserve ecc_saving_vs_fcfs_mean ci",
+"a7 Karoo Nature Reserve ecc_gap_min_max mean",
+"a7 Karoo Nature Reserve ecc_gap_min_max ci",
+"a7 Karoo Nature Reserve ecc_gap_min_max ci",
+"a7 Karoo Nature Reserve h2_diff ci",
+"a7 Primary design, wet season (A5) ecc_gap_min_max mean",
+"a7 Primary design, wet season (A5) ecc_gap_min_max ci",
+"a7 Primary design, wet season (A5) ecc_gap_min_max ci",
+"a4 k5 h1a_min",
+"a4 k5 gap max",
+"a4 k10 h1a_min",
+"a4 k30 gap max",
+"a9 unknown",
+"a9 dry t50 diff median",
+"a9 dry t80 diff median",
+"a9 wet t50 diff median",
+"a9 wet t80 diff median",
+"a11",
+"a11 onsets_ecc_more_data"
+],
+"-0.4": [
+"confirmatory ckgr_okavango earth-resources conservative None H2 lcb_0.9500"
+],
+"-0.40": [
+"confirmatory ckgr_okavango earth-resources conservative None H2 lcb_0.9500"
+],
+"-0": [
+"confirmatory ckgr_okavango earth-resources conservative None H2 lcb_0.9500",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H2 lcb_0.9500"
+],
+"0.11": [
+"confirmatory ckgr_okavango earth-resources conservative None H2 sd"
+],
+"7": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H1b windows",
+"confirmatory lower_zambezi earth-resources+planet conservative None H2 windows",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1a windows",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_coverage_first_mean ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_fcfs_mean mean",
+"a7 PlanetScope optimistic swath region_t95_h_median ci",
+"a7 Lower Zambezi coverage_first_images_median ci",
+"a7 Lower Zambezi time_aware_images_median ci",
+"a7 Karoo Nature Reserve region_t95_h_median ci",
+"a7 Primary design, wet season (A5) ecc_saving_vs_coverage_first_mean ci",
+"a5 p035 h2_diff above",
+"a8 dry t95reached",
+"a8 wet full",
+"a9 dry k15 ECC at exact time",
+"a9 wet k15 ECC missed a cover",
+"a9 wet k15 ECC at exact time"
+],
+"89.7": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H1b mean",
+"a7 Lower Zambezi h1b_pct mean"
+],
+"89.72": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H1b mean",
+"a7 Lower Zambezi h1b_pct mean"
+],
+"90": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H1b mean",
+"a7 Lower Zambezi ecc_fewer_than_coverage_first_pct ci",
+"a7 Lower Zambezi h1b_pct mean"
+],
+"77.3": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H1b lcb_0.9500"
+],
+"77.34": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H1b lcb_0.9500"
+],
+"77": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H1b lcb_0.9500",
+"a9 dry k10 ECC at floor",
+"a9 wet k10 no k-cover exists"
+],
+"16.9": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H1b sd"
+],
+"16.86": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H1b sd"
+],
+"1.2": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H2 mean",
+"a7 Lower Zambezi h2_diff mean"
+],
+"1.17": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H2 mean",
+"a7 Lower Zambezi h2_diff mean"
+],
+"0.3": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H2 lcb_0.9500",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_fcfs_mean ci",
+"a7 Karoo Nature Reserve ecc_saving_vs_coverage_first_mean mean",
+"a8 dry|08",
+"a11 2026-08-17 red_low",
+"a11 2026-08-17 red_high"
+],
+"0.34": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H2 lcb_0.9500"
+],
+"1.1": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H2 sd",
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H2 mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative h2_diff ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_fcfs_mean ci",
+"a7 Lower Zambezi ecc_saving_vs_fcfs_mean mean",
+"a7 Karoo Nature Reserve ecc_images_median mean",
+"a7 Karoo Nature Reserve coverage_first_images_median ci",
+"a7 Karoo Nature Reserve time_aware_images_median ci",
+"a7 Karoo Nature Reserve h2_diff mean"
+],
+"1.13": [
+"confirmatory lower_zambezi earth-resources+planet conservative None H2 sd"
+],
+"97.9": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1b mean",
+"a7 Karoo Nature Reserve h1b_pct mean"
+],
+"97.87": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1b mean",
+"a7 Karoo Nature Reserve h1b_pct mean"
+],
+"98": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1b mean",
+"a7 Karoo Nature Reserve h1b_pct mean"
+],
+"84.4": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1b lcb_0.9500"
+],
+"84.44": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1b lcb_0.9500"
+],
+"3.0": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1b sd",
+"h2 window 7",
+"a7 Lower Zambezi ecc_images_median mean"
+],
+"3.01": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H1b sd"
+],
+"4": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H2 windows",
+"a7 Primary: CKGR+Okavango, all 96, conservative h2_diff ci",
+"a7 PlanetScope optimistic swath h2_diff ci",
+"a7 Without Sentinel-2A ecc_saving_vs_fcfs_mean ci",
+"a7 Earth-resources only (no PlanetScope) fcfs_unbudgeted_images_median ci",
+"a7 Lower Zambezi coverage_first_images_median mean",
+"a7 Lower Zambezi time_aware_images_median mean",
+"a7 Lower Zambezi fcfs_unbudgeted_images_median mean",
+"a7 Karoo Nature Reserve ecc_fewer_than_coverage_first_pct ci",
+"a4 k5 ecc_images_median",
+"a4 ilp48 ecc images",
+"a4 ilp48 exact",
+"a4 ilp48 ecc images",
+"a4 ilp48 exact",
+"a11",
+"a11 2026-08-03 ecc_img"
+],
+"1.09": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H2 mean",
+"a7 Karoo Nature Reserve h2_diff mean"
+],
+"-0.1": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H2 lcb_0.9500",
+"a5 earthenv h2_diff lcb_alpha_over_3"
+],
+"-0.08": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H2 lcb_0.9500"
+],
+"1.0": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H2 sd",
+"h2 window 5",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_coverage_first_mean ci",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_fcfs_mean mean",
+"a7 Karoo Nature Reserve ecc_images_median ci",
+"a7 Karoo Nature Reserve fcfs_unbudgeted_images_median ci"
+],
+"1.00": [
+"confirmatory karoo_nature_reserve earth-resources+planet conservative None H2 sd",
+"a8 dry corr"
+],
+"87.1": [
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1b lcb_0.9500"
+],
+"87.11": [
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1b lcb_0.9500"
+],
+"87": [
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H1b lcb_0.9500",
+"a7 Primary: CKGR+Okavango, all 96, conservative h1b_pct ci",
+"a7 Without Sentinel-2A h1b_pct ci",
+"a7 Earth-resources only, without Sentinel-2A h1b_pct ci",
+"a4 k15 h1b_mean"
+],
+"1.77": [
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H2 mean",
+"a7 Without Sentinel-2A h2_diff mean"
+],
+"0.8": [
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H2 lcb_0.9500",
+"h2 window 0",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_coverage_first_mean ci",
+"a7 Lower Zambezi ecc_saving_vs_coverage_first_mean ci",
+"a11 2026-09-14 saving_low"
+],
+"0.77": [
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H2 lcb_0.9500"
+],
+"1.5": [
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H2 sd",
+"a7 Earth-resources only (no PlanetScope) ecc_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A coverage_first_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A time_aware_images_median ci",
+"a7 Lower Zambezi ecc_images_median ci",
+"a5 dry earthenv h2 mean"
+],
+"1.48": [
+"confirmatory ckgr_okavango earth-resources+planet conservative ['SENTINEL-2A'] H2 sd"
+],
+"5": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1b windows",
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_h_median ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_fcfs_mean ci",
+"a7 Without Sentinel-2A region_t95_h_median ci",
+"a7 Earth-resources only (no PlanetScope) region_t95_h_median ci",
+"a7 Lower Zambezi ecc_images_median ci",
+"a7 Primary design, wet season (A5) ecc_saving_vs_fcfs_mean ci",
+"a4 k",
+"a8 wet fail",
+"a8 wet ge50"
+],
+"54.5": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1b mean",
+"a7 Earth-resources only, without Sentinel-2A h1b_pct mean"
+],
+"54.52": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1b mean",
+"a7 Earth-resources only, without Sentinel-2A h1b_pct mean"
+],
+"55": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1b mean",
+"a7 Earth-resources only, without Sentinel-2A h1b_pct mean",
+"1.22/0.022=55.5 (derived)"
+],
+"12.5": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1b lcb_0.9500",
+"a7 Without Sentinel-2A floor_h_median ci",
+"a7 Without Sentinel-2A region_t95_reached_pct mean",
+"a7 Lower Zambezi floor_h_median ci",
+"a7 Primary design, wet season (A5) floor_h_median ci",
+"a9 dry adaptive ends lower pct"
+],
+"12.49": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1b lcb_0.9500"
+],
+"12": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1b lcb_0.9500",
+"a7 Primary: CKGR+Okavango, all 96, conservative floor_h_median ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_coverage_first_mean ci",
+"a7 PlanetScope optimistic swath floor_h_median ci",
+"a7 PlanetScope optimistic swath ecc_saving_vs_coverage_first_mean ci",
+"a7 Without Sentinel-2A region_t95_reached_pct mean",
+"a7 Without Sentinel-2A ecc_images_median mean",
+"a7 Lower Zambezi floor_h_median mean",
+"a7 Lower Zambezi floor_h_median ci",
+"a7 Lower Zambezi floor_h_median ci",
+"a7 Lower Zambezi region_t95_h_median mean",
+"a7 Primary design, wet season (A5) floor_h_median mean",
+"a7 Primary design, wet season (A5) floor_h_median ci",
+"a7 Primary design, wet season (A5) ecc_images_median mean",
+"a4 ilp48 ecc images",
+"a9 wet k15 no k-cover exists",
+"a9 wet k20 ECC at exact time",
+"a9 dry adaptive ends lower pct",
+"a11 2026-08-17 ecc_img",
+"a11 2026-08-24 fcfs_img",
+"a11 2026-09-07 ecc_img"
+],
+"44.1": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1b sd"
+],
+"44.09": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H1b sd"
+],
+"0.2": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H2 mean",
+"h2 window 6",
+"a7 Earth-resources only (no PlanetScope) region_t95_reached_pct ci",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_coverage_first_mean ci",
+"a7 Earth-resources only (no PlanetScope) h2_diff ci",
+"a7 Earth-resources only, without Sentinel-2A region_t95_reached_pct mean",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_coverage_first_mean ci",
+"a7 Earth-resources only, without Sentinel-2A h2_diff mean",
+"a7 Karoo Nature Reserve ecc_saving_vs_fcfs_mean ci",
+"a7 Karoo Nature Reserve h2_diff ci"
+],
+"0.17": [
+"confirmatory ckgr_okavango earth-resources conservative ['SENTINEL-2A'] H2 mean",
+"a7 Earth-resources only, without Sentinel-2A region_t95_reached_pct mean",
+"a7 Earth-resources only, without Sentinel-2A h2_diff mean"
+],
+"64.4": [
+"h1b window 6"
+],
+"0.85": [
+"h2 window 0"
+],
+"2.54": [
+"h2 window 1"
+],
+"2.5": [
+"h2 window 1",
+"a7 Earth-resources only (no PlanetScope) coverage_first_images_median mean",
+"a7 Earth-resources only (no PlanetScope) time_aware_images_median mean"
+],
+"4.67": [
+"h2 window 2"
+],
+"4.7": [
+"h2 window 2"
+],
+"5.04": [
+"h2 window 3",
+"h2 max"
+],
+"5.0": [
+"h2 window 3"
+],
+"0.87": [
+"h2 window 4"
+],
+"0.9": [
+"h2 window 4",
+"a7 Without Sentinel-2A h2_diff ci"
+],
+"1.05": [
+"h2 window 5"
+],
+"0.21": [
+"h2 window 6",
+"h2 min"
+],
+"3.02": [
+"h2 window 7"
+],
+"0.004": [
+"p1 H1a_vs_threshold sign_p",
+"p1 H1a_vs_threshold wilcoxon_p",
+"p1 H2_vs_zero sign_p",
+"p1 H2_vs_zero wilcoxon_p",
+"a5 earthenv h1a_pct wilcoxon",
+"a5 earthenv h1b_pct wilcoxon",
+"a5 p035 h1a_pct wilcoxon",
+"a5 p035 h1b_pct wilcoxon"
+],
+"0.0039": [
+"p1 H1a_vs_threshold sign_p",
+"p1 H1a_vs_threshold wilcoxon_p",
+"p1 H2_vs_zero sign_p",
+"p1 H2_vs_zero wilcoxon_p",
+"a5 earthenv h1a_pct wilcoxon",
+"a5 earthenv h1b_pct wilcoxon",
+"a5 p035 h1a_pct wilcoxon",
+"a5 p035 h1b_pct wilcoxon"
+],
+"0.035": [
+"p1 H1b_vs_threshold sign_p"
+],
+"0.0352": [
+"p1 H1b_vs_threshold sign_p"
+],
+"0.098": [
+"p1 H1b_vs_threshold wilcoxon_p"
+],
+"0.0977": [
+"p1 H1b_vs_threshold wilcoxon_p"
+],
+"24": [
+"archive pred_overpasses",
+"archive matched",
+"a7 Primary: CKGR+Okavango, all 96, conservative coverage_first_images_median ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative time_aware_images_median ci",
+"a7 PlanetScope optimistic swath time_aware_images_median ci",
+"a7 Without Sentinel-2A coverage_first_images_median ci",
+"a7 Earth-resources only (no PlanetScope) region_t95_h_median ci",
+"a7 Earth-resources only, without Sentinel-2A region_t95_h_median mean",
+"a7 Earth-resources only, without Sentinel-2A cloud_floor_h_median mean",
+"a4 ilp48 ecc images",
+"a9 dry fs later",
+"a11 2026-08-10 fcfs_img"
+],
+"0.04": [
+"archive offset"
+],
+"0.53": [
+"archive offset"
+],
+"94.5": [
+"archive tiles predicted"
+],
+"98.9": [
+"archive tiles predicted"
+],
+"13": [
+"a7 Primary: CKGR+Okavango, all 96, conservative floor_h_median mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative floor_h_median ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_images_median ci",
+"a7 PlanetScope optimistic swath floor_h_median mean",
+"a7 PlanetScope optimistic swath floor_h_median ci",
+"a7 PlanetScope optimistic swath region_t95_h_median mean",
+"a7 Without Sentinel-2A floor_h_median mean",
+"a7 Without Sentinel-2A floor_h_median ci",
+"a7 Without Sentinel-2A floor_h_median ci",
+"a7 Earth-resources only (no PlanetScope) floor_h_median ci",
+"a7 Earth-resources only (no PlanetScope) region_t95_reached_pct mean",
+"a7 Earth-resources only, without Sentinel-2A floor_h_median ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_fewer_than_coverage_first_pct ci",
+"a7 Karoo Nature Reserve floor_h_median ci",
+"a7 Primary design, wet season (A5) floor_h_median ci",
+"a7 Primary design, wet season (A5) fcfs_unbudgeted_images_median ci",
+"a4 ilp48 ecc images",
+"a4 ilp48 exact",
+"a8 dry le5",
+"a9 dry k15 no k-cover exists",
+"a11",
+"a11 2026-08-17 fcfs_img",
+"A7 open-data region 12.61"
+],
+"12.62": [
+"a7 Primary: CKGR+Okavango, all 96, conservative floor_h_median mean"
+],
+"12.4": [
+"a7 Primary: CKGR+Okavango, all 96, conservative floor_h_median ci",
+"a7 PlanetScope optimistic swath floor_h_median ci",
+"a7 PlanetScope optimistic swath ecc_saving_vs_coverage_first_mean ci",
+"a7 Primary design, wet season (A5) floor_h_median mean"
+],
+"12.9": [
+"a7 Primary: CKGR+Okavango, all 96, conservative floor_h_median ci",
+"a7 PlanetScope optimistic swath floor_h_median ci",
+"a7 Without Sentinel-2A floor_h_median ci"
+],
+"80.0": [
+"a7 Primary: CKGR+Okavango, all 96, conservative reach_pct_median mean"
+],
+"80": [
+"a7 Primary: CKGR+Okavango, all 96, conservative reach_pct_median mean",
+"a7 PlanetScope optimistic swath reach_pct_median ci"
+],
+"80.00": [
+"a7 Primary: CKGR+Okavango, all 96, conservative reach_pct_median mean"
+],
+"70.7": [
+"a7 Primary: CKGR+Okavango, all 96, conservative reach_pct_median ci"
+],
+"71": [
+"a7 Primary: CKGR+Okavango, all 96, conservative reach_pct_median ci",
+"a7 Earth-resources only (no PlanetScope) reach_pct_median ci"
+],
+"89.4": [
+"a7 Primary: CKGR+Okavango, all 96, conservative reach_pct_median ci"
+],
+"89": [
+"a7 Primary: CKGR+Okavango, all 96, conservative reach_pct_median ci",
+"a7 Earth-resources only (no PlanetScope) h1b_pct ci"
+],
+"10.6": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_h_median mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_images_median mean",
+"a7 Earth-resources only (no PlanetScope) floor_h_median mean",
+"a7 Earth-resources only, without Sentinel-2A floor_h_median mean",
+"a7 Karoo Nature Reserve region_t95_h_median mean"
+],
+"11": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_h_median mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_images_median mean",
+"a7 PlanetScope optimistic swath ecc_images_median ci",
+"a7 Without Sentinel-2A region_t95_h_median mean",
+"a7 Without Sentinel-2A ecc_saving_vs_coverage_first_mean ci",
+"a7 Earth-resources only (no PlanetScope) floor_h_median mean",
+"a7 Earth-resources only, without Sentinel-2A floor_h_median mean",
+"a7 Karoo Nature Reserve floor_h_median mean",
+"a7 Karoo Nature Reserve region_t95_h_median mean",
+"a4 k15 gap max",
+"a4 ilp48 exact"
+],
+"10.59": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_h_median mean"
+],
+"4.9": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_h_median ci",
+"a4 earthenv p 2026-08-03",
+"a4 earthenv p 2026-08-10",
+"a4 earthenv p 2026-08-17",
+"a4 earthenv p 2026-08-24",
+"a4 earthenv p 2026-08-31"
+],
+"16.3": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_h_median ci",
+"a7 Without Sentinel-2A region_t95_h_median ci"
+],
+"16": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_h_median ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative coverage_first_images_median ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative time_aware_images_median ci",
+"a7 Without Sentinel-2A region_t95_h_median ci",
+"a7 Lower Zambezi region_t95_h_median ci",
+"a7 Primary design, wet season (A5) region_t95_h_median mean",
+"a7 Primary design, wet season (A5) ecc_images_median ci",
+"a7 Primary design, wet season (A5) coverage_first_images_median ci",
+"a7 Primary design, wet season (A5) time_aware_images_median ci"
+],
+"24.8": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_reached_pct mean"
+],
+"25": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_reached_pct mean",
+"a7 PlanetScope optimistic swath region_t95_reached_pct mean",
+"a7 Without Sentinel-2A time_aware_images_median ci",
+"a7 Lower Zambezi cloud_floor_h_median mean",
+"a7 Karoo Nature Reserve ecc_fewer_than_coverage_first_pct mean"
+],
+"24.83": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_reached_pct mean"
+],
+"7.9": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_reached_pct ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_images_median ci",
+"a7 Earth-resources only (no PlanetScope) floor_h_median ci",
+"a7 Earth-resources only, without Sentinel-2A floor_h_median ci"
+],
+"44.0": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_reached_pct ci",
+"a7 PlanetScope optimistic swath region_t95_reached_pct ci"
+],
+"44": [
+"a7 Primary: CKGR+Okavango, all 96, conservative region_t95_reached_pct ci",
+"a7 PlanetScope optimistic swath region_t95_reached_pct ci"
+],
+"10.62": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_images_median mean"
+],
+"13.4": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_fewer_than_coverage_first_pct ci"
+],
+"19.9": [
+"a7 Primary: CKGR+Okavango, all 96, conservative coverage_first_images_median mean"
+],
+"20": [
+"a7 Primary: CKGR+Okavango, all 96, conservative coverage_first_images_median mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative time_aware_images_median mean",
+"a7 PlanetScope optimistic swath fcfs_unbudgeted_images_median ci",
+"a7 Primary design, wet season (A5) coverage_first_images_median mean",
+"a4 k",
+"a9 dry fs never",
+"a9 wet fs same",
+"a9 dry adaptive ends lower",
+"a11 2026-09-07 fcfs_img",
+"0.78/0.038=20.5 (derived)"
+],
+"19.88": [
+"a7 Primary: CKGR+Okavango, all 96, conservative coverage_first_images_median mean"
+],
+"15.5": [
+"a7 Primary: CKGR+Okavango, all 96, conservative coverage_first_images_median ci",
+"a7 Lower Zambezi region_t95_h_median ci"
+],
+"24.2": [
+"a7 Primary: CKGR+Okavango, all 96, conservative coverage_first_images_median ci"
+],
+"20.1": [
+"a7 Primary: CKGR+Okavango, all 96, conservative time_aware_images_median mean"
+],
+"20.12": [
+"a7 Primary: CKGR+Okavango, all 96, conservative time_aware_images_median mean"
+],
+"15.6": [
+"a7 Primary: CKGR+Okavango, all 96, conservative time_aware_images_median ci",
+"a7 Primary design, wet season (A5) region_t95_h_median mean"
+],
+"24.5": [
+"a7 Primary: CKGR+Okavango, all 96, conservative time_aware_images_median ci",
+"a7 Without Sentinel-2A coverage_first_images_median ci",
+"a11 2026-08-10 ecc_low"
+],
+"18.0": [
+"a7 Primary: CKGR+Okavango, all 96, conservative fcfs_unbudgeted_images_median mean"
+],
+"18": [
+"a7 Primary: CKGR+Okavango, all 96, conservative fcfs_unbudgeted_images_median mean",
+"a7 Without Sentinel-2A coverage_first_images_median ci",
+"a7 Without Sentinel-2A time_aware_images_median ci",
+"a7 Without Sentinel-2A fcfs_unbudgeted_images_median mean",
+"a7 Earth-resources only (no PlanetScope) cloud_floor_h_median ci",
+"a7 Lower Zambezi cloud_floor_h_median ci",
+"a7 Primary design, wet season (A5) fcfs_unbudgeted_images_median mean",
+"a4 ilp48 ecc images",
+"0.80/0.066=12.1 .. 1.22/0.066=18.5 (derived rate ratio)"
+],
+"18.00": [
+"a7 Primary: CKGR+Okavango, all 96, conservative fcfs_unbudgeted_images_median mean"
+],
+"14.0": [
+"a7 Primary: CKGR+Okavango, all 96, conservative fcfs_unbudgeted_images_median ci"
+],
+"14": [
+"a7 Primary: CKGR+Okavango, all 96, conservative fcfs_unbudgeted_images_median ci",
+"a7 PlanetScope optimistic swath fcfs_unbudgeted_images_median ci",
+"a7 Without Sentinel-2A fcfs_unbudgeted_images_median ci",
+"a7 Karoo Nature Reserve region_t95_h_median ci",
+"a8 dry overpasses"
+],
+"21.9": [
+"a7 Primary: CKGR+Okavango, all 96, conservative fcfs_unbudgeted_images_median ci",
+"a7 Without Sentinel-2A fcfs_unbudgeted_images_median ci",
+"a11 2026-08-24 red_high"
+],
+"22": [
+"a7 Primary: CKGR+Okavango, all 96, conservative fcfs_unbudgeted_images_median ci",
+"a7 Without Sentinel-2A fcfs_unbudgeted_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A reach_pct_median ci",
+"a7 Earth-resources only, without Sentinel-2A h1b_pct ci",
+"a9 wet adaptive ends lower pct"
+],
+"9.6": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_coverage_first_mean mean",
+"a7 Primary design, wet season (A5) ecc_saving_vs_coverage_first_mean ci",
+"a11 window_mean_of_median_saving_gb low",
+"Roy2021 share of land with average revisit < 24 h"
+],
+"10": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_coverage_first_mean mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_fcfs_mean ci",
+"a7 PlanetScope optimistic swath ecc_images_median mean",
+"a7 PlanetScope optimistic swath ecc_saving_vs_coverage_first_mean mean",
+"a7 PlanetScope optimistic swath ecc_saving_vs_fcfs_mean ci",
+"a7 Primary design, wet season (A5) ecc_saving_vs_coverage_first_mean ci",
+"a4 k",
+"a4 k20 ecc_images_median",
+"a4 k30 ecc_images_median",
+"a4 ilp48 exact",
+"a8 dry full",
+"a8 wet overpasses"
+],
+"9.59": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_coverage_first_mean mean"
+],
+"7.1": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_coverage_first_mean ci",
+"a7 PlanetScope optimistic swath region_t95_h_median ci",
+"a7 Karoo Nature Reserve region_t95_h_median ci"
+],
+"11.7": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_coverage_first_mean ci"
+],
+"7.3": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_fcfs_mean mean"
+],
+"7.33": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_fcfs_mean mean"
+],
+"5.1": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_fcfs_mean ci"
+],
+"9.5": [
+"a7 Primary: CKGR+Okavango, all 96, conservative ecc_saving_vs_fcfs_mean ci",
+"a7 PlanetScope optimistic swath ecc_images_median mean"
+],
+"32.9": [
+"a7 Primary: CKGR+Okavango, all 96, conservative cloud_floor_h_median mean",
+"a7 Without Sentinel-2A cloud_floor_h_median ci",
+"a7 Primary design, wet season (A5) cloud_floor_h_median ci"
+],
+"33": [
+"a7 Primary: CKGR+Okavango, all 96, conservative cloud_floor_h_median mean",
+"a7 Primary: CKGR+Okavango, all 96, conservative cloud_floor_h_median ci",
+"a7 Primary: CKGR+Okavango, all 96, conservative cloud_floor_h_median ci",
+"a7 PlanetScope optimistic swath cloud_floor_h_median mean",
+"a7 PlanetScope optimistic swath cloud_floor_h_median ci",
+"a7 PlanetScope optimistic swath cloud_floor_h_median ci",
+"a7 Without Sentinel-2A cloud_floor_h_median mean",
+"a7 Without Sentinel-2A cloud_floor_h_median ci",
+"a7 Without Sentinel-2A cloud_floor_h_median ci",
+"a7 Earth-resources only (no PlanetScope) reach_pct_median ci",
+"a7 Earth-resources only (no PlanetScope) cloud_floor_h_median ci",
+"a7 Primary design, wet season (A5) cloud_floor_h_median mean",
+"a7 Primary design, wet season (A5) cloud_floor_h_median ci",
+"a7 Primary design, wet season (A5) cloud_floor_h_median ci",
+"a9 wet fs sooner"
+],
+"32.94": [
+"a7 Primary: CKGR+Okavango, all 96, conservative cloud_floor_h_median mean"
+],
+"32.7": [
+"a7 Primary: CKGR+Okavango, all 96, conservative cloud_floor_h_median ci",
+"a11 2026-08-31 saving_high"
+],
+"33.1": [
+"a7 Primary: CKGR+Okavango, all 96, conservative cloud_floor_h_median ci",
+"a7 Without Sentinel-2A cloud_floor_h_median mean",
+"a7 Primary design, wet season (A5) cloud_floor_h_median mean",
+"a9 wet fs sooner"
+],
+"86.6": [
+"a7 Primary: CKGR+Okavango, all 96, conservative h1b_pct ci",
+"a7 Without Sentinel-2A h1b_pct ci"
+],
+"3.5": [
+"a7 Primary: CKGR+Okavango, all 96, conservative h2_diff ci"
+],
+"86.3": [
+"a7 PlanetScope optimistic swath reach_pct_median mean"
+],
+"86": [
+"a7 PlanetScope optimistic swath reach_pct_median mean"
+],
+"86.33": [
+"a7 PlanetScope optimistic swath reach_pct_median mean"
+],
+"79.9": [
+"a7 PlanetScope optimistic swath reach_pct_median ci"
+],
+"92.8": [
+"a7 PlanetScope optimistic swath reach_pct_median ci"
+],
+"93": [
+"a7 PlanetScope optimistic swath reach_pct_median ci",
+"a11"
+],
+"13.3": [
+"a7 PlanetScope optimistic swath region_t95_h_median mean",
+"a7 Karoo Nature Reserve floor_h_median ci"
+],
+"13.26": [
+"a7 PlanetScope optimistic swath region_t95_h_median mean"
+],
+"19.4": [
+"a7 PlanetScope optimistic swath region_t95_h_median ci",
+"a7 Primary design, wet season (A5) time_aware_images_median mean"
+],
+"19": [
+"a7 PlanetScope optimistic swath region_t95_h_median ci",
+"a7 PlanetScope optimistic swath coverage_first_images_median mean",
+"a7 PlanetScope optimistic swath time_aware_images_median mean",
+"a7 Primary design, wet season (A5) time_aware_images_median mean",
+"a4 2026-08-03 solved",
+"a4 2026-08-03 optimal",
+"a4 2026-08-10 solved",
+"a4 2026-08-10 optimal",
+"a4 2026-08-17 solved",
+"a4 2026-08-17 optimal",
+"a4 2026-08-24 solved",
+"a4 2026-08-24 optimal",
+"a4 2026-08-31 solved",
+"a4 2026-08-31 optimal",
+"a4 2026-09-07 solved",
+"a4 2026-09-07 optimal",
+"a4 2026-09-21 solved",
+"a9 wet k5 ECC at floor",
+"a9 wet k10 ECC at exact time",
+"a11 2026-09-14 fcfs_img"
+],
+"25.0": [
+"a7 PlanetScope optimistic swath region_t95_reached_pct mean"
+],
+"25.00": [
+"a7 PlanetScope optimistic swath region_t95_reached_pct mean"
+],
+"8.0": [
+"a7 PlanetScope optimistic swath region_t95_reached_pct ci",
+"a7 PlanetScope optimistic swath ecc_saving_vs_fcfs_mean mean",
+"a7 Without Sentinel-2A ecc_saving_vs_fcfs_mean ci",
+"a4 k10 ecc_images_median"
+],
+"9.50": [
+"a7 PlanetScope optimistic swath ecc_images_median mean"
+],
+"7.6": [
+"a7 PlanetScope optimistic swath ecc_images_median ci"
+],
+"11.2": [
+"a7 PlanetScope optimistic swath ecc_images_median ci"
+],
+"18.8": [
+"a7 PlanetScope optimistic swath coverage_first_images_median mean"
+],
+"18.75": [
+"a7 PlanetScope optimistic swath coverage_first_images_median mean"
+],
+"14.8": [
+"a7 PlanetScope optimistic swath coverage_first_images_median ci"
+],
+"15": [
+"a7 PlanetScope optimistic swath coverage_first_images_median ci",
+"a7 PlanetScope optimistic swath time_aware_images_median ci",
+"a7 Without Sentinel-2A ecc_images_median ci",
+"a7 Earth-resources only (no PlanetScope) region_t95_h_median mean",
+"a7 Earth-resources only, without Sentinel-2A cloud_floor_h_median ci",
+"a7 Karoo Nature Reserve cloud_floor_h_median mean",
+"a4 k",
+"a11 2026-09-14 ecc_img"
+],
+"22.9": [
+"a7 PlanetScope optimistic swath coverage_first_images_median ci"
+],
+"23": [
+"a7 PlanetScope optimistic swath coverage_first_images_median ci",
+"a7 Karoo Nature Reserve cloud_floor_h_median ci",
+"a7 Primary design, wet season (A5) coverage_first_images_median ci",
+"a7 Primary design, wet season (A5) time_aware_images_median ci",
+"a7 Primary design, wet season (A5) fcfs_unbudgeted_images_median ci",
+"a9 dry k10 ECC at exact time"
+],
+"19.1": [
+"a7 PlanetScope optimistic swath time_aware_images_median mean"
+],
+"19.12": [
+"a7 PlanetScope optimistic swath time_aware_images_median mean"
+],
+"15.0": [
+"a7 PlanetScope optimistic swath time_aware_images_median ci"
+],
+"23.5": [
+"a7 PlanetScope optimistic swath time_aware_images_median ci"
+],
+"17.1": [
+"a7 PlanetScope optimistic swath fcfs_unbudgeted_images_median mean",
+"a4 k5 h1a_mean",
+"a4 k5 h1b_mean"
+],
+"17": [
+"a7 PlanetScope optimistic swath fcfs_unbudgeted_images_median mean",
+"a7 Earth-resources only (no PlanetScope) ecc_fewer_than_coverage_first_pct ci",
+"a4 k5 h1a_mean",
+"a4 k5 h1b_mean",
+"a11 2026-09-21 ecc_img"
+],
+"17.12": [
+"a7 PlanetScope optimistic swath fcfs_unbudgeted_images_median mean"
+],
+"13.9": [
+"a7 PlanetScope optimistic swath fcfs_unbudgeted_images_median ci",
+"a7 Karoo Nature Reserve region_t95_h_median ci"
+],
+"20.5": [
+"a7 PlanetScope optimistic swath fcfs_unbudgeted_images_median ci"
+],
+"10.1": [
+"a7 PlanetScope optimistic swath ecc_saving_vs_coverage_first_mean mean"
+],
+"10.14": [
+"a7 PlanetScope optimistic swath ecc_saving_vs_coverage_first_mean mean"
+],
+"7.8": [
+"a7 PlanetScope optimistic swath ecc_saving_vs_coverage_first_mean ci",
+"a7 Primary design, wet season (A5) ecc_saving_vs_fcfs_mean ci"
+],
+"7.97": [
+"a7 PlanetScope optimistic swath ecc_saving_vs_fcfs_mean mean"
+],
+"6.3": [
+"a7 PlanetScope optimistic swath ecc_saving_vs_fcfs_mean ci"
+],
+"9.8": [
+"a7 PlanetScope optimistic swath ecc_saving_vs_fcfs_mean ci"
+],
+"33.0": [
+"a7 PlanetScope optimistic swath cloud_floor_h_median mean",
+"a8 wet|02"
+],
+"33.00": [
+"a7 PlanetScope optimistic swath cloud_floor_h_median mean"
+],
+"32.8": [
+"a7 PlanetScope optimistic swath cloud_floor_h_median ci"
+],
+"33.2": [
+"a7 PlanetScope optimistic swath cloud_floor_h_median ci",
+"a7 Earth-resources only (no PlanetScope) reach_pct_median ci",
+"a7 Primary design, wet season (A5) cloud_floor_h_median ci"
+],
+"1.6": [
+"a7 PlanetScope optimistic swath h2_diff ci",
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_fcfs_mean ci",
+"a7 Earth-resources only, without Sentinel-2A fcfs_unbudgeted_images_median ci",
+"a7 Lower Zambezi ecc_saving_vs_fcfs_mean ci"
+],
+"4.2": [
+"a7 PlanetScope optimistic swath h2_diff ci",
+"a7 Lower Zambezi fcfs_unbudgeted_images_median mean",
+"a11"
+],
+"12.7": [
+"a7 Without Sentinel-2A floor_h_median mean"
+],
+"12.73": [
+"a7 Without Sentinel-2A floor_h_median mean"
+],
+"73.7": [
+"a7 Without Sentinel-2A reach_pct_median mean"
+],
+"74": [
+"a7 Without Sentinel-2A reach_pct_median mean",
+"a7 Lower Zambezi ecc_fewer_than_coverage_first_pct mean"
+],
+"73.72": [
+"a7 Without Sentinel-2A reach_pct_median mean"
+],
+"65.6": [
+"a7 Without Sentinel-2A reach_pct_median ci"
+],
+"66": [
+"a7 Without Sentinel-2A reach_pct_median ci",
+"a4 k10 h1a_mean",
+"a4 k10 h1b_mean"
+],
+"82.8": [
+"a7 Without Sentinel-2A reach_pct_median ci"
+],
+"83": [
+"a7 Without Sentinel-2A reach_pct_median ci"
+],
+"10.7": [
+"a7 Without Sentinel-2A region_t95_h_median mean"
+],
+"10.72": [
+"a7 Without Sentinel-2A region_t95_h_median mean"
+],
+"5.2": [
+"a7 Without Sentinel-2A region_t95_h_median ci"
+],
+"12.50": [
+"a7 Without Sentinel-2A region_t95_reached_pct mean"
+],
+"29.6": [
+"a7 Without Sentinel-2A region_t95_reached_pct ci"
+],
+"30": [
+"a7 Without Sentinel-2A region_t95_reached_pct ci",
+"a4 k"
+],
+"12.0": [
+"a7 Without Sentinel-2A ecc_images_median mean",
+"a7 Lower Zambezi floor_h_median ci",
+"a7 Primary design, wet season (A5) ecc_images_median mean"
+],
+"12.00": [
+"a7 Without Sentinel-2A ecc_images_median mean",
+"a7 Primary design, wet season (A5) ecc_images_median mean"
+],
+"9.0": [
+"a7 Without Sentinel-2A ecc_images_median ci",
+"a7 Without Sentinel-2A ecc_saving_vs_coverage_first_mean mean",
+"a7 Karoo Nature Reserve floor_h_median ci"
+],
+"9": [
+"a7 Without Sentinel-2A ecc_images_median ci",
+"a7 Without Sentinel-2A ecc_saving_vs_coverage_first_mean mean",
+"a7 Karoo Nature Reserve floor_h_median ci",
+"a7 Karoo Nature Reserve cloud_floor_h_median ci",
+"a7 Primary design, wet season (A5) region_t95_h_median ci",
+"a4 k10 gap max",
+"a11 2026-08-03 fcfs_img",
+"a11 2026-08-10 ecc_img"
+],
+"15.1": [
+"a7 Without Sentinel-2A ecc_images_median ci",
+"a11 window_mean_of_median_saving_gb high"
+],
+"21.0": [
+"a7 Without Sentinel-2A coverage_first_images_median mean"
+],
+"21": [
+"a7 Without Sentinel-2A coverage_first_images_median mean",
+"a7 Without Sentinel-2A time_aware_images_median mean",
+"a7 Primary design, wet season (A5) region_t95_h_median ci",
+"a4 ilp48 exact",
+"a11 2026-08-31 fcfs_img"
+],
+"21.00": [
+"a7 Without Sentinel-2A coverage_first_images_median mean"
+],
+"17.5": [
+"a7 Without Sentinel-2A coverage_first_images_median ci"
+],
+"21.1": [
+"a7 Without Sentinel-2A time_aware_images_median mean",
+"a11 2026-08-31 ecc_low"
+],
+"21.12": [
+"a7 Without Sentinel-2A time_aware_images_median mean"
+],
+"17.6": [
+"a7 Without Sentinel-2A time_aware_images_median ci"
+],
+"24.6": [
+"a7 Without Sentinel-2A time_aware_images_median ci"
+],
+"18.1": [
+"a7 Without Sentinel-2A fcfs_unbudgeted_images_median mean",
+"a11 2026-08-24 fcfs_low"
+],
+"18.12": [
+"a7 Without Sentinel-2A fcfs_unbudgeted_images_median mean"
+],
+"14.4": [
+"a7 Without Sentinel-2A fcfs_unbudgeted_images_median ci"
+],
+"9.04": [
+"a7 Without Sentinel-2A ecc_saving_vs_coverage_first_mean mean"
+],
+"6.4": [
+"a7 Without Sentinel-2A ecc_saving_vs_coverage_first_mean ci",
+"a7 Lower Zambezi fcfs_unbudgeted_images_median ci",
+"a11 window_mean_of_median_saving_gb high ci"
+],
+"11.3": [
+"a7 Without Sentinel-2A ecc_saving_vs_coverage_first_mean ci",
+"a7 Karoo Nature Reserve floor_h_median mean"
+],
+"6.1": [
+"a7 Without Sentinel-2A ecc_saving_vs_fcfs_mean mean"
+],
+"6.13": [
+"a7 Without Sentinel-2A ecc_saving_vs_fcfs_mean mean"
+],
+"4.3": [
+"a7 Without Sentinel-2A ecc_saving_vs_fcfs_mean ci"
+],
+"33.07": [
+"a7 Without Sentinel-2A cloud_floor_h_median mean"
+],
+"33.3": [
+"a7 Without Sentinel-2A cloud_floor_h_median ci"
+],
+"10.64": [
+"a7 Earth-resources only (no PlanetScope) floor_h_median mean"
+],
+"13.1": [
+"a7 Earth-resources only (no PlanetScope) floor_h_median ci",
+"a11 2026-08-03 saving_low"
+],
+"53.0": [
+"a7 Earth-resources only (no PlanetScope) reach_pct_median mean"
+],
+"53": [
+"a7 Earth-resources only (no PlanetScope) reach_pct_median mean",
+"a7 Karoo Nature Reserve reach_pct_median ci",
+"A7 open-data reach 52.98"
+],
+"52.98": [
+"a7 Earth-resources only (no PlanetScope) reach_pct_median mean"
+],
+"71.1": [
+"a7 Earth-resources only (no PlanetScope) reach_pct_median ci"
+],
+"14.9": [
+"a7 Earth-resources only (no PlanetScope) region_t95_h_median mean"
+],
+"14.86": [
+"a7 Earth-resources only (no PlanetScope) region_t95_h_median mean"
+],
+"4.6": [
+"a7 Earth-resources only (no PlanetScope) region_t95_h_median ci"
+],
+"23.7": [
+"a7 Earth-resources only (no PlanetScope) region_t95_h_median ci",
+"a7 Earth-resources only, without Sentinel-2A region_t95_h_median mean"
+],
+"12.61": [
+"a7 Earth-resources only (no PlanetScope) region_t95_reached_pct mean"
+],
+"29.3": [
+"a7 Earth-resources only (no PlanetScope) region_t95_reached_pct ci"
+],
+"29": [
+"a7 Earth-resources only (no PlanetScope) region_t95_reached_pct ci",
+"a7 Earth-resources only (no PlanetScope) h1b_pct ci"
+],
+"2.00": [
+"a7 Earth-resources only (no PlanetScope) ecc_images_median mean"
+],
+"2.6": [
+"a7 Earth-resources only (no PlanetScope) ecc_images_median ci"
+],
+"2.50": [
+"a7 Earth-resources only (no PlanetScope) coverage_first_images_median mean",
+"a7 Earth-resources only (no PlanetScope) time_aware_images_median mean"
+],
+"1.9": [
+"a7 Earth-resources only (no PlanetScope) coverage_first_images_median ci",
+"a7 Earth-resources only (no PlanetScope) time_aware_images_median ci",
+"a7 Karoo Nature Reserve fcfs_unbudgeted_images_median ci",
+"a7 Primary design, wet season (A5) h2_diff mean",
+"a5 p035 h2_diff mean"
+],
+"3.2": [
+"a7 Earth-resources only (no PlanetScope) coverage_first_images_median ci",
+"a7 Earth-resources only (no PlanetScope) time_aware_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A fcfs_unbudgeted_images_median ci"
+],
+"2.9": [
+"a7 Earth-resources only (no PlanetScope) fcfs_unbudgeted_images_median mean",
+"a7 Earth-resources only, without Sentinel-2A coverage_first_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A time_aware_images_median ci",
+"LiRoy2017"
+],
+"2.88": [
+"a7 Earth-resources only (no PlanetScope) fcfs_unbudgeted_images_median mean"
+],
+"2.1": [
+"a7 Earth-resources only (no PlanetScope) fcfs_unbudgeted_images_median ci",
+"a7 Earth-resources only, without Sentinel-2A coverage_first_images_median mean",
+"a7 Earth-resources only, without Sentinel-2A time_aware_images_median mean"
+],
+"3.8": [
+"a7 Earth-resources only (no PlanetScope) fcfs_unbudgeted_images_median ci"
+],
+"0.59": [
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_coverage_first_mean mean"
+],
+"0.97": [
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_fcfs_mean mean"
+],
+"0.5": [
+"a7 Earth-resources only (no PlanetScope) ecc_saving_vs_fcfs_mean ci",
+"a7 Earth-resources only, without Sentinel-2A region_t95_reached_pct ci",
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_coverage_first_mean mean",
+"a5 earthenv h2_diff mean",
+"a5 p035 h2_diff lcb_alpha"
+],
+"46.4": [
+"a7 Earth-resources only (no PlanetScope) ecc_fewer_than_coverage_first_pct mean"
+],
+"46": [
+"a7 Earth-resources only (no PlanetScope) ecc_fewer_than_coverage_first_pct mean"
+],
+"46.40": [
+"a7 Earth-resources only (no PlanetScope) ecc_fewer_than_coverage_first_pct mean"
+],
+"17.0": [
+"a7 Earth-resources only (no PlanetScope) ecc_fewer_than_coverage_first_pct ci"
+],
+"78.6": [
+"a7 Earth-resources only (no PlanetScope) ecc_fewer_than_coverage_first_pct ci"
+],
+"79": [
+"a7 Earth-resources only (no PlanetScope) ecc_fewer_than_coverage_first_pct ci",
+"a7 Lower Zambezi h1b_pct ci"
+],
+"26.7": [
+"a7 Earth-resources only (no PlanetScope) cloud_floor_h_median mean"
+],
+"26.66": [
+"a7 Earth-resources only (no PlanetScope) cloud_floor_h_median mean"
+],
+"17.8": [
+"a7 Earth-resources only (no PlanetScope) cloud_floor_h_median ci",
+"a7 Lower Zambezi cloud_floor_h_median ci"
+],
+"32.6": [
+"a7 Earth-resources only (no PlanetScope) cloud_floor_h_median ci"
+],
+"29.0": [
+"a7 Earth-resources only (no PlanetScope) h1b_pct ci"
+],
+"89.5": [
+"a7 Earth-resources only (no PlanetScope) h1b_pct ci"
+],
+"10.57": [
+"a7 Earth-resources only, without Sentinel-2A floor_h_median mean"
+],
+"13.0": [
+"a7 Earth-resources only, without Sentinel-2A floor_h_median ci",
+"a11",
+"a11 2026-09-07 saving_high"
+],
+"40.7": [
+"a7 Earth-resources only, without Sentinel-2A reach_pct_median mean"
+],
+"41": [
+"a7 Earth-resources only, without Sentinel-2A reach_pct_median mean"
+],
+"40.69": [
+"a7 Earth-resources only, without Sentinel-2A reach_pct_median mean"
+],
+"22.4": [
+"a7 Earth-resources only, without Sentinel-2A reach_pct_median ci"
+],
+"56.7": [
+"a7 Earth-resources only, without Sentinel-2A reach_pct_median ci"
+],
+"57": [
+"a7 Earth-resources only, without Sentinel-2A reach_pct_median ci"
+],
+"23.67": [
+"a7 Earth-resources only, without Sentinel-2A region_t95_h_median mean"
+],
+"1.75": [
+"a7 Earth-resources only, without Sentinel-2A ecc_images_median mean"
+],
+"2.12": [
+"a7 Earth-resources only, without Sentinel-2A coverage_first_images_median mean",
+"a7 Earth-resources only, without Sentinel-2A time_aware_images_median mean"
+],
+"2.4": [
+"a7 Earth-resources only, without Sentinel-2A fcfs_unbudgeted_images_median mean",
+"a7 Lower Zambezi fcfs_unbudgeted_images_median ci"
+],
+"2.38": [
+"a7 Earth-resources only, without Sentinel-2A fcfs_unbudgeted_images_median mean"
+],
+"0.46": [
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_coverage_first_mean mean"
+],
+"0.7": [
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_fcfs_mean mean",
+"a7 Lower Zambezi ecc_saving_vs_fcfs_mean ci",
+"a7 Primary design, wet season (A5) h2_diff ci"
+],
+"0.66": [
+"a7 Earth-resources only, without Sentinel-2A ecc_saving_vs_fcfs_mean mean"
+],
+"33.9": [
+"a7 Earth-resources only, without Sentinel-2A ecc_fewer_than_coverage_first_pct mean"
+],
+"34": [
+"a7 Earth-resources only, without Sentinel-2A ecc_fewer_than_coverage_first_pct mean",
+"a7 Lower Zambezi region_t95_reached_pct ci"
+],
+"33.90": [
+"a7 Earth-resources only, without Sentinel-2A ecc_fewer_than_coverage_first_pct mean"
+],
+"58.6": [
+"a7 Earth-resources only, without Sentinel-2A ecc_fewer_than_coverage_first_pct ci"
+],
+"59": [
+"a7 Earth-resources only, without Sentinel-2A ecc_fewer_than_coverage_first_pct ci",
+"a7 Lower Zambezi ecc_fewer_than_coverage_first_pct ci"
+],
+"23.6": [
+"a7 Earth-resources only, without Sentinel-2A cloud_floor_h_median mean"
+],
+"23.60": [
+"a7 Earth-resources only, without Sentinel-2A cloud_floor_h_median mean"
+],
+"14.7": [
+"a7 Earth-resources only, without Sentinel-2A cloud_floor_h_median ci"
+],
+"32.5": [
+"a7 Earth-resources only, without Sentinel-2A cloud_floor_h_median ci"
+],
+"32": [
+"a7 Earth-resources only, without Sentinel-2A cloud_floor_h_median ci"
+],
+"21.6": [
+"a7 Earth-resources only, without Sentinel-2A h1b_pct ci"
+],
+"87.4": [
+"a7 Earth-resources only, without Sentinel-2A h1b_pct ci"
+],
+"12.2": [
+"a7 Lower Zambezi floor_h_median mean",
+"a7 Lower Zambezi region_t95_h_median mean"
+],
+"12.23": [
+"a7 Lower Zambezi floor_h_median mean"
+],
+"84.5": [
+"a7 Lower Zambezi reach_pct_median mean"
+],
+"85": [
+"a7 Lower Zambezi reach_pct_median mean"
+],
+"84.52": [
+"a7 Lower Zambezi reach_pct_median mean"
+],
+"65.5": [
+"a7 Lower Zambezi reach_pct_median ci"
+],
+"65": [
+"a7 Lower Zambezi reach_pct_median ci"
+],
+"98.5": [
+"a7 Lower Zambezi reach_pct_median ci"
+],
+"99": [
+"a7 Lower Zambezi reach_pct_median ci",
+"a7 Primary design, wet season (A5) h1b_pct ci"
+],
+"12.18": [
+"a7 Lower Zambezi region_t95_h_median mean"
+],
+"8.3": [
+"a7 Lower Zambezi region_t95_h_median ci",
+"a4 earthenv p 2026-09-07",
+"a4 earthenv p 2026-09-14",
+"a4 earthenv p 2026-09-21",
+"a11",
+"a11 2026-09-07 saving_low",
+"a11 2026-09-21 saving_high"
+],
+"53.6": [
+"a7 Lower Zambezi region_t95_reached_pct mean"
+],
+"54": [
+"a7 Lower Zambezi region_t95_reached_pct mean"
+],
+"53.60": [
+"a7 Lower Zambezi region_t95_reached_pct mean"
+],
+"33.7": [
+"a7 Lower Zambezi region_t95_reached_pct ci"
+],
+"72.4": [
+"a7 Lower Zambezi region_t95_reached_pct ci"
+],
+"72": [
+"a7 Lower Zambezi region_t95_reached_pct ci"
+],
+"3.00": [
+"a7 Lower Zambezi ecc_images_median mean"
+],
+"4.8": [
+"a7 Lower Zambezi ecc_images_median ci",
+"a7 Primary design, wet season (A5) ecc_saving_vs_fcfs_mean ci"
+],
+"4.4": [
+"a7 Lower Zambezi coverage_first_images_median mean",
+"a7 Lower Zambezi time_aware_images_median mean"
+],
+"4.38": [
+"a7 Lower Zambezi coverage_first_images_median mean",
+"a7 Lower Zambezi time_aware_images_median mean"
+],
+"2.2": [
+"a7 Lower Zambezi coverage_first_images_median ci",
+"a7 Lower Zambezi time_aware_images_median ci",
+"a9 wet fs gain"
+],
+"6.9": [
+"a7 Lower Zambezi coverage_first_images_median ci",
+"a7 Lower Zambezi time_aware_images_median ci",
+"a8 dry cloudy_pooled"
+],
+"4.25": [
+"a7 Lower Zambezi fcfs_unbudgeted_images_median mean"
+],
+"1.3": [
+"a7 Lower Zambezi ecc_saving_vs_coverage_first_mean mean",
+"a11 2026-09-14 saving_high"
+],
+"1.26": [
+"a7 Lower Zambezi ecc_saving_vs_coverage_first_mean mean"
+],
+"1.14": [
+"a7 Lower Zambezi ecc_saving_vs_fcfs_mean mean"
+],
+"74.3": [
+"a7 Lower Zambezi ecc_fewer_than_coverage_first_pct mean"
+],
+"74.32": [
+"a7 Lower Zambezi ecc_fewer_than_coverage_first_pct mean"
+],
+"58.7": [
+"a7 Lower Zambezi ecc_fewer_than_coverage_first_pct ci"
+],
+"90.4": [
+"a7 Lower Zambezi ecc_fewer_than_coverage_first_pct ci"
+],
+"25.2": [
+"a7 Lower Zambezi cloud_floor_h_median mean"
+],
+"25.19": [
+"a7 Lower Zambezi cloud_floor_h_median mean"
+],
+"31.3": [
+"a7 Lower Zambezi cloud_floor_h_median ci"
+],
+"31": [
+"a7 Lower Zambezi cloud_floor_h_median ci"
+],
+"79.2": [
+"a7 Lower Zambezi h1b_pct ci"
+],
+"99.7": [
+"a7 Lower Zambezi h1b_pct ci"
+],
+"0.4": [
+"a7 Lower Zambezi h2_diff ci",
+"a7 Karoo Nature Reserve ecc_saving_vs_fcfs_mean mean",
+"a5 dry earthenv h2 lcb_alpha"
+],
+"11.28": [
+"a7 Karoo Nature Reserve floor_h_median mean"
+],
+"77.7": [
+"a7 Karoo Nature Reserve reach_pct_median mean"
+],
+"78": [
+"a7 Karoo Nature Reserve reach_pct_median mean"
+],
+"77.73": [
+"a7 Karoo Nature Reserve reach_pct_median mean"
+],
+"53.1": [
+"a7 Karoo Nature Reserve reach_pct_median ci"
+],
+"96.5": [
+"a7 Karoo Nature Reserve reach_pct_median ci"
+],
+"10.63": [
+"a7 Karoo Nature Reserve region_t95_h_median mean"
+],
+"66.6": [
+"a7 Karoo Nature Reserve region_t95_reached_pct mean"
+],
+"67": [
+"a7 Karoo Nature Reserve region_t95_reached_pct mean"
+],
+"66.61": [
+"a7 Karoo Nature Reserve region_t95_reached_pct mean"
+],
+"41.6": [
+"a7 Karoo Nature Reserve region_t95_reached_pct ci"
+],
+"42": [
+"a7 Karoo Nature Reserve region_t95_reached_pct ci"
+],
+"91.1": [
+"a7 Karoo Nature Reserve region_t95_reached_pct ci"
+],
+"91": [
+"a7 Karoo Nature Reserve region_t95_reached_pct ci",
+"a7 Primary design, wet season (A5) reach_pct_median ci"
+],
+"1.12": [
+"a7 Karoo Nature Reserve ecc_images_median mean"
+],
+"1.38": [
+"a7 Karoo Nature Reserve coverage_first_images_median mean",
+"a7 Karoo Nature Reserve time_aware_images_median mean",
+"a7 Karoo Nature Reserve fcfs_unbudgeted_images_median mean"
+],
+"0.29": [
+"a7 Karoo Nature Reserve ecc_saving_vs_coverage_first_mean mean"
+],
+"0.39": [
+"a7 Karoo Nature Reserve ecc_saving_vs_fcfs_mean mean"
+],
+"24.7": [
+"a7 Karoo Nature Reserve ecc_fewer_than_coverage_first_pct mean",
+"a11 window_mean_of_median_saving_gb high ci",
+"a11 2026-08-10 saving_low"
+],
+"24.66": [
+"a7 Karoo Nature Reserve ecc_fewer_than_coverage_first_pct mean"
+],
+"4.5": [
+"a7 Karoo Nature Reserve ecc_fewer_than_coverage_first_pct ci"
+],
+"52.4": [
+"a7 Karoo Nature Reserve ecc_fewer_than_coverage_first_pct ci"
+],
+"52": [
+"a7 Karoo Nature Reserve ecc_fewer_than_coverage_first_pct ci",
+"a9 dry k10 no k-cover exists"
+],
+"14.6": [
+"a7 Karoo Nature Reserve cloud_floor_h_median mean"
+],
+"14.58": [
+"a7 Karoo Nature Reserve cloud_floor_h_median mean"
+],
+"8.5": [
+"a7 Karoo Nature Reserve cloud_floor_h_median ci",
+"a4 k15 ecc_images_median"
+],
+"23.4": [
+"a7 Karoo Nature Reserve cloud_floor_h_median ci",
+"a7 Primary design, wet season (A5) coverage_first_images_median ci",
+"a7 Primary design, wet season (A5) fcfs_unbudgeted_images_median ci",
+"a11 2026-09-07 ecc_low"
+],
+"95.7": [
+"a7 Karoo Nature Reserve h1b_pct ci"
+],
+"12.42": [
+"a7 Primary design, wet season (A5) floor_h_median mean"
+],
+"12.3": [
+"a7 Primary design, wet season (A5) floor_h_median ci"
+],
+"80.7": [
+"a7 Primary design, wet season (A5) reach_pct_median mean"
+],
+"81": [
+"a7 Primary design, wet season (A5) reach_pct_median mean"
+],
+"80.73": [
+"a7 Primary design, wet season (A5) reach_pct_median mean"
+],
+"69.0": [
+"a7 Primary design, wet season (A5) reach_pct_median ci"
+],
+"69": [
+"a7 Primary design, wet season (A5) reach_pct_median ci"
+],
+"91.4": [
+"a7 Primary design, wet season (A5) reach_pct_median ci"
+],
+"15.61": [
+"a7 Primary design, wet season (A5) region_t95_h_median mean"
+],
+"9.4": [
+"a7 Primary design, wet season (A5) region_t95_h_median ci"
+],
+"20.9": [
+"a7 Primary design, wet season (A5) region_t95_h_median ci",
+"a11 2026-08-31 saving_low"
+],
+"28.3": [
+"a7 Primary design, wet season (A5) region_t95_reached_pct mean"
+],
+"28": [
+"a7 Primary design, wet season (A5) region_t95_reached_pct mean",
+"a9 dry fs same"
+],
+"28.25": [
+"a7 Primary design, wet season (A5) region_t95_reached_pct mean"
+],
+"8.2": [
+"a7 Primary design, wet season (A5) region_t95_reached_pct ci",
+"a7 Primary design, wet season (A5) ecc_images_median ci",
+"a7 Primary design, wet season (A5) ecc_saving_vs_coverage_first_mean mean"
+],
+"47.8": [
+"a7 Primary design, wet season (A5) region_t95_reached_pct ci"
+],
+"48": [
+"a7 Primary design, wet season (A5) region_t95_reached_pct ci",
+"a9 dry fs sooner"
+],
+"16.4": [
+"a7 Primary design, wet season (A5) ecc_images_median ci"
+],
+"19.6": [
+"a7 Primary design, wet season (A5) coverage_first_images_median mean"
+],
+"19.62": [
+"a7 Primary design, wet season (A5) coverage_first_images_median mean"
+],
+"16.1": [
+"a7 Primary design, wet season (A5) coverage_first_images_median ci"
+],
+"19.38": [
+"a7 Primary design, wet season (A5) time_aware_images_median mean"
+],
+"15.9": [
+"a7 Primary design, wet season (A5) time_aware_images_median ci"
+],
+"23.2": [
+"a7 Primary design, wet season (A5) time_aware_images_median ci"
+],
+"18.2": [
+"a7 Primary design, wet season (A5) fcfs_unbudgeted_images_median mean"
+],
+"18.25": [
+"a7 Primary design, wet season (A5) fcfs_unbudgeted_images_median mean"
+],
+"13.2": [
+"a7 Primary design, wet season (A5) fcfs_unbudgeted_images_median ci"
+],
+"8.17": [
+"a7 Primary design, wet season (A5) ecc_saving_vs_coverage_first_mean mean"
+],
+"6.8": [
+"a7 Primary design, wet season (A5) ecc_saving_vs_coverage_first_mean ci"
+],
+"6.2": [
+"a7 Primary design, wet season (A5) ecc_saving_vs_fcfs_mean mean",
+"a11 2026-08-24 saving_high"
+],
+"6.24": [
+"a7 Primary design, wet season (A5) ecc_saving_vs_fcfs_mean mean"
+],
+"33.05": [
+"a7 Primary design, wet season (A5) cloud_floor_h_median mean"
+],
+"99.8": [
+"a7 Primary design, wet season (A5) h1b_pct mean",
+"a5 earthenv h1b_pct mean",
+"a5 p035 h1b_pct mean"
+],
+"99.83": [
+"a7 Primary design, wet season (A5) h1b_pct mean",
+"a5 earthenv h1b_pct mean",
+"a5 p035 h1b_pct mean"
+],
+"99.5": [
+"a7 Primary design, wet season (A5) h1b_pct ci",
+"a5 earthenv h1b_pct lcb_alpha",
+"a5 p035 h1b_pct lcb_alpha"
+],
+"1.90": [
+"a7 Primary design, wet season (A5) h2_diff mean",
+"a5 p035 h2_diff mean"
+],
+"3.3": [
+"a7 Primary design, wet season (A5) h2_diff ci"
+],
+"171": [
+"a4 solved"
+],
+"160": [
+"a4 optimal",
+"a9 dry fs n",
+"a9 wet fs n"
+],
+"26": [
+"a4 ties",
+"a9 dry k5 ECC at floor",
+"a11",
+"a11 onsets_saving_zero",
+"a11 2026-09-21 fcfs_img"
+],
+"38": [
+"a4 2026-09-14 solved",
+"a4 2026-09-14 optimal",
+"a4 k15 h1a_min"
+],
+"4.0": [
+"a4 k5 ecc_images_median",
+"a11 2026-08-24 saving_low"
+],
+"65.9": [
+"a4 k10 h1a_mean",
+"a4 k10 h1b_mean"
+],
+"91.6": [
+"a4 k15 h1a_mean"
+],
+"92": [
+"a4 k15 h1a_mean"
+],
+"87.2": [
+"a4 k15 h1b_mean"
+],
+"38.4": [
+"a4 k15 h1a_min"
+],
+"10.5": [
+"a4 k20 ecc_images_median",
+"a4 k30 ecc_images_median"
+],
+"100.000": [
+"a5 earthenv h1a_pct mean",
+"a5 earthenv h1a_pct lcb_alpha",
+"a5 earthenv h1a_pct lcb_alpha_over_3",
+"a5 p035 h1a_pct mean",
+"a5 p035 h1a_pct lcb_alpha",
+"a5 p035 h1a_pct lcb_alpha_over_3"
+],
+"99.829": [
+"a5 earthenv h1b_pct mean",
+"a5 p035 h1b_pct mean"
+],
+"99.50": [
+"a5 earthenv h1b_pct lcb_alpha",
+"a5 p035 h1b_pct lcb_alpha"
+],
+"99.504": [
+"a5 earthenv h1b_pct lcb_alpha",
+"a5 p035 h1b_pct lcb_alpha"
+],
+"99.4": [
+"a5 earthenv h1b_pct lcb_alpha_over_3",
+"a5 p035 h1b_pct lcb_alpha_over_3"
+],
+"99.38": [
+"a5 earthenv h1b_pct lcb_alpha_over_3",
+"a5 p035 h1b_pct lcb_alpha_over_3"
+],
+"99.376": [
+"a5 earthenv h1b_pct lcb_alpha_over_3",
+"a5 p035 h1b_pct lcb_alpha_over_3"
+],
+"0.49": [
+"a5 earthenv h2_diff mean"
+],
+"0.487": [
+"a5 earthenv h2_diff mean"
+],
+"0.09": [
+"a5 earthenv h2_diff lcb_alpha"
+],
+"0.090": [
+"a5 earthenv h2_diff lcb_alpha"
+],
+"-0.07": [
+"a5 earthenv h2_diff lcb_alpha_over_3"
+],
+"-0.066": [
+"a5 earthenv h2_diff lcb_alpha_over_3"
+],
+"0.020": [
+"a5 earthenv h2_diff wilcoxon"
+],
+"0.0195": [
+"a5 earthenv h2_diff wilcoxon"
+],
+"1.896": [
+"a5 p035 h2_diff mean"
+],
+"0.54": [
+"a5 p035 h2_diff lcb_alpha"
+],
+"0.542": [
+"a5 p035 h2_diff lcb_alpha"
+],
+"0.01": [
+"a5 p035 h2_diff lcb_alpha_over_3"
+],
+"0.008": [
+"a5 p035 h2_diff lcb_alpha_over_3",
+"a5 p035 h2_diff wilcoxon"
+],
+"0.0078": [
+"a5 p035 h2_diff wilcoxon"
+],
+"1.52": [
+"a5 dry earthenv h2 mean"
+],
+"1.520": [
+"a5 dry earthenv h2 mean"
+],
+"0.43": [
+"a5 dry earthenv h2 lcb_alpha"
+],
+"0.425": [
+"a5 dry earthenv h2 lcb_alpha"
+],
+"-0.0": [
+"a5 dry earthenv h2 lcb_alpha_over_3"
+],
+"-0.01": [
+"a5 dry earthenv h2 lcb_alpha_over_3"
+],
+"-0.007": [
+"a5 dry earthenv h2 lcb_alpha_over_3"
+],
+"309": [
+"a8 dry scenes"
+],
+"66.4": [
+"a8 dry obs48"
+],
+"60.7": [
+"a8 dry clear48"
+],
+"0.996": [
+"a8 dry corr"
+],
+"223": [
+"a8 wet scenes"
+],
+"35.7": [
+"a8 wet cloudy_pooled"
+],
+"47.0": [
+"a8 wet obs48"
+],
+"29.8": [
+"a8 wet clear48"
+],
+"0.98": [
+"a8 wet corr"
+],
+"0.981": [
+"a8 wet corr"
+],
+"33.4": [
+"a8 dry|09"
+],
+"37.8": [
+"a8 wet|01"
+],
+"1216": [
+"a9 pairs"
+],
+"126": [
+"a9 dry k5 no k-cover exists",
+"a9 wet k15 ECC at floor"
+],
+"132": [
+"a9 dry k15 ECC at floor"
+],
+"151": [
+"a9 dry k20 ECC at floor"
+],
+"47.5": [
+"a9 dry fs sooner"
+],
+"28.1": [
+"a9 dry fs same"
+],
+"24.4": [
+"a9 dry fs later"
+],
+"2.77": [
+"a9 dry fs gain"
+],
+"0.23": [
+"a9 dry fs quartile"
+],
+"133": [
+"a9 wet k5 no k-cover exists"
+],
+"56": [
+"a9 wet k10 ECC at floor"
+],
+"140": [
+"a9 wet k20 ECC at floor"
+],
+"36": [
+"a9 wet fs never",
+"a9 wet adaptive ends lower"
+],
+"20.0": [
+"a9 wet fs same"
+],
+"46.9": [
+"a9 wet fs later"
+],
+"47": [
+"a9 wet fs later"
+],
+"2.24": [
+"a9 wet fs gain"
+],
+"-0.39": [
+"a9 wet fs quartile"
+],
+"0.05": [
+"a9 wet fs quartile"
+],
+"22.5": [
+"a9 wet adaptive ends lower pct"
+],
+"26.1": [
+"a11",
+"a11 2026-09-07 red_low"
+],
+"50.2": [
+"a11",
+"a11 2026-08-10 red_low"
+],
+"50": [
+"a11"
+],
+"92.5": [
+"a11"
+],
+"558": [
+"a11 onsets_saving_positive"
+],
+"584": [
+"a11 onsets"
+],
+"99.3": [
+"a11 ps share pooled"
+],
+"96.7": [
+"a11 ps share min"
+],
+"4.1": [
+"a11 window_mean_of_median_saving_gb low ci"
+],
+"15.8": [
+"a11 window_mean_of_median_saving_gb low ci"
+],
+"29.1": [
+"a11 window_mean_of_median_reduction_pct low"
+],
+"13.5": [
+"a11 window_mean_of_median_reduction_pct low ci"
+],
+"45.8": [
+"a11 window_mean_of_median_reduction_pct low ci"
+],
+"30.0": [
+"a11 window_mean_of_median_reduction_pct high"
+],
+"13.6": [
+"a11 window_mean_of_median_reduction_pct high ci"
+],
+"47.6": [
+"a11 window_mean_of_median_reduction_pct high ci"
+],
+"20.4": [
+"a11 2026-08-03 saving_high"
+],
+"70.6": [
+"a11 2026-08-03 red_low"
+],
+"75.6": [
+"a11 2026-08-03 red_high"
+],
+"5.4": [
+"a11 2026-08-03 ecc_low"
+],
+"6.6": [
+"a11 2026-08-03 ecc_high"
+],
+"18.5": [
+"a11 2026-08-03 fcfs_low"
+],
+"27.0": [
+"a11 2026-08-03 fcfs_high"
+],
+"38.6": [
+"a11 2026-08-10 saving_high"
+],
+"50.8": [
+"a11 2026-08-10 red_high"
+],
+"37.5": [
+"a11 2026-08-10 ecc_high"
+],
+"49.2": [
+"a11 2026-08-10 fcfs_low"
+],
+"76.1": [
+"a11 2026-08-10 fcfs_high"
+],
+"21.7": [
+"a11 2026-08-17 ecc_low",
+"a11 2026-08-17 fcfs_low"
+],
+"34.0": [
+"a11 2026-08-17 ecc_high"
+],
+"34.1": [
+"a11 2026-08-17 fcfs_high"
+],
+"22.0": [
+"a11 2026-08-24 red_low"
+],
+"14.1": [
+"a11 2026-08-24 ecc_low"
+],
+"22.2": [
+"a11 2026-08-24 ecc_high"
+],
+"28.4": [
+"a11 2026-08-24 fcfs_high"
+],
+"49.8": [
+"a11 2026-08-31 red_low"
+],
+"50.6": [
+"a11 2026-08-31 red_high"
+],
+"31.9": [
+"a11 2026-08-31 ecc_high"
+],
+"42.0": [
+"a11 2026-08-31 fcfs_low"
+],
+"64.6": [
+"a11 2026-08-31 fcfs_high"
+],
+"35.9": [
+"a11 2026-09-07 ecc_high"
+],
+"31.7": [
+"a11 2026-09-07 fcfs_low"
+],
+"48.8": [
+"a11 2026-09-07 fcfs_high"
+],
+"34.4": [
+"a11 2026-09-14 ecc_low"
+],
+"53.8": [
+"a11 2026-09-14 ecc_high"
+],
+"35.2": [
+"a11 2026-09-14 fcfs_low"
+],
+"55.1": [
+"a11 2026-09-14 fcfs_high"
+],
+"5.3": [
+"a11 2026-09-21 saving_low"
+],
+"11.6": [
+"a11 2026-09-21 red_low",
+"a11 2026-09-21 red_high"
+],
+"40.3": [
+"a11 2026-09-21 ecc_low"
+],
+"63.0": [
+"a11 2026-09-21 ecc_high"
+],
+"45.6": [
+"a11 2026-09-21 fcfs_low"
+],
+"71.3": [
+"a11 2026-09-21 fcfs_high"
+],
+"532": [
+"a8 scenes 309+223"
+],
+"11.8": [
+"fig_reachability_map.py: median over cells of median time to first view, window 2026-08-03 = 11.77 h"
+],
+"30.3": [
+"Roy2021"
+],
+"152": [
+"a9_budget.csv rows per season and k"
+]
+}

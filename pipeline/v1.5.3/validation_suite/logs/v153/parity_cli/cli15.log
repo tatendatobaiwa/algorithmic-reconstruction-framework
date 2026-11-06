@@ -1,0 +1,6 @@
+ARF_Outputs_ckgr_okavango_earth-resources_planet-conservative: MATCH
+ARF_Outputs_ckgr_okavango_earth-resources_planet-optimistic: MATCH
+ARF_Outputs_ckgr_okavango_planet-conservative_v152: MATCH
+ARF_Outputs_ckgr_okavango_planet-optimistic_v152: MATCH
+ARF_Outputs_ckgr_okavango_earth-resources_v152: MATCH
+5/5 runs MATCH. Report: /tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/exp15/arf_parity_report.json

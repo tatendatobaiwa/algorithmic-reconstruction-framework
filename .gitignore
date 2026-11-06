@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+# Licensed data: never commit
+*.tle
+*.3le
+*_omm*.json
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+*.geojson
+*.kml
+*.kmz
+*WDPA*
+*wdpa*
+*WDPCA*
+# Run folders and tile-level outputs (held back, see DATA.md)
+ARF_Outputs_*/
+arf_refined_events.csv
+arf_mosaic_tiles.csv
+# Secrets
+.env
+*secret*
+*credentials*

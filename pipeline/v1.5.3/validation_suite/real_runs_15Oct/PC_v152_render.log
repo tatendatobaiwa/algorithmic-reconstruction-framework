@@ -1,0 +1,15 @@
+Picked up JAVA_TOOL_OPTIONS: -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts -Djavax.net.ssl.trustStoreType=JKS -Dhttps.proxyHost=127.0.0.1 -Dhttps.proxyPort=33935 -Dhttp.nonProxyHosts=localhost|127.0.0.1|::1|127.*|0.*|::|169.254.*|api.anthropic.com|api-staging.anthropic.com|api-pr-preview.anthropic.com|mcp-proxy.anthropic.com|mcp-proxy-staging.anthropic.com|registry.npmjs.org|jsr.io|npm.jsr.io|pypi.org|files.pythonhosted.org|index.crates.io|proxy.golang.org|host.docker.internal|10.*|172.16.*|172.17.*|172.18.*|172.19.*|172.20.*|172.21.*|172.22.*|172.23.*|172.24.*|172.25.*|172.26.*|172.27.*|172.28.*|172.29.*|172.30.*|172.31.*|192.168.*|100.64.0.0/10|*.svc.cluster.local|*.svc.cluster.local -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes=
+
+Refining continuous access strips with CPA incidence angles and downlink rewards...
+release 1.5.3 | cell seconds {'0': 0.0, '1': 3.3, '2': 0.5, '3': 7.8, '4': 4.3, '5': 8.0, '6': 2.1, '6B': 0.0, '7': 7.2, '7B': 0.0, '7C': 86.3, '8': 0.0, '9': 0.0} | errors {}
+arf_coverage_map.png: 6.90 x 4.68 in
+arf_fig1_coverage_progression.png: 3.43 x 2.63 in
+arf_fig2_quality_progression.png: 3.43 x 2.63 in
+arf_fig3_latency_analysis.png: 3.43 x 3.46 in
+arf_fig4_coverage_budget.png: 3.43 x 2.63 in
+arf_fig5_onset_robustness.png: 7.09 x 3.36 in
+arf_fig6_cost_latency.png: 7.09 x 2.93 in
+arf_fig7_mosaic_map.png: 6.90 x 5.24 in
+arf_fig8_cloud_robustness.png: 7.04 x 2.56 in
+arf_fig9_h1a_gap.png: 7.09 x 3.16 in
+arf_manuscript_figures.png: 7.09 x 6.01 in

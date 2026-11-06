@@ -1,0 +1,7 @@
+PASS name for 2026-08-03 equals the real Drive cache file: arf_gp_history_earth-resources_planet-conservative_from20260803_20260803T000000.json
+PASS name for 2026-09-21 equals the real Drive cache file: arf_gp_history_earth-resources_planet-conservative_from20260921_20260921T000000.json
+PASS two windows fetched (2 queries)
+PASS requested satellites = those matching MISSION_TABLE (97)
+PASS second call: from the cache, no query
+PASS a changed release file is refused
+6/6 passed

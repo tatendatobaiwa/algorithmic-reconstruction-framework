@@ -1,0 +1,32 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{4pt}
+\caption{Post hoc (amendment A4): greedy selection against the exact integer optimum on the full 48-h
+instance of each primary window (clear sky; budget $k = 10$ for coverage, HiGHS via SciPy). Ratios are
+greedy objective over exact optimum of the same objective, except FCFS (coverage). Images: fewest images
+reaching 95\% of reachable tiles, by ECC at its earliest time and by the exact programme at any time.}
+\label{tab:a4_ilp48}
+\begin{tabular}{|l|r|r|r|r|r|r|r|}
+\hline
+Window & Pairs & Solve (s) & Cov.-first & Time-aware & FCFS & ECC img. & Exact img. \\
+\hline
+3 Aug & 38,133 & 3.3 & 1.000 & 1.000 & 0.294 & 4 & 4 \\
+\hline
+10 Aug & 38,340 & 9.7 & 1.000 & 1.000 & 0.550 & 13 & 10 \\
+\hline
+17 Aug & 41,053 & 3.4 & 1.000 & 1.000 & 0.655 & 8 & 3 \\
+\hline
+24 Aug & 43,312 & 5.4 & 1.000 & 1.000 & 0.240 & 4 & 4 \\
+\hline
+31 Aug & 39,695 & 4.3 & 1.000 & 1.000 & 0.369 & 3 & 3 \\
+\hline
+7 Sep & 28,628 & 3.6 & 1.000 & 1.000 & 0.332 & 18 & 13 \\
+\hline
+14 Sep & 18,971 & 2.0 & 1.000 & 1.000 & 0.539 & 24 & 21 \\
+\hline
+21 Sep & 31,934 & 6.9 & 1.000 & 1.000 & 0.300 & 12 & 11 \\
+\hline
+\end{tabular}
+\end{table*}

@@ -1,0 +1,29 @@
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+{"window": "2026-08-03", "replay_identical": true, "seconds": 1206.1, "onsets_solved": 73, "ecc_optimal": 73, "ecc_extra_images_max": 0.0, "h1b_eligible": 73, "h1b_eligible_no_economy_possible": 0, "h1b_eligible_ecc_fewer_than_fcfs": 73}
+    window  replay_identical  seconds  onsets_solved  ecc_optimal  ecc_extra_images_max  h1b_eligible  h1b_eligible_no_economy_possible  h1b_eligible_ecc_fewer_than_fcfs
+2026-08-03              True   1206.1             73           73                   0.0            73                                 0                                73
+Files: /tmp/exact_879nkkqc/ARF_batch/sensitivity_a4/a4_exact_economy.csv, a4_exact_economy_summary.json
+PASS replay reproduces the folder's arf_onset_robustness.csv
+PASS 73 onsets with reachable tiles
+PASS ECC images equal the onset CSV
+PASS FCFS images equal the onset CSV
+PASS floor equals the onset CSV
+PASS ECC time equals the onset CSV
+PASS every exact solve optimal (73/73)
+PASS exact minimum <= ECC images at every onset
+PASS exact minimum <= FCFS images at every onset
+{'window': '2026-08-03', 'replay_identical': True, 'seconds': 1206.1, 'onsets_solved': 73, 'ecc_optimal': 73, 'ecc_extra_images_max': 0.0, 'h1b_eligible': 73, 'h1b_eligible_no_economy_possible': 0, 'h1b_eligible_ecc_fewer_than_fcfs': 73}
+       floor_min  ecc_min  ecc_images  ...  exact_images  exact_pairs  exact_seconds
+count      73.00    73.00       73.00  ...         73.00        73.00          73.00
+mean      738.64   738.64        2.07  ...          2.07     29936.71          13.38
+std       423.74   423.74        0.59  ...          0.59      2817.53           0.96
+min        19.00    19.00        2.00  ...          2.00     19688.00           6.28
+25%       379.00   379.00        2.00  ...          2.00     29625.00          13.15
+50%       739.00   739.00        2.00  ...          2.00     29625.00          13.37
+75%      1099.00  1099.00        2.00  ...          2.00     29625.00          13.68
+max      1439.00  1439.00        7.00  ...          7.00     43871.00          14.96
+
+[8 rows x 7 columns]
+PASS a changed arf_refined_events.csv is refused
+10/10 passed

@@ -1,0 +1,10 @@
+PASS track distance: abeam -> cross-track distance (both rules); beyond an end -> +inf (v1.5.1) or end-sample distance (legacy)
+PASS clipped strip (repeated samples at t = 0): a point before the window start is excluded, an abeam point kept
+PASS consecutive-strip duplicates: v1.5.0 93, v1.5.1 0 (Cell 5 summary: 93 end-cap rows excluded)
+PASS v1.5.1 rows: each in the strip containing its closest approach (0 off), off-nadir angle vs brute force max error 0.0000 deg, unmatched rows 0
+PASS completeness: all 417 brute-force in-swath sunlit (satellite, tile) passes present (0 missing)
+PASS no (satellite, tile) lost by the end-cap rule except at the window edges: 0 of 421
+PASS no files written outside OUT_DIR ([])
+PASS v1.5.2 summary: end-cap rows not counted (93) = v1.5.0 rows minus this release's rows (514 - 421)
+
+8/8 checks passed

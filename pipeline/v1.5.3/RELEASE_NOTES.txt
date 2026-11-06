@@ -1,0 +1,79 @@
+ARF release 1.5.3 (18 October 2026): figures and report labels only
+====================================================================
+Every computed value is as in release 1.5.2. Release 1.5.3 fixes what the evaluation of the
+Colab runs of 15 October 2026 found wrong in what a reader sees:
+
+  Figure 3 and composite panel (c)  y-axis spans the data (it started at 0 h while every value lay
+                                    between 24 and 26 h); legend under the axes; floor drawn over
+                                    the curves
+  Figures 3 and 4                   say why they are empty when the window offers fewer images than
+                                    the smallest budget swept (k = 5): open data alone had 3
+  Figure 5                          at the H1a level, 95% of reachable tiles (it targeted 99% of ALL
+                                    tiles, which no 15 October window reached, so it was empty);
+                                    hours on a linear axis; the floor as a grey band
+  Figure 7                          short panel (b) title, cloud settings in the footer: 6.90 in wide
+                                    (was 7.75 in, above the 7.16 in of two IEEE columns)
+  Figure 8                          drawn 7.0 in wide (a flat H2 panel made it 7.18 in)
+  Figure 9                          minutes on a linear axis to 1.25 margins (was a symlog hour axis
+                                    with every curve on the y-axis); each selector's largest gap
+                                    written on the panel
+  Figures 1 to 4                    whole-number k ticks
+  Report, console, JSON, log        superseded hypotheses (original H1, its time-aware variant, the
+                                    original H2 ratio test) labelled as superseded; each run's own
+                                    statuses first (JSON: hypothesis_validation.this_run); statuses
+                                    that pool several scenarios of one kernel say so
+
+Evidence that no number changed
+  Cells 6-8 of 1.5.2 and 1.5.3 replayed on the same saved inputs (20 runs: 15 of 12 October, 5 of
+  15 October): 240 CSV files identical (byte for byte, apart from the solver's wall-clock column
+  ilp_seconds of arf_ilp_gap.csv, which varies from run to run in any release), 26,656 JSON values
+  identical apart from the keys 1.5.3 adds, 24,676 scenario_results fields identical, reports
+  different in label lines only, untouched figures byte-identical
+  (results/arf_v152_v153_identity.csv).
+  Cells 0-6, 6B, 7B and 7D differ from 1.5.2 only in their version strings (Cell 0 also in its
+  release notes and a workflow comment). With real Orekit, Cells 0-5 of 1.5.3 reproduce Colab's
+  refined events of the five 15 October runs row for row (135,629 rows).
+  Validation suite: 109 of 109 checks pass (arf_validation_suite_v153.zip).
+
+Protocol
+  arf_confirmatory_protocol.json carries amendment A2 (release 1.5.3, recorded
+  2026-10-18T19:11:11Z, before any protocol window was run). Hypotheses, thresholds, windows,
+  designs and decision rules are unchanged. The release 1.5.2 package stays as it was.
+
+Files
+  algorithmic_reconstruction_framework.py   the release (SHA-256 14426c89c916ffcaac032cb94ec186ef7a7f8011748044c99f2386585d917950); the batch reads this file
+  arf_cell*.py (14)                         the same code as notebook cells
+  Algorithmic_Reconstruction_Framework_v1.5.3.ipynb
+                                            your notebook with the 14 cells replaced by 1.5.3 and
+                                            outputs cleared. Cell 0 is at the release default
+                                            (planet_swath_case "conservative"); your saved notebook
+                                            had "optimistic"
+  arf_batch_runner.py                       protocol runs; batch names confirmatory_v153_*
+  arf_colab_parity.py                       parity check, with two reference sets:
+    arf_parity_expected_v153.json           the five complete runs of 15 October in their Drive
+                                            folders (nothing to restore)
+    arf_parity_expected_v153_12oct.json     the 15 runs of 12 October: unzip
+                                            ARF_12Oct2026_saved_inputs.zip into a NEW folder (e.g.
+                                            MyDrive/ARF_parity_12Oct) and pass --drive pointing at it;
+                                            never into MyDrive itself, where two of its folder names
+                                            now hold runs of 15 October
+  arf_confirmatory_analysis.py              unchanged analysis (header note only)
+  arf_confirmatory_protocol.json            with amendment A2
+  results/arf_v152_v153_identity.csv        the comparison, one row per run
+  preview_figures_15Oct/                    Figures 3, 4, 5, 9 and the composite drawn by 1.5.3 from
+                                            the saved inputs of the primary and open-data runs of
+                                            15 October (sandbox; maps left out)
+  arf_validation_suite_v153.zip             tests, harnesses and logs
+  SHA256SUMS.txt
+
+Before the batch (Colab)
+  1. Put algorithmic_reconstruction_framework.py, arf_batch_runner.py, arf_colab_parity.py and
+     arf_parity_expected_v153.json in MyDrive/ARF_code/, replacing the 1.5.2 files.
+  2. !python /content/drive/MyDrive/ARF_code/arf_colab_parity.py \
+         --pipeline /content/drive/MyDrive/ARF_code/algorithmic_reconstruction_framework.py \
+         --expected /content/drive/MyDrive/ARF_code/arf_parity_expected_v153.json
+     Expect "5/5 runs MATCH".
+  3. Run the batch runner (Space-Track secrets SPACETRACK_USERNAME and SPACETRACK_PASSWORD):
+     8 primary, 32 secondary and 16 exploratory runs.
+  4. For interactive runs, open the 1.5.3 notebook; the version guard stops a notebook that mixes
+     cells of two releases.

@@ -1,0 +1,49 @@
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+  Gap-fill exhausted candidate events with 1360 tiles still uncovered.
+  2026-08-03 onset +0 min: ECC 7, FCFS 27, exact 7 (optimal, 5.59 s; sample)
+  2026-08-03 onset +80 min: ECC 2, FCFS 10, exact 2 (optimal, 13.58 s; sample)
+  2026-08-03 onset +160 min: ECC 2, FCFS 8, exact 2 (optimal, 14.3 s; sample)
+  2026-08-03 onset +240 min: ECC 2, FCFS 8, exact 2 (optimal, 13.67 s; sample)
+  2026-08-03 onset +320 min: ECC 2, FCFS 8, exact 2 (optimal, 13.58 s; sample)
+  2026-08-03 onset +400 min: ECC 2, FCFS 8, exact 2 (optimal, 13.18 s; sample)
+  2026-08-03 onset +480 min: ECC 2, FCFS 8, exact 2 (optimal, 13.54 s; sample)
+  2026-08-03 onset +560 min: ECC 2, FCFS 8, exact 2 (optimal, 13.67 s; sample)
+  2026-08-03 onset +640 min: ECC 2, FCFS 8, exact 2 (optimal, 13.85 s; sample)
+  2026-08-03 onset +720 min: ECC 2, FCFS 8, exact 2 (optimal, 14.46 s; sample)
+  2026-08-03 onset +800 min: ECC 2, FCFS 8, exact 2 (optimal, 14.54 s; sample)
+  2026-08-03 onset +880 min: ECC 2, FCFS 8, exact 2 (optimal, 14.88 s; sample)
+  2026-08-03 onset +960 min: ECC 2, FCFS 8, exact 2 (optimal, 14.54 s; sample)
+  2026-08-03 onset +1040 min: ECC 2, FCFS 8, exact 2 (optimal, 14.04 s; sample)
+  2026-08-03 onset +1120 min: ECC 2, FCFS 8, exact 2 (optimal, 14.08 s; sample)
+  2026-08-03 onset +1200 min: ECC 2, FCFS 8, exact 2 (optimal, 13.8 s; sample)
+  2026-08-03 onset +1280 min: ECC 2, FCFS 8, exact 2 (optimal, 13.96 s; sample)
+  2026-08-03 onset +1360 min: ECC 2, FCFS 8, exact 2 (optimal, 13.67 s; sample)
+  2026-08-03 onset +1440 min: ECC 2, FCFS 9, exact 2 (optimal, 13.13 s; sample)
+{"window": "2026-08-03", "replay_identical": true, "seconds": 482.9, "onsets_solved": 19, "ecc_optimal": 19, "ecc_extra_images_max": 0.0, "onsets_tie_or_loss": 0, "tie_or_loss_solved": 0, "tie_or_loss_no_economy_possible": 0, "tie_or_loss_ecc_above_exact": 0, "sample_solved": 19, "sample_ecc_optimal": 19}
+    window  replay_identical  seconds  onsets_solved  ecc_optimal  ecc_extra_images_max  onsets_tie_or_loss  tie_or_loss_solved  tie_or_loss_no_economy_possible  tie_or_loss_ecc_above_exact  sample_solved  sample_ecc_optimal
+2026-08-03              True    482.9             19           19                   0.0                   0                   0                                0                            0             19                  19
+Files: /tmp/exact_3ylu0_4c/ARF_batch/sensitivity_a4/a4_exact_economy.csv, a4_exact_economy_summary.json
+PASS replay reproduces the folder's arf_onset_robustness.csv
+PASS 73 onsets with reachable tiles
+PASS ECC images equal the onset CSV
+PASS FCFS images equal the onset CSV
+PASS floor equals the onset CSV
+PASS ECC time equals the onset CSV
+PASS exact solves exactly at the ties/losses and the 80-min sample, all optimal (19 onsets)
+PASS sample count recorded
+PASS exact minimum <= ECC images at every onset
+PASS exact minimum <= FCFS images at every onset
+{'window': '2026-08-03', 'replay_identical': True, 'seconds': 482.9, 'onsets_solved': 19, 'ecc_optimal': 19, 'ecc_extra_images_max': 0.0, 'onsets_tie_or_loss': 0, 'tie_or_loss_solved': 0, 'tie_or_loss_no_economy_possible': 0, 'tie_or_loss_ecc_above_exact': 0, 'sample_solved': 19, 'sample_ecc_optimal': 19}
+       floor_min  ecc_min  ecc_images  ...  exact_images  exact_pairs  exact_seconds
+count      73.00    73.00       73.00  ...         19.00        19.00          19.00
+mean      738.64   738.64        2.07  ...          2.26     28929.32          13.48
+std       423.74   423.74        0.59  ...          1.15      2450.68           1.97
+min        19.00    19.00        2.00  ...          2.00     19688.00           5.59
+25%       379.00   379.00        2.00  ...          2.00     29625.00          13.58
+50%       739.00   739.00        2.00  ...          2.00     29625.00          13.80
+75%      1099.00  1099.00        2.00  ...          2.00     29625.00          14.19
+max      1439.00  1439.00        7.00  ...          7.00     30551.00          14.88
+
+[8 rows x 7 columns]
+PASS a changed arf_refined_events.csv is refused
+11/11 passed
