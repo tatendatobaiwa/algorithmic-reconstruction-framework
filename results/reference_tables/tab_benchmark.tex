@@ -1,0 +1,27 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.25}
+\setlength{\tabcolsep}{3pt}
+\caption{What the fleet can deliver within 24~h of an onset, and the images each selector needs (post hoc, amendment A7; clear sky). Per window the median over onsets is taken; the table gives the mean over the eight windows with a window-block bootstrap 95\% interval. Floor: earliest time at which all passes together cover 95\% of the reachable cells. Reach: share of the region any pass can image in 24~h. Region: share of onsets at which 95\% of the whole region is covered within 24~h. Images at the H1a level for ECC, coverage-first greedy (CF), time-aware greedy (TA) and FCFS. Saving: mean per-onset images saved by ECC. $^{\ddagger}$Exploratory (amendment A5).}
+\label{tab:benchmark}
+\begin{tabular}{|>{\raggedright\arraybackslash}p{2.4cm}|>{\centering\arraybackslash}p{1.45cm}|>{\centering\arraybackslash}p{1.25cm}|>{\centering\arraybackslash}p{1.25cm}|c|c|c|c|>{\centering\arraybackslash}p{1.45cm}|>{\centering\arraybackslash}p{1.45cm}|}
+\hline
+Design & Floor (h) & Reach (\%) & Region (\%) & ECC & CF & TA & FCFS & Saving vs CF & Saving vs FCFS \\
+\hline
+Primary (dry season) & 12.6 \newline [12.4, 12.9] & 80 \newline [71, 89] & 25 \newline [8, 44] & 10.6 & 19.9 & 20.1 & 18.0 & 9.6 \newline [7.1, 11.7] & 7.3 \newline [5.1, 9.5] \\
+\hline
+Primary (wet season)$^{\ddagger}$ & 12.4 \newline [12.3, 12.5] & 81 \newline [69, 91] & 28 \newline [8, 48] & 12.0 & 19.6 & 19.4 & 18.2 & 8.2 \newline [6.8, 9.6] & 6.2 \newline [4.8, 7.8] \\
+\hline
+Optimistic swath & 12.6 \newline [12.4, 12.9] & 86 \newline [80, 93] & 25 \newline [8, 44] & 9.5 & 18.8 & 19.1 & 17.1 & 10.1 \newline [7.8, 12.4] & 8.0 \newline [6.3, 9.8] \\
+\hline
+Without Sentinel-2A & 12.7 \newline [12.5, 12.9] & 74 \newline [66, 83] & 12 \newline [0, 30] & 12.0 & 21.0 & 21.1 & 18.1 & 9.0 \newline [6.4, 11.3] & 6.1 \newline [4.3, 8.0] \\
+\hline
+Open-data fleet only & 10.6 \newline [7.9, 13.1] & 53 \newline [33, 71] & 13 \newline [0, 29] & 2.0 & 2.5 & 2.5 & 2.9 & 0.6 \newline [0.2, 1.0] & 1.0 \newline [0.5, 1.6] \\
+\hline
+Lower Zambezi NP & 12.2 \newline [12.0, 12.5] & 85 \newline [65, 99] & 54 \newline [34, 72] & 3.0 & 4.4 & 4.4 & 4.2 & 1.3 \newline [0.8, 1.8] & 1.1 \newline [0.7, 1.6] \\
+\hline
+Karoo Nature Reserve & 11.3 \newline [9.0, 13.3] & 78 \newline [53, 96] & 67 \newline [42, 91] & 1.1 & 1.4 & 1.4 & 1.4 & 0.3 \newline [0.0, 0.6] & 0.4 \newline [0.2, 0.6] \\
+\hline
+\end{tabular}
+\end{table}

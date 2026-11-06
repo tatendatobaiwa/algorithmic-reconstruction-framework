@@ -1,0 +1,79 @@
+ARF release 1.5.4 (23 October 2026): the dense-constellation arm (protocol amendment A3)
+=====================================================================================
+What it is
+  An exploratory arm beside the confirmatory real-fleet protocol. The Starlink orbital geometry stands
+  in for a hypothetical dense Earth-observation constellation, at fleet sizes the real fleets do not
+  reach. Starlink carries no imaging payload: every imaging parameter of the arm is an ASSUMPTION
+  (off-nadir half-angle 9.22 deg, the proxy default since the earliest runs; daylight limit, sun at
+  least 5 deg at the imaged point, the Landsat criterion also assumed for Sentinel-2). No hypothesis
+  decision is drawn from the arm; it is reported descriptively.
+
+  The real-fleet protocol is unchanged: release of record 1.5.3 (SHA-256 14426c89c916ffcaac032cb94ec186ef7a7f8011748044c99f2386585d917950),
+  its designs, hypotheses, windows and rules. Amendment A3 was recorded before the confirmatory
+  analysis was run.
+
+The arm (27 runs, batch exploratory_v154_dense; CKGR + Okavango Delta; every protocol setting except
+the cloud-sensitivity sweep, which is off)
+  window of 3 August 2026      N = 100, 500, 1000, 2000, 4000, 8000   (scaling over N)
+  windows 10 Aug - 21 Sep      N = 100, 500, 1000                     (spread across windows)
+  The satellites operational at the window start, in one seeded random order: a fleet of size N is the
+  first N, so each smaller fleet is contained in each larger one. N = 8000 runs last.
+
+What 1.5.4 changes (release 2b618ec442e71cf896e1104c6da89c94f2d6b6785a04c4a9236b92c21115a1cb)
+  Cell 0  proxy fleet sizes 500, 2000, 4000, 8000; ANALYSIS_EPOCH allowed for the proxy; new setting
+          proxy_min_sun_elev_deg (None = no daylight limit, as before); folder tag _sun<deg>
+  Cell 2  the proxy at a past window start reads Space-Track gp_history of STARLINK objects in the 7
+          days before it (only the fields used), cached per window and shared by every N; one pinned
+          sample per window; the daylight limit attached to every proxy satellite
+  All     version strings
+  Nothing a real fleet computes changes:
+    Cells 0-5, real Orekit, five complete Colab runs of 15 October: 135,629 refined rows reproduced row for row
+    Cells 6-8 of 1.5.3 and 1.5.4 on the same inputs: 60 CSV files, 6,526 JSON values, 6,781
+      scenario_results fields, every report line and 45 figure files identical (only the solver's
+      wall-clock column ilp_seconds differs, as between any two runs)
+    Validation suite (the 1.5.3 suite, Cell 0 epoch check revised, 23 new checks): 132 of 132 checks pass
+    In Colab the launch cell re-checks this: parity of 1.5.4 on the five runs, expect 5/5 MATCH
+
+Run time (sandbox, synthetic Starlink-like orbits, window 1; Colab should be of the same order)
+  N = 100    22 min   (measured, the batch's exact settings)
+  N = 500    48 min   (estimated: 83 min measured with the sweep on, about 35 of them the sweep)
+  N = 1000   92 min   (measured, sweep off)
+  N = 2000   about 3 h, N = 4000 about 6 h, N = 8000 about 12 h (extrapolated in proportion to N)
+  Windows 2-8, N = 100 + 500 + 1000: about 2.7 h per window
+  Peak memory: 0.73, 0.82, 1.01 GB at N = 100, 500, 1000 (about 3 GB estimated at N = 8000)
+  Estimated total for the 27 runs: about 43 h. N = 8000 runs about 12 h in one piece: if your Colab
+  runtime cannot stay up that long, it restarts that run from the beginning on each attempt. Window 1's
+  N = 4000 run, which comes before it, shows the real Colab speed: compare it with about 6 h before
+  letting N = 8000 start.
+
+Tested here, and what is not
+  Tested: every option of Cell 0; Cells 0-9 of the proxy end to end with real Orekit on 10,084
+  synthetic Starlink-like satellites (operational filter, nesting of N, daylight limit, folder tags,
+  manifest); the batch list; the audit (planted faults caught); the launch cell on a mock Drive (1.5.3
+  untouched, parity 5/5 MATCH, guards against a wrong release or a protocol without A3).
+  NOT tested: the live Space-Track query of the arm (this sandbox cannot reach Space-Track). It uses
+  the documented REST form, including /predicates/ (as built by the spacetrack client 2.1.0); if it
+  fails, the first run stops with Space-Track's message and nothing else is affected.
+
+Known labelling limitation (all releases, also the real-fleet protocol runs)
+  Cell 9 records inputs.tle_source as the ROI default ('celestrak_live') for retrospective runs;
+  the true element source is in inputs.reference_epoch_source and arf_cell2_summary.json.
+
+Files
+  algorithmic_reconstruction_framework_v154.py  the release (installed beside 1.5.3, not over it)
+  arf_batch_runner_v154.py                      the 27 runs of the arm
+  arf_confirmatory_protocol.json                the protocol with amendment A3 (release of record 1.5.3)
+  arf_batch_audit.py                            v1.5.4: also audits the arm (release 1.5.4)
+  arf_dense_summary.py                          descriptive tables of the arm (CSV, LaTeX)
+  arf_colab_launch_v154_dense.py                the launch cell
+  arf_validation_suite_v154.zip                 build script, tests, harnesses and logs
+  SHA256SUMS.txt
+
+Order in Colab
+  1. Finish the real-fleet batch with release 1.5.3 (the 7 re-runs) and audit it: 56/56 PASS.
+     Do not run the 1.5.3 launch cell again after step 2: it would put the A2 protocol back.
+  2. Upload ARF_v1.5.4_dense_release.zip to MyDrive; run the 1.5.4 launch cell, STAGE = "check":
+     expect "4/5 parity of 1.5.4 on the real fleets: 5/5 MATCH".
+  3. STAGE = "batch": the 27 runs (one notebook, tab open; resumable).
+  4. !python /content/drive/MyDrive/ARF_code/arf_batch_audit.py      expect 83/83 PASS
+     !python /content/drive/MyDrive/ARF_code/arf_dense_summary.py

@@ -1,0 +1,101 @@
+{
+  "pipeline": "/home/claude/arf/ship153/algorithmic_reconstruction_framework.py",
+  "pipeline_sha256": "14426c89c916ffcaac032cb94ec186ef7a7f8011748044c99f2386585d917950",
+  "reference_pipeline_sha256": "14426c89c916ffcaac032cb94ec186ef7a7f8011748044c99f2386585d917950",
+  "python": "3.13.16",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "runs": {
+    "ARF_Outputs_ckgr_okavango_earth-resources": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_ckgr_okavango_earth-resources",
+      "status": "MATCH",
+      "seconds": 30.4,
+      "differences": []
+    },
+    "ARF_Outputs_ckgr_okavango_earth-resources_planet-conservative": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_ckgr_okavango_earth-resources_planet-conservative",
+      "status": "MATCH",
+      "seconds": 165.9,
+      "differences": []
+    },
+    "ARF_Outputs_ckgr_okavango_earth-resources_planet-optimistic": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_ckgr_okavango_earth-resources_planet-optimistic",
+      "status": "MATCH",
+      "seconds": 194.5,
+      "differences": []
+    },
+    "ARF_Outputs_ckgr_okavango_planet-conservative": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_ckgr_okavango_planet-conservative",
+      "status": "MATCH",
+      "seconds": 57.4,
+      "differences": []
+    },
+    "ARF_Outputs_ckgr_okavango_planet-optimistic": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_ckgr_okavango_planet-optimistic",
+      "status": "MATCH",
+      "seconds": 72.9,
+      "differences": []
+    },
+    "ARF_Outputs_karoo_nature_reserve_earth-resources": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_karoo_nature_reserve_earth-resources",
+      "status": "MATCH",
+      "seconds": 4.9,
+      "differences": []
+    },
+    "ARF_Outputs_karoo_nature_reserve_earth-resources_planet-conservative": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_karoo_nature_reserve_earth-resources_planet-conservative",
+      "status": "MATCH",
+      "seconds": 5.8,
+      "differences": []
+    },
+    "ARF_Outputs_karoo_nature_reserve_earth-resources_planet-optimistic": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_karoo_nature_reserve_earth-resources_planet-optimistic",
+      "status": "MATCH",
+      "seconds": 5.7,
+      "differences": []
+    },
+    "ARF_Outputs_karoo_nature_reserve_planet-conservative": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_karoo_nature_reserve_planet-conservative",
+      "status": "MATCH",
+      "seconds": 5.1,
+      "differences": []
+    },
+    "ARF_Outputs_karoo_nature_reserve_planet-optimistic": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_karoo_nature_reserve_planet-optimistic",
+      "status": "MATCH",
+      "seconds": 5.1,
+      "differences": []
+    },
+    "ARF_Outputs_lower_zambezi_earth-resources": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_lower_zambezi_earth-resources",
+      "status": "MATCH",
+      "seconds": 4.6,
+      "differences": []
+    },
+    "ARF_Outputs_lower_zambezi_earth-resources_planet-conservative": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_lower_zambezi_earth-resources_planet-conservative",
+      "status": "MATCH",
+      "seconds": 5.8,
+      "differences": []
+    },
+    "ARF_Outputs_lower_zambezi_earth-resources_planet-optimistic": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_lower_zambezi_earth-resources_planet-optimistic",
+      "status": "MATCH",
+      "seconds": 7.0,
+      "differences": []
+    },
+    "ARF_Outputs_lower_zambezi_planet-conservative": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_lower_zambezi_planet-conservative",
+      "status": "MATCH",
+      "seconds": 6.8,
+      "differences": []
+    },
+    "ARF_Outputs_lower_zambezi_planet-optimistic": {
+      "folder": "/tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/drive12/ARF_Outputs_lower_zambezi_planet-optimistic",
+      "status": "MATCH",
+      "seconds": 6.5,
+      "differences": []
+    }
+  },
+  "scipy": "1.18.1"
+}

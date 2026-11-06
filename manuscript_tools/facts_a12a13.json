@@ -1,0 +1,1453 @@
+{
+"13": [
+"A12 dry floor_h_median mean",
+"A12 dry floor_h_median ci1",
+"A12 wet floor_h_median ci1",
+"A13 dry f=0.25 floor ci1",
+"A13 dry f=0.5 region95 mean",
+"A13 dry f=0.5 floor mean",
+"A13 dry f=0.5 floor ci1",
+"A13 dry f=0.75 floor mean",
+"A13 dry f=0.75 floor ci1",
+"A13 dry f=1 floor mean",
+"A13 dry f=1 floor ci1",
+"A13 wet f=0.75 floor ci1",
+"A13 wet f=1 floor ci1"
+],
+"12.6": [
+"A12 dry floor_h_median mean",
+"A13 dry f=0.5 floor mean",
+"A13 dry f=0.75 floor mean",
+"A13 dry f=1 floor mean"
+],
+"12.62": [
+"A12 dry floor_h_median mean",
+"A13 dry f=0.75 floor mean",
+"A13 dry f=1 floor mean"
+],
+"12": [
+"A12 dry floor_h_median ci0",
+"A12 wet floor_h_median mean",
+"A12 wet floor_h_median ci0",
+"A13 dry f=0.25 region95 mean",
+"A13 dry f=0.25 floor mean",
+"A13 dry f=0.25 floor ci0",
+"A13 dry f=0.5 fcfs ci1",
+"A13 dry f=0.5 floor ci0",
+"A13 dry f=0.75 fcfs ci0",
+"A13 dry f=0.75 floor ci0",
+"A13 dry f=1 ecc ci1",
+"A13 dry f=1 floor ci0",
+"A13 wet f=0.25 region95 mean",
+"A13 wet f=0.25 floor mean",
+"A13 wet f=0.25 floor ci0",
+"A13 wet f=0.25 floor ci1",
+"A13 wet f=0.5 region95 mean",
+"A13 wet f=0.5 fcfs ci1",
+"A13 wet f=0.5 floor mean",
+"A13 wet f=0.5 floor ci0",
+"A13 wet f=0.5 floor ci1",
+"A13 wet f=0.75 fcfs ci0",
+"A13 wet f=0.75 floor mean",
+"A13 wet f=0.75 floor ci0",
+"A13 wet f=1 ecc mean",
+"A13 wet f=1 floor mean",
+"A13 wet f=1 floor ci0"
+],
+"12.4": [
+"A12 dry floor_h_median ci0",
+"A12 wet floor_h_median mean",
+"A13 dry f=0.25 floor mean",
+"A13 dry f=0.75 floor ci0",
+"A13 dry f=1 ecc ci1",
+"A13 dry f=1 floor ci0",
+"A13 wet f=0.25 floor ci1",
+"A13 wet f=0.5 region95 mean",
+"A13 wet f=0.5 floor mean",
+"A13 wet f=0.75 floor mean",
+"A13 wet f=1 floor mean"
+],
+"12.38": [
+"A12 dry floor_h_median ci0",
+"A13 dry f=0.75 floor ci0",
+"A13 dry f=1 floor ci0",
+"A13 wet f=0.25 floor ci1"
+],
+"12.9": [
+"A12 dry floor_h_median ci1",
+"A13 dry f=0.5 region95 mean",
+"A13 dry f=0.75 floor ci1",
+"A13 dry f=1 floor ci1"
+],
+"12.88": [
+"A12 dry floor_h_median ci1",
+"A13 dry f=1 floor ci1"
+],
+"10": [
+"A12 dry W_h_median mean",
+"A12 dry W_h_median ci0",
+"A12 wet floor, onset in darkness",
+"A12 wet completion LST max (hh)",
+"A13 dry f=0.75 ecc ci1",
+"A13 dry f=1 ecc mean",
+"A13 dry f=1 saving ci1",
+"A13 wet f=0.5 fcfs mean",
+"A13 wet f=0.75 ecc mean",
+"A13 wet f=1 ecc ci0"
+],
+"10.4": [
+"A12 dry W_h_median mean",
+"A12 wet floor, onset in darkness"
+],
+"10.42": [
+"A12 dry W_h_median mean"
+],
+"10.2": [
+"A12 dry W_h_median ci0"
+],
+"10.21": [
+"A12 dry W_h_median ci0"
+],
+"11": [
+"A12 dry W_h_median ci1",
+"A12 dry floor, onset in darkness",
+"A12 dry completion LST max (hh)",
+"A12 dry first pass LST max (hh)",
+"A12 wet W_h_median mean",
+"A12 wet W_h_median ci0",
+"A12 wet W_h_median ci1",
+"A12 wet first pass LST max (hh)",
+"A13 dry f=0.5 fcfs mean",
+"A13 wet f=0.75 ecc ci1"
+],
+"10.6": [
+"A12 dry W_h_median ci1"
+],
+"10.65": [
+"A12 dry W_h_median ci1"
+],
+"1": [
+"A12 dry G_h_median mean",
+"A12 dry G_h_median ci0",
+"A12 dry G_h_median ci1",
+"A12 wet G_h_median mean",
+"A12 wet G_h_median ci0",
+"A12 wet G_h_median ci1",
+"A13 fraction 1",
+"A13 wet f=0.25 saving ci0",
+"A13 fraction 1"
+],
+"0.8": [
+"A12 dry G_h_median mean",
+"A12 wet G_h_median ci1"
+],
+"0.83": [
+"A12 dry G_h_median mean"
+],
+"0.6": [
+"A12 dry G_h_median ci0",
+"A12 wet G_h_median mean",
+"A12 wet G_h_median ci0"
+],
+"0.55": [
+"A12 dry G_h_median ci0",
+"A12 wet G_h_median ci0"
+],
+"1.1": [
+"A12 dry G_h_median ci1"
+],
+"1.10": [
+"A12 dry G_h_median ci1"
+],
+"92": [
+"A12 dry W share of floor, %"
+],
+"92.2": [
+"A12 dry W share of floor, %"
+],
+"92.16": [
+"A12 dry W share of floor, %"
+],
+"79": [
+"A12 dry PlanetScope completes, %",
+"A13 wet f=0.5 reach ci1"
+],
+"78.8": [
+"A12 dry PlanetScope completes, %"
+],
+"78.77": [
+"A12 dry PlanetScope completes, %"
+],
+"10.7": [
+"A12 dry floor, onset in darkness"
+],
+"10.68": [
+"A12 dry floor, onset in darkness"
+],
+"19": [
+"A12 dry floor, onset after sunrise"
+],
+"19.1": [
+"A12 dry floor, onset after sunrise"
+],
+"19.12": [
+"A12 dry floor, onset after sunrise"
+],
+"09": [
+"A12 dry completion LST min (hh)",
+"A12 dry first pass LST min (hh)",
+"A12 wet completion LST min (hh)",
+"A12 wet first pass LST min (hh)"
+],
+"54": [
+"A12 dry completion LST min (mm)",
+"A12 wet completion LST min (mm)",
+"A12 wet completion LST max (mm)"
+],
+"09:54": [
+"A12 dry completion LST min",
+"A12 wet completion LST min"
+],
+"37": [
+"A12 dry completion LST max (mm)",
+"A12 dry first pass LST max (mm)"
+],
+"11:37": [
+"A12 dry completion LST max",
+"A12 dry first pass LST max"
+],
+"48": [
+"A12 dry first pass LST min (mm)",
+"A12 wet first pass LST min (mm)",
+"A13 wet f=1 region95 ci1"
+],
+"09:48": [
+"A12 dry first pass LST min",
+"A12 wet first pass LST min"
+],
+"12.42": [
+"A12 wet floor_h_median mean",
+"A13 wet f=1 floor mean"
+],
+"12.3": [
+"A12 wet floor_h_median ci0",
+"A13 dry f=0.5 floor ci0",
+"A13 dry f=0.75 fcfs ci0",
+"A13 wet f=0.25 region95 mean",
+"A13 wet f=0.25 floor mean",
+"A13 wet f=0.5 fcfs ci1",
+"A13 wet f=0.75 floor ci0",
+"A13 wet f=1 floor ci0"
+],
+"12.30": [
+"A12 wet floor_h_median ci0",
+"A13 wet f=1 floor ci0"
+],
+"12.5": [
+"A12 wet floor_h_median ci1",
+"A13 dry f=0.25 region95 mean",
+"A13 dry f=0.25 floor ci1",
+"A13 wet f=0.5 floor ci1",
+"A13 wet f=0.75 floor ci1",
+"A13 wet f=1 floor ci1"
+],
+"12.53": [
+"A12 wet floor_h_median ci1",
+"A13 wet f=1 floor ci1"
+],
+"10.9": [
+"A12 wet W_h_median mean"
+],
+"10.90": [
+"A12 wet W_h_median mean"
+],
+"10.8": [
+"A12 wet W_h_median ci0",
+"A13 dry f=0.5 fcfs mean"
+],
+"10.79": [
+"A12 wet W_h_median ci0"
+],
+"11.0": [
+"A12 wet W_h_median ci1"
+],
+"10.99": [
+"A12 wet W_h_median ci1"
+],
+"0.65": [
+"A12 wet G_h_median mean"
+],
+"0.78": [
+"A12 wet G_h_median ci1"
+],
+"94": [
+"A12 wet W share of floor, %",
+"A13 dry f=0.5 h1b_pct mean"
+],
+"94.4": [
+"A12 wet W share of floor, %"
+],
+"94.43": [
+"A12 wet W share of floor, %"
+],
+"87": [
+"A12 wet PlanetScope completes, %",
+"A13 dry f=1 h1b_pct ci0"
+],
+"87.0": [
+"A12 wet PlanetScope completes, %"
+],
+"86.99": [
+"A12 wet PlanetScope completes, %"
+],
+"10.37": [
+"A12 wet floor, onset in darkness"
+],
+"18": [
+"A12 wet floor, onset after sunrise",
+"A13 dry f=1 fcfs mean",
+"A13 wet f=1 fcfs mean"
+],
+"18.1": [
+"A12 wet floor, onset after sunrise"
+],
+"18.12": [
+"A12 wet floor, onset after sunrise"
+],
+"10:54": [
+"A12 wet completion LST max"
+],
+"03": [
+"A12 wet first pass LST max (mm)"
+],
+"11:03": [
+"A12 wet first pass LST max"
+],
+"0.25": [
+"A13 fraction 0.25",
+"A13 fraction 0.25"
+],
+"57": [
+"A13 dry f=0.25 reach mean"
+],
+"57.3": [
+"A13 dry f=0.25 reach mean"
+],
+"57.34": [
+"A13 dry f=0.25 reach mean"
+],
+"40": [
+"A13 dry f=0.25 reach ci0"
+],
+"39.8": [
+"A13 dry f=0.25 reach ci0"
+],
+"39.82": [
+"A13 dry f=0.25 reach ci0"
+],
+"75": [
+"A13 dry f=0.25 reach ci1",
+"A13 dry f=0.75 reach mean"
+],
+"74.6": [
+"A13 dry f=0.25 reach ci1",
+"A13 dry f=0.75 reach mean"
+],
+"74.57": [
+"A13 dry f=0.25 reach ci1"
+],
+"12.50": [
+"A13 dry f=0.25 region95 mean"
+],
+"0": [
+"A13 dry f=0.25 region95 ci0",
+"A13 dry f=0.5 region95 ci0",
+"A13 wet f=0.25 region95 ci0",
+"A13 wet f=0.5 region95 ci0",
+"A13 wet f=0.75 region95 ci0"
+],
+"0.2": [
+"A13 dry f=0.25 region95 ci0",
+"A13 wet f=0.75 region95 ci0"
+],
+"0.17": [
+"A13 dry f=0.25 region95 ci0",
+"A13 wet f=0.75 region95 ci0"
+],
+"29": [
+"A13 dry f=0.25 region95 ci1",
+"A13 dry f=0.5 region95 ci1",
+"A13 wet f=0.25 region95 ci1",
+"A13 wet f=0.5 region95 ci1"
+],
+"29.1": [
+"A13 dry f=0.25 region95 ci1",
+"A13 wet f=0.25 region95 ci1"
+],
+"29.11": [
+"A13 dry f=0.25 region95 ci1",
+"A13 wet f=0.25 region95 ci1"
+],
+"100": [
+"A13 dry f=0.25 h1a_pct mean",
+"A13 dry f=0.25 h1a_pct ci0",
+"A13 dry f=0.25 h1a_pct ci1",
+"A13 dry f=0.5 h1a_pct mean",
+"A13 dry f=0.5 h1a_pct ci0",
+"A13 dry f=0.5 h1a_pct ci1",
+"A13 dry f=0.75 h1a_pct mean",
+"A13 dry f=0.75 h1a_pct ci0",
+"A13 dry f=0.75 h1a_pct ci1",
+"A13 dry f=0.75 h1b_pct ci1",
+"A13 dry f=1 h1a_pct mean",
+"A13 dry f=1 h1a_pct ci0",
+"A13 dry f=1 h1a_pct ci1",
+"A13 dry f=1 h1b_pct ci1",
+"A13 wet f=0.25 h1a_pct mean",
+"A13 wet f=0.25 h1a_pct ci0",
+"A13 wet f=0.25 h1a_pct ci1",
+"A13 wet f=0.5 h1a_pct mean",
+"A13 wet f=0.5 h1a_pct ci0",
+"A13 wet f=0.5 h1a_pct ci1",
+"A13 wet f=0.75 h1a_pct mean",
+"A13 wet f=0.75 h1a_pct ci0",
+"A13 wet f=0.75 h1a_pct ci1",
+"A13 wet f=0.75 h1b_pct ci1",
+"A13 wet f=1 h1a_pct mean",
+"A13 wet f=1 h1a_pct ci0",
+"A13 wet f=1 h1a_pct ci1",
+"A13 wet f=1 h1b_pct mean",
+"A13 wet f=1 h1b_pct ci1"
+],
+"100.0": [
+"A13 dry f=0.25 h1a_pct mean",
+"A13 dry f=0.25 h1a_pct ci0",
+"A13 dry f=0.25 h1a_pct ci1",
+"A13 dry f=0.5 h1a_pct mean",
+"A13 dry f=0.5 h1a_pct ci0",
+"A13 dry f=0.5 h1a_pct ci1",
+"A13 dry f=0.75 h1a_pct mean",
+"A13 dry f=0.75 h1a_pct ci0",
+"A13 dry f=0.75 h1a_pct ci1",
+"A13 dry f=1 h1a_pct mean",
+"A13 dry f=1 h1a_pct ci0",
+"A13 dry f=1 h1a_pct ci1",
+"A13 dry f=1 h1b_pct ci1",
+"A13 wet f=0.25 h1a_pct mean",
+"A13 wet f=0.25 h1a_pct ci0",
+"A13 wet f=0.25 h1a_pct ci1",
+"A13 wet f=0.5 h1a_pct mean",
+"A13 wet f=0.5 h1a_pct ci0",
+"A13 wet f=0.5 h1a_pct ci1",
+"A13 wet f=0.75 h1a_pct mean",
+"A13 wet f=0.75 h1a_pct ci0",
+"A13 wet f=0.75 h1a_pct ci1",
+"A13 wet f=1 h1a_pct mean",
+"A13 wet f=1 h1a_pct ci0",
+"A13 wet f=1 h1a_pct ci1",
+"A13 wet f=1 h1b_pct ci1"
+],
+"100.00": [
+"A13 dry f=0.25 h1a_pct mean",
+"A13 dry f=0.25 h1a_pct ci0",
+"A13 dry f=0.25 h1a_pct ci1",
+"A13 dry f=0.5 h1a_pct mean",
+"A13 dry f=0.5 h1a_pct ci0",
+"A13 dry f=0.5 h1a_pct ci1",
+"A13 dry f=0.75 h1a_pct mean",
+"A13 dry f=0.75 h1a_pct ci0",
+"A13 dry f=0.75 h1a_pct ci1",
+"A13 dry f=1 h1a_pct mean",
+"A13 dry f=1 h1a_pct ci0",
+"A13 dry f=1 h1a_pct ci1",
+"A13 dry f=1 h1b_pct ci1",
+"A13 wet f=0.25 h1a_pct mean",
+"A13 wet f=0.25 h1a_pct ci0",
+"A13 wet f=0.25 h1a_pct ci1",
+"A13 wet f=0.5 h1a_pct mean",
+"A13 wet f=0.5 h1a_pct ci0",
+"A13 wet f=0.5 h1a_pct ci1",
+"A13 wet f=0.75 h1a_pct mean",
+"A13 wet f=0.75 h1a_pct ci0",
+"A13 wet f=0.75 h1a_pct ci1",
+"A13 wet f=1 h1a_pct mean",
+"A13 wet f=1 h1a_pct ci0",
+"A13 wet f=1 h1a_pct ci1",
+"A13 wet f=1 h1b_pct ci1"
+],
+"82": [
+"A13 dry f=0.25 h1b_pct mean"
+],
+"82.2": [
+"A13 dry f=0.25 h1b_pct mean"
+],
+"82.22": [
+"A13 dry f=0.25 h1b_pct mean"
+],
+"71": [
+"A13 dry f=0.25 h1b_pct ci0",
+"A13 dry f=1 reach ci0"
+],
+"70.7": [
+"A13 dry f=0.25 h1b_pct ci0",
+"A13 dry f=1 reach ci0"
+],
+"70.67": [
+"A13 dry f=0.25 h1b_pct ci0"
+],
+"93": [
+"A13 dry f=0.25 h1b_pct ci1"
+],
+"93.0": [
+"A13 dry f=0.25 h1b_pct ci1"
+],
+"92.97": [
+"A13 dry f=0.25 h1b_pct ci1"
+],
+"4": [
+"A13 dry f=0.25 ecc mean",
+"A13 dry f=0.25 ecc ci0",
+"A13 dry f=0.5 saving mean",
+"A13 dry f=0.75 region95 ci0",
+"A13 wet f=0.25 ecc ci0",
+"A13 wet f=0.5 saving ci1",
+"A13 wet f=0.75 saving ci0"
+],
+"4.4": [
+"A13 dry f=0.25 ecc mean"
+],
+"4.36": [
+"A13 dry f=0.25 ecc mean"
+],
+"4.1": [
+"A13 dry f=0.25 ecc ci0",
+"A13 dry f=0.5 saving mean"
+],
+"4.09": [
+"A13 dry f=0.25 ecc ci0"
+],
+"5": [
+"A13 dry f=0.25 ecc ci1",
+"A13 dry f=0.5 saving ci1",
+"A13 dry f=0.75 saving ci0",
+"A13 dry f=1 saving ci0",
+"A13 wet f=0.25 ecc mean",
+"A13 wet f=0.25 ecc ci1",
+"A13 wet f=0.25 fcfs ci0",
+"A13 wet f=0.75 saving mean",
+"A13 wet f=1 saving ci0"
+],
+"4.6": [
+"A13 dry f=0.25 ecc ci1",
+"A13 dry f=0.75 saving ci0",
+"A13 wet f=0.75 saving mean"
+],
+"4.64": [
+"A13 dry f=0.25 ecc ci1"
+],
+"7": [
+"A13 dry f=0.25 fcfs mean",
+"A13 dry f=0.25 fcfs ci1",
+"A13 dry f=0.5 ecc mean",
+"A13 dry f=0.75 ecc ci0",
+"A13 dry f=0.75 saving ci1",
+"A13 dry f=1 saving mean",
+"A13 wet f=0.25 fcfs ci1",
+"A13 wet f=0.5 ecc mean"
+],
+"6.6": [
+"A13 dry f=0.25 fcfs mean"
+],
+"6.63": [
+"A13 dry f=0.25 fcfs mean"
+],
+"6": [
+"A13 dry f=0.25 fcfs ci0",
+"A13 dry f=0.5 ecc ci0",
+"A13 dry f=0.75 saving mean",
+"A13 wet f=0.25 fcfs mean",
+"A13 wet f=0.5 ecc ci0",
+"A13 wet f=0.75 saving ci1",
+"A13 wet f=1 saving mean"
+],
+"6.0": [
+"A13 dry f=0.25 fcfs ci0"
+],
+"5.97": [
+"A13 dry f=0.25 fcfs ci0"
+],
+"7.4": [
+"A13 dry f=0.25 fcfs ci1",
+"A13 wet f=0.25 fcfs ci1"
+],
+"7.37": [
+"A13 dry f=0.25 fcfs ci1"
+],
+"2": [
+"A13 dry f=0.25 saving mean",
+"A13 dry f=0.25 saving ci0",
+"A13 wet f=0.25 saving mean",
+"A13 wet f=0.25 saving ci1",
+"A13 wet f=0.5 saving ci0"
+],
+"2.3": [
+"A13 dry f=0.25 saving mean"
+],
+"2.27": [
+"A13 dry f=0.25 saving mean"
+],
+"1.6": [
+"A13 dry f=0.25 saving ci0",
+"A13 wet f=0.25 saving mean"
+],
+"1.60": [
+"A13 dry f=0.25 saving ci0"
+],
+"3": [
+"A13 dry f=0.25 saving ci1",
+"A13 dry f=0.5 saving ci0",
+"A13 wet f=0.5 saving mean"
+],
+"3.0": [
+"A13 dry f=0.25 saving ci1"
+],
+"3.04": [
+"A13 dry f=0.25 saving ci1"
+],
+"12.36": [
+"A13 dry f=0.25 floor mean"
+],
+"12.2": [
+"A13 dry f=0.25 floor ci0",
+"A13 dry f=0.5 fcfs ci1",
+"A13 wet f=0.25 floor ci0",
+"A13 wet f=0.5 floor ci0"
+],
+"12.22": [
+"A13 dry f=0.25 floor ci0"
+],
+"12.51": [
+"A13 dry f=0.25 floor ci1",
+"A13 wet f=0.75 floor ci1"
+],
+"0.5": [
+"A13 fraction 0.5",
+"A13 fraction 0.5"
+],
+"67": [
+"A13 dry f=0.5 reach mean"
+],
+"67.1": [
+"A13 dry f=0.5 reach mean"
+],
+"67.06": [
+"A13 dry f=0.5 reach mean"
+],
+"53": [
+"A13 dry f=0.5 reach ci0"
+],
+"52.8": [
+"A13 dry f=0.5 reach ci0"
+],
+"52.83": [
+"A13 dry f=0.5 reach ci0"
+],
+"81": [
+"A13 dry f=0.5 reach ci1",
+"A13 wet f=1 reach mean"
+],
+"81.0": [
+"A13 dry f=0.5 reach ci1"
+],
+"81.02": [
+"A13 dry f=0.5 reach ci1"
+],
+"12.89": [
+"A13 dry f=0.5 region95 mean"
+],
+"0.4": [
+"A13 dry f=0.5 region95 ci0"
+],
+"0.39": [
+"A13 dry f=0.5 region95 ci0"
+],
+"29.3": [
+"A13 dry f=0.5 region95 ci1",
+"A13 wet f=0.5 region95 ci1"
+],
+"29.28": [
+"A13 dry f=0.5 region95 ci1"
+],
+"93.7": [
+"A13 dry f=0.5 h1b_pct mean"
+],
+"93.70": [
+"A13 dry f=0.5 h1b_pct mean"
+],
+"89": [
+"A13 dry f=0.5 h1b_pct ci0",
+"A13 dry f=1 reach ci1",
+"A13 wet f=0.25 h1b_pct ci1"
+],
+"89.4": [
+"A13 dry f=0.5 h1b_pct ci0",
+"A13 dry f=1 reach ci1"
+],
+"89.43": [
+"A13 dry f=0.5 h1b_pct ci0"
+],
+"98": [
+"A13 dry f=0.5 h1b_pct ci1",
+"A13 dry f=0.75 h1b_pct mean"
+],
+"97.6": [
+"A13 dry f=0.5 h1b_pct ci1"
+],
+"97.60": [
+"A13 dry f=0.5 h1b_pct ci1"
+],
+"6.7": [
+"A13 dry f=0.5 ecc mean"
+],
+"6.72": [
+"A13 dry f=0.5 ecc mean"
+],
+"5.9": [
+"A13 dry f=0.5 ecc ci0",
+"A13 wet f=0.75 saving ci1"
+],
+"5.91": [
+"A13 dry f=0.5 ecc ci0"
+],
+"8": [
+"A13 dry f=0.5 ecc ci1",
+"A13 dry f=1 region95 ci0",
+"A13 wet f=0.5 ecc ci1",
+"A13 wet f=0.75 ecc ci0",
+"A13 wet f=1 region95 ci0",
+"A13 wet f=1 saving ci1"
+],
+"7.6": [
+"A13 dry f=0.5 ecc ci1"
+],
+"7.58": [
+"A13 dry f=0.5 ecc ci1"
+],
+"10.78": [
+"A13 dry f=0.5 fcfs mean"
+],
+"9": [
+"A13 dry f=0.5 fcfs ci0",
+"A13 dry f=0.75 ecc mean",
+"A13 dry f=1 ecc ci0",
+"A13 wet f=0.5 fcfs ci0"
+],
+"9.3": [
+"A13 dry f=0.5 fcfs ci0"
+],
+"9.29": [
+"A13 dry f=0.5 fcfs ci0"
+],
+"12.24": [
+"A13 dry f=0.5 fcfs ci1"
+],
+"4.05": [
+"A13 dry f=0.5 saving mean"
+],
+"3.1": [
+"A13 dry f=0.5 saving ci0"
+],
+"3.09": [
+"A13 dry f=0.5 saving ci0"
+],
+"5.1": [
+"A13 dry f=0.5 saving ci1",
+"A13 dry f=1 saving ci0"
+],
+"5.07": [
+"A13 dry f=0.5 saving ci1"
+],
+"12.56": [
+"A13 dry f=0.5 floor mean"
+],
+"12.34": [
+"A13 dry f=0.5 floor ci0"
+],
+"12.8": [
+"A13 dry f=0.5 floor ci1"
+],
+"12.75": [
+"A13 dry f=0.5 floor ci1"
+],
+"0.75": [
+"A13 fraction 0.75",
+"A13 fraction 0.75"
+],
+"74.64": [
+"A13 dry f=0.75 reach mean"
+],
+"63": [
+"A13 dry f=0.75 reach ci0",
+"A13 wet f=0.5 reach mean"
+],
+"63.1": [
+"A13 dry f=0.75 reach ci0",
+"A13 wet f=0.5 reach mean"
+],
+"63.06": [
+"A13 dry f=0.75 reach ci0"
+],
+"86": [
+"A13 dry f=0.75 reach ci1",
+"A13 wet f=0.75 reach ci1"
+],
+"86.2": [
+"A13 dry f=0.75 reach ci1"
+],
+"86.16": [
+"A13 dry f=0.75 reach ci1"
+],
+"17": [
+"A13 dry f=0.75 region95 mean",
+"A13 dry f=0.75 fcfs ci1",
+"A13 wet f=0.75 fcfs ci1"
+],
+"17.1": [
+"A13 dry f=0.75 region95 mean"
+],
+"17.05": [
+"A13 dry f=0.75 region95 mean"
+],
+"3.9": [
+"A13 dry f=0.75 region95 ci0"
+],
+"3.89": [
+"A13 dry f=0.75 region95 ci0"
+],
+"33": [
+"A13 dry f=0.75 region95 ci1"
+],
+"33.0": [
+"A13 dry f=0.75 region95 ci1"
+],
+"33.00": [
+"A13 dry f=0.75 region95 ci1"
+],
+"97.9": [
+"A13 dry f=0.75 h1b_pct mean"
+],
+"97.92": [
+"A13 dry f=0.75 h1b_pct mean"
+],
+"96": [
+"A13 dry f=0.75 h1b_pct ci0",
+"A13 dry f=1 h1b_pct mean",
+"A13 wet f=0.75 h1b_pct mean"
+],
+"95.6": [
+"A13 dry f=0.75 h1b_pct ci0"
+],
+"95.62": [
+"A13 dry f=0.75 h1b_pct ci0"
+],
+"99.6": [
+"A13 dry f=0.75 h1b_pct ci1"
+],
+"99.56": [
+"A13 dry f=0.75 h1b_pct ci1"
+],
+"8.6": [
+"A13 dry f=0.75 ecc mean"
+],
+"8.62": [
+"A13 dry f=0.75 ecc mean"
+],
+"7.2": [
+"A13 dry f=0.75 ecc ci0"
+],
+"7.23": [
+"A13 dry f=0.75 ecc ci0"
+],
+"10.1": [
+"A13 dry f=0.75 ecc ci1"
+],
+"10.05": [
+"A13 dry f=0.75 ecc ci1"
+],
+"14": [
+"A13 dry f=0.75 fcfs mean",
+"A13 wet f=0.75 region95 mean",
+"A13 wet f=0.75 fcfs mean",
+"A13 wet f=1 ecc ci1"
+],
+"14.5": [
+"A13 dry f=0.75 fcfs mean"
+],
+"14.45": [
+"A13 dry f=0.75 fcfs mean"
+],
+"12.27": [
+"A13 dry f=0.75 fcfs ci0",
+"A13 wet f=0.25 floor mean",
+"A13 wet f=0.75 floor ci0"
+],
+"16.6": [
+"A13 dry f=0.75 fcfs ci1"
+],
+"16.60": [
+"A13 dry f=0.75 fcfs ci1"
+],
+"5.8": [
+"A13 dry f=0.75 saving mean"
+],
+"5.84": [
+"A13 dry f=0.75 saving mean"
+],
+"4.56": [
+"A13 dry f=0.75 saving ci0"
+],
+"7.1": [
+"A13 dry f=0.75 saving ci1"
+],
+"7.15": [
+"A13 dry f=0.75 saving ci1"
+],
+"12.86": [
+"A13 dry f=0.75 floor ci1"
+],
+"80": [
+"A13 dry f=1 reach mean"
+],
+"80.0": [
+"A13 dry f=1 reach mean"
+],
+"80.00": [
+"A13 dry f=1 reach mean"
+],
+"70.74": [
+"A13 dry f=1 reach ci0"
+],
+"89.41": [
+"A13 dry f=1 reach ci1"
+],
+"25": [
+"A13 dry f=1 region95 mean"
+],
+"24.8": [
+"A13 dry f=1 region95 mean"
+],
+"24.83": [
+"A13 dry f=1 region95 mean"
+],
+"7.9": [
+"A13 dry f=1 region95 ci0"
+],
+"7.88": [
+"A13 dry f=1 region95 ci0"
+],
+"44": [
+"A13 dry f=1 region95 ci1"
+],
+"44.0": [
+"A13 dry f=1 region95 ci1"
+],
+"44.01": [
+"A13 dry f=1 region95 ci1"
+],
+"95.5": [
+"A13 dry f=1 h1b_pct mean"
+],
+"95.55": [
+"A13 dry f=1 h1b_pct mean"
+],
+"86.6": [
+"A13 dry f=1 h1b_pct ci0"
+],
+"86.64": [
+"A13 dry f=1 h1b_pct ci0"
+],
+"10.5": [
+"A13 dry f=1 ecc mean",
+"A13 wet f=0.5 fcfs mean"
+],
+"10.45": [
+"A13 dry f=1 ecc mean"
+],
+"8.5": [
+"A13 dry f=1 ecc ci0",
+"A13 wet f=0.5 ecc ci1"
+],
+"8.51": [
+"A13 dry f=1 ecc ci0"
+],
+"12.37": [
+"A13 dry f=1 ecc ci1",
+"A13 wet f=0.5 floor mean"
+],
+"17.8": [
+"A13 dry f=1 fcfs mean"
+],
+"17.78": [
+"A13 dry f=1 fcfs mean"
+],
+"15": [
+"A13 dry f=1 fcfs ci0",
+"A13 wet f=1 fcfs ci0"
+],
+"15.0": [
+"A13 dry f=1 fcfs ci0",
+"A13 wet f=1 fcfs ci0"
+],
+"15.05": [
+"A13 dry f=1 fcfs ci0"
+],
+"20": [
+"A13 dry f=1 fcfs ci1"
+],
+"20.5": [
+"A13 dry f=1 fcfs ci1",
+"A13 wet f=1 fcfs ci1"
+],
+"20.47": [
+"A13 dry f=1 fcfs ci1"
+],
+"7.3": [
+"A13 dry f=1 saving mean",
+"A13 wet f=0.5 ecc mean"
+],
+"7.33": [
+"A13 dry f=1 saving mean",
+"A13 wet f=0.5 ecc mean"
+],
+"5.13": [
+"A13 dry f=1 saving ci0"
+],
+"9.5": [
+"A13 dry f=1 saving ci1"
+],
+"9.54": [
+"A13 dry f=1 saving ci1"
+],
+"51": [
+"A13 wet f=0.25 reach mean"
+],
+"51.3": [
+"A13 wet f=0.25 reach mean"
+],
+"51.33": [
+"A13 wet f=0.25 reach mean"
+],
+"32": [
+"A13 wet f=0.25 reach ci0"
+],
+"32.5": [
+"A13 wet f=0.25 reach ci0"
+],
+"32.46": [
+"A13 wet f=0.25 reach ci0"
+],
+"72": [
+"A13 wet f=0.25 reach ci1"
+],
+"71.6": [
+"A13 wet f=0.25 reach ci1"
+],
+"71.59": [
+"A13 wet f=0.25 reach ci1"
+],
+"12.33": [
+"A13 wet f=0.25 region95 mean"
+],
+"0.0": [
+"A13 wet f=0.25 region95 ci0",
+"A13 wet f=0.5 region95 ci0"
+],
+"0.00": [
+"A13 wet f=0.25 region95 ci0",
+"A13 wet f=0.5 region95 ci0"
+],
+"77": [
+"A13 wet f=0.25 h1b_pct mean"
+],
+"76.6": [
+"A13 wet f=0.25 h1b_pct mean"
+],
+"76.60": [
+"A13 wet f=0.25 h1b_pct mean"
+],
+"64": [
+"A13 wet f=0.25 h1b_pct ci0"
+],
+"64.2": [
+"A13 wet f=0.25 h1b_pct ci0"
+],
+"64.23": [
+"A13 wet f=0.25 h1b_pct ci0"
+],
+"88.6": [
+"A13 wet f=0.25 h1b_pct ci1"
+],
+"88.55": [
+"A13 wet f=0.25 h1b_pct ci1"
+],
+"4.7": [
+"A13 wet f=0.25 ecc mean"
+],
+"4.68": [
+"A13 wet f=0.25 ecc mean"
+],
+"4.0": [
+"A13 wet f=0.25 ecc ci0",
+"A13 wet f=0.5 saving ci1"
+],
+"4.01": [
+"A13 wet f=0.25 ecc ci0"
+],
+"5.4": [
+"A13 wet f=0.25 ecc ci1"
+],
+"5.43": [
+"A13 wet f=0.25 ecc ci1"
+],
+"6.3": [
+"A13 wet f=0.25 fcfs mean"
+],
+"6.32": [
+"A13 wet f=0.25 fcfs mean"
+],
+"5.3": [
+"A13 wet f=0.25 fcfs ci0"
+],
+"5.30": [
+"A13 wet f=0.25 fcfs ci0"
+],
+"7.40": [
+"A13 wet f=0.25 fcfs ci1"
+],
+"1.65": [
+"A13 wet f=0.25 saving mean"
+],
+"1.2": [
+"A13 wet f=0.25 saving ci0"
+],
+"1.19": [
+"A13 wet f=0.25 saving ci0"
+],
+"2.1": [
+"A13 wet f=0.25 saving ci1"
+],
+"2.09": [
+"A13 wet f=0.25 saving ci1"
+],
+"12.18": [
+"A13 wet f=0.25 floor ci0"
+],
+"63.13": [
+"A13 wet f=0.5 reach mean"
+],
+"47": [
+"A13 wet f=0.5 reach ci0"
+],
+"47.2": [
+"A13 wet f=0.5 reach ci0"
+],
+"47.16": [
+"A13 wet f=0.5 reach ci0"
+],
+"79.0": [
+"A13 wet f=0.5 reach ci1"
+],
+"79.02": [
+"A13 wet f=0.5 reach ci1"
+],
+"12.39": [
+"A13 wet f=0.5 region95 mean"
+],
+"29.26": [
+"A13 wet f=0.5 region95 ci1"
+],
+"91": [
+"A13 wet f=0.5 h1b_pct mean",
+"A13 wet f=1 reach ci1"
+],
+"91.4": [
+"A13 wet f=0.5 h1b_pct mean",
+"A13 wet f=1 reach ci1"
+],
+"91.40": [
+"A13 wet f=0.5 h1b_pct mean"
+],
+"85": [
+"A13 wet f=0.5 h1b_pct ci0"
+],
+"84.8": [
+"A13 wet f=0.5 h1b_pct ci0"
+],
+"84.81": [
+"A13 wet f=0.5 h1b_pct ci0"
+],
+"97": [
+"A13 wet f=0.5 h1b_pct ci1"
+],
+"96.6": [
+"A13 wet f=0.5 h1b_pct ci1"
+],
+"96.59": [
+"A13 wet f=0.5 h1b_pct ci1"
+],
+"6.2": [
+"A13 wet f=0.5 ecc ci0",
+"A13 wet f=1 saving mean"
+],
+"6.23": [
+"A13 wet f=0.5 ecc ci0"
+],
+"8.45": [
+"A13 wet f=0.5 ecc ci1"
+],
+"10.50": [
+"A13 wet f=0.5 fcfs mean"
+],
+"8.8": [
+"A13 wet f=0.5 fcfs ci0"
+],
+"8.76": [
+"A13 wet f=0.5 fcfs ci0"
+],
+"12.26": [
+"A13 wet f=0.5 fcfs ci1"
+],
+"3.2": [
+"A13 wet f=0.5 saving mean"
+],
+"3.16": [
+"A13 wet f=0.5 saving mean"
+],
+"2.4": [
+"A13 wet f=0.5 saving ci0"
+],
+"2.40": [
+"A13 wet f=0.5 saving ci0"
+],
+"4.00": [
+"A13 wet f=0.5 saving ci1"
+],
+"12.25": [
+"A13 wet f=0.5 floor ci0"
+],
+"12.48": [
+"A13 wet f=0.5 floor ci1"
+],
+"73": [
+"A13 wet f=0.75 reach mean"
+],
+"72.7": [
+"A13 wet f=0.75 reach mean"
+],
+"72.66": [
+"A13 wet f=0.75 reach mean"
+],
+"59": [
+"A13 wet f=0.75 reach ci0"
+],
+"58.9": [
+"A13 wet f=0.75 reach ci0"
+],
+"58.87": [
+"A13 wet f=0.75 reach ci0"
+],
+"85.6": [
+"A13 wet f=0.75 reach ci1"
+],
+"85.56": [
+"A13 wet f=0.75 reach ci1"
+],
+"13.7": [
+"A13 wet f=0.75 region95 mean"
+],
+"13.68": [
+"A13 wet f=0.75 region95 mean"
+],
+"31": [
+"A13 wet f=0.75 region95 ci1"
+],
+"30.6": [
+"A13 wet f=0.75 region95 ci1"
+],
+"30.60": [
+"A13 wet f=0.75 region95 ci1"
+],
+"95.9": [
+"A13 wet f=0.75 h1b_pct mean"
+],
+"95.91": [
+"A13 wet f=0.75 h1b_pct mean"
+],
+"90": [
+"A13 wet f=0.75 h1b_pct ci0"
+],
+"90.0": [
+"A13 wet f=0.75 h1b_pct ci0"
+],
+"90.04": [
+"A13 wet f=0.75 h1b_pct ci0"
+],
+"99.5": [
+"A13 wet f=0.75 h1b_pct ci1",
+"A13 wet f=1 h1b_pct ci0"
+],
+"99.51": [
+"A13 wet f=0.75 h1b_pct ci1"
+],
+"9.7": [
+"A13 wet f=0.75 ecc mean",
+"A13 wet f=1 ecc ci0"
+],
+"9.69": [
+"A13 wet f=0.75 ecc mean"
+],
+"8.1": [
+"A13 wet f=0.75 ecc ci0"
+],
+"8.08": [
+"A13 wet f=0.75 ecc ci0"
+],
+"11.4": [
+"A13 wet f=0.75 ecc ci1"
+],
+"11.42": [
+"A13 wet f=0.75 ecc ci1"
+],
+"14.3": [
+"A13 wet f=0.75 fcfs mean"
+],
+"14.31": [
+"A13 wet f=0.75 fcfs mean"
+],
+"11.9": [
+"A13 wet f=0.75 fcfs ci0"
+],
+"11.94": [
+"A13 wet f=0.75 fcfs ci0"
+],
+"16.7": [
+"A13 wet f=0.75 fcfs ci1"
+],
+"16.66": [
+"A13 wet f=0.75 fcfs ci1"
+],
+"4.63": [
+"A13 wet f=0.75 saving mean"
+],
+"3.5": [
+"A13 wet f=0.75 saving ci0"
+],
+"3.50": [
+"A13 wet f=0.75 saving ci0"
+],
+"5.92": [
+"A13 wet f=0.75 saving ci1"
+],
+"12.40": [
+"A13 wet f=0.75 floor mean"
+],
+"80.7": [
+"A13 wet f=1 reach mean"
+],
+"80.73": [
+"A13 wet f=1 reach mean"
+],
+"69": [
+"A13 wet f=1 reach ci0"
+],
+"69.0": [
+"A13 wet f=1 reach ci0"
+],
+"69.03": [
+"A13 wet f=1 reach ci0"
+],
+"91.38": [
+"A13 wet f=1 reach ci1"
+],
+"28": [
+"A13 wet f=1 region95 mean"
+],
+"28.3": [
+"A13 wet f=1 region95 mean"
+],
+"28.25": [
+"A13 wet f=1 region95 mean"
+],
+"8.2": [
+"A13 wet f=1 region95 ci0"
+],
+"8.22": [
+"A13 wet f=1 region95 ci0"
+],
+"47.8": [
+"A13 wet f=1 region95 ci1"
+],
+"47.77": [
+"A13 wet f=1 region95 ci1"
+],
+"99.8": [
+"A13 wet f=1 h1b_pct mean"
+],
+"99.83": [
+"A13 wet f=1 h1b_pct mean"
+],
+"99": [
+"A13 wet f=1 h1b_pct ci0"
+],
+"99.49": [
+"A13 wet f=1 h1b_pct ci0"
+],
+"11.7": [
+"A13 wet f=1 ecc mean"
+],
+"11.69": [
+"A13 wet f=1 ecc mean"
+],
+"9.71": [
+"A13 wet f=1 ecc ci0"
+],
+"13.6": [
+"A13 wet f=1 ecc ci1"
+],
+"13.64": [
+"A13 wet f=1 ecc ci1"
+],
+"17.9": [
+"A13 wet f=1 fcfs mean"
+],
+"17.93": [
+"A13 wet f=1 fcfs mean"
+],
+"14.98": [
+"A13 wet f=1 fcfs ci0"
+],
+"21": [
+"A13 wet f=1 fcfs ci1"
+],
+"20.52": [
+"A13 wet f=1 fcfs ci1"
+],
+"6.24": [
+"A13 wet f=1 saving mean"
+],
+"4.8": [
+"A13 wet f=1 saving ci0"
+],
+"4.80": [
+"A13 wet f=1 saving ci0"
+],
+"7.8": [
+"A13 wet f=1 saving ci1"
+],
+"7.83": [
+"A13 wet f=1 saving ci1"
+],
+"1,168": [
+"A12 onsets, both seasons"
+]
+}

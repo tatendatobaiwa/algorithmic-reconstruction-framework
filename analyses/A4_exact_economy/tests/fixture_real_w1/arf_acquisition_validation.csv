@@ -1,0 +1,4 @@
+kind,platform,predicted_utc,actual_utc,dt_min,predicted_tiles,actual_tiles,overlap_tiles,cloud_pct,scenes
+matched,landsat-9,2026-08-03T08:14,2026-08-03T08:13:41,0.31,201,212,201,0.0,1
+matched,sentinel-2b,2026-08-04T08:37,2026-08-04T08:36:28,0.53,5850,5912,5850,0.006253999999999999,22
+matched,sentinel-2a,2026-08-04T08:47,2026-08-04T08:46:19,0.67,7963,8105,7963,6.811764705882353e-05,34

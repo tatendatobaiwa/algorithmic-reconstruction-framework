@@ -1,0 +1,16 @@
+PASS Figure 3: y-axis 24.04-25.86 h for values 24.17-25.74 h (not from 0); 4 legend entries returned, none inside the axes; floor drawn over the level curve (zorder [4] > [3])
+PASS Figure 3: a budget without a completion time is left out, not drawn at 0 h
+  Gap-fill exhausted candidate events with 44 tiles still uncovered.
+  Gap-fill exhausted candidate events with 44 tiles still uncovered.
+PASS Figure 7: 6.95 in (PDF), 6.95 in (PNG) wide, at most 7.16; short panel (b) title; cloud settings in the footer
+PASS Figure 5: time from onset to the H1a level of reachable tiles, hours, linear axis, floor drawn
+PASS Figure 9: gap to the floor in minutes, linear axis, gap per selector on the panel, H1a margin drawn
+PASS Figure 3: floor and H1a margin, no 10-min target
+PASS JSON this_run: ROI=lower_zambezi, fleet=earth-resources_planet-optimistic: {'H1a': 'NOT EVALUABLE', 'H1b': 'NOT EVALUABLE', 'H1 (H1a and H1b)': 'NOT EVALUABLE', 'H2': 'NOT EVALUABLE', 'H3': 'NOT EVALUABLE'}
+PASS JSON: H1, H1_time_aware and H2_original_ratio marked superseded, the protocol hypotheses not
+PASS report: THIS RUN block first; the three superseded hypotheses labelled; one scenario, so no pooled label
+PASS console: this run's statuses first; superseded hypotheses labelled (Cells 7C and 8)
+PASS pipeline log (Cell 9): superseded hypotheses labelled
+PASS two scenarios in the ledger: overall statuses labelled as pooled (report, console); this_run names the run's own scenario
+
+12/12 checks passed

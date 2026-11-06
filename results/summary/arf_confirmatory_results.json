@@ -1,0 +1,341 @@
+{
+  "protocol": "ARF-confirmatory-2026-10",
+  "frozen_utc": "2026-10-12T19:57:45Z",
+  "amendments": [
+    "A1",
+    "A2",
+    "A3"
+  ],
+  "release_expected": "1.5.3",
+  "designs": [
+    {
+      "design": {
+        "role": "primary",
+        "active_roi": "ckgr_okavango",
+        "fleet": "earth-resources+planet",
+        "planet_swath_case": "conservative"
+      },
+      "alpha": 0.016666666666666666,
+      "n_windows": 8,
+      "H1a": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 100.0,
+        "sd": 0.0,
+        "lcb_0.9833": 100.0,
+        "rule": "one-sided 98.33% lower bound of the mean over windows >= 90%"
+      },
+      "H1b": {
+        "status": "NOT SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 95.54794520547945,
+        "sd": 12.592312541678243,
+        "lcb_0.9833": 83.78624119298817,
+        "rule": "one-sided 98.33% lower bound of the mean over windows >= 90%"
+      },
+      "H2": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 2.2791983484588343,
+        "sd": 1.8440517475387457,
+        "lcb_0.9833": 0.5567831235761314,
+        "rule": "one-sided 98.33% lower bound of the mean over windows > 0 points"
+      },
+      "role": "primary",
+      "windows_found": [
+        "2026-08-03T00:00:00",
+        "2026-08-10T00:00:00",
+        "2026-08-17T00:00:00",
+        "2026-08-24T00:00:00",
+        "2026-08-31T00:00:00",
+        "2026-09-07T00:00:00",
+        "2026-09-14T00:00:00",
+        "2026-09-21T00:00:00"
+      ],
+      "windows_missing": []
+    },
+    {
+      "design": {
+        "role": "secondary",
+        "active_roi": "ckgr_okavango",
+        "fleet": "earth-resources+planet",
+        "planet_swath_case": "optimistic"
+      },
+      "alpha": 0.05,
+      "n_windows": 8,
+      "H1a": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 100.0,
+        "sd": 0.0,
+        "lcb_0.9500": 100.0,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H1b": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 100.0,
+        "sd": 0.0,
+        "lcb_0.9500": 100.0,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H2": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 2.760557190744829,
+        "sd": 2.0197543868992014,
+        "lcb_0.9500": 1.4076556379988592,
+        "rule": "one-sided 95.00% lower bound of the mean over windows > 0 points"
+      },
+      "role": "secondary",
+      "windows_found": [
+        "2026-08-03T00:00:00",
+        "2026-08-10T00:00:00",
+        "2026-08-17T00:00:00",
+        "2026-08-24T00:00:00",
+        "2026-08-31T00:00:00",
+        "2026-09-07T00:00:00",
+        "2026-09-14T00:00:00",
+        "2026-09-21T00:00:00"
+      ],
+      "windows_missing": []
+    },
+    {
+      "design": {
+        "role": "secondary",
+        "active_roi": "ckgr_okavango",
+        "fleet": "earth-resources",
+        "planet_swath_case": "conservative"
+      },
+      "alpha": 0.05,
+      "n_windows": 8,
+      "H1a": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 6,
+        "mean": 100.0,
+        "sd": 0.0,
+        "lcb_0.9500": 100.0,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H1b": {
+        "status": "NOT SUPPORTED",
+        "evaluable_windows": 6,
+        "mean": 62.32876712328767,
+        "sd": 43.42055207247025,
+        "lcb_0.9500": 26.609281838389386,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H2": {
+        "status": "NOT EVALUABLE",
+        "evaluable_windows": 2,
+        "mean": 0.07787588913416724,
+        "sd": 0.10666437832468123,
+        "lcb_0.9500": -0.39832685572756454,
+        "rule": "one-sided 95.00% lower bound of the mean over windows > 0 points"
+      },
+      "role": "secondary",
+      "windows_found": [
+        "2026-08-03T00:00:00",
+        "2026-08-10T00:00:00",
+        "2026-08-17T00:00:00",
+        "2026-08-24T00:00:00",
+        "2026-08-31T00:00:00",
+        "2026-09-07T00:00:00",
+        "2026-09-14T00:00:00",
+        "2026-09-21T00:00:00"
+      ],
+      "windows_missing": []
+    },
+    {
+      "design": {
+        "role": "secondary",
+        "active_roi": "lower_zambezi",
+        "fleet": "earth-resources+planet",
+        "planet_swath_case": "conservative"
+      },
+      "alpha": 0.05,
+      "n_windows": 8,
+      "H1a": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 100.0,
+        "sd": 0.0,
+        "lcb_0.9500": 100.0,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H1b": {
+        "status": "NOT SUPPORTED",
+        "evaluable_windows": 7,
+        "mean": 89.7219504240052,
+        "sd": 16.8633268763767,
+        "lcb_0.9500": 77.33662754312053,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H2": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 7,
+        "mean": 1.1734693877551021,
+        "sd": 1.1335984400038632,
+        "lcb_0.9500": 0.3408944872244606,
+        "rule": "one-sided 95.00% lower bound of the mean over windows > 0 points"
+      },
+      "role": "secondary",
+      "windows_found": [
+        "2026-08-03T00:00:00",
+        "2026-08-10T00:00:00",
+        "2026-08-17T00:00:00",
+        "2026-08-24T00:00:00",
+        "2026-08-31T00:00:00",
+        "2026-09-07T00:00:00",
+        "2026-09-14T00:00:00",
+        "2026-09-21T00:00:00"
+      ],
+      "windows_missing": []
+    },
+    {
+      "design": {
+        "role": "secondary",
+        "active_roi": "karoo_nature_reserve",
+        "fleet": "earth-resources+planet",
+        "planet_swath_case": "conservative"
+      },
+      "alpha": 0.05,
+      "n_windows": 8,
+      "H1a": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 7,
+        "mean": 100.0,
+        "sd": 0.0,
+        "lcb_0.9500": 100.0,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H1b": {
+        "status": "NOT EVALUABLE",
+        "evaluable_windows": 2,
+        "mean": 97.87234042553192,
+        "sd": 3.0089650263257317,
+        "lcb_0.9500": 84.43882656425335,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H2": {
+        "status": "NOT EVALUABLE",
+        "evaluable_windows": 4,
+        "mean": 1.09375,
+        "sd": 0.99641283696401,
+        "lcb_0.9500": -0.07871076823912726,
+        "rule": "one-sided 95.00% lower bound of the mean over windows > 0 points"
+      },
+      "role": "secondary",
+      "windows_found": [
+        "2026-08-03T00:00:00",
+        "2026-08-10T00:00:00",
+        "2026-08-17T00:00:00",
+        "2026-08-24T00:00:00",
+        "2026-08-31T00:00:00",
+        "2026-09-07T00:00:00",
+        "2026-09-14T00:00:00",
+        "2026-09-21T00:00:00"
+      ],
+      "windows_missing": []
+    },
+    {
+      "design": {
+        "role": "exploratory",
+        "active_roi": "ckgr_okavango",
+        "fleet": "earth-resources+planet",
+        "planet_swath_case": "conservative",
+        "exclude_satellites": [
+          "SENTINEL-2A"
+        ]
+      },
+      "alpha": 0.05,
+      "n_windows": 8,
+      "H1a": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 100.0,
+        "sd": 0.0,
+        "lcb_0.9500": 100.0,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H1b": {
+        "status": "NOT SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 95.54794520547945,
+        "sd": 12.592312541678243,
+        "lcb_0.9500": 87.11317744322022,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H2": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 8,
+        "mean": 1.7658000163518934,
+        "sd": 1.4829750111148352,
+        "lcb_0.9500": 0.7724519101492847,
+        "rule": "one-sided 95.00% lower bound of the mean over windows > 0 points"
+      },
+      "role": "exploratory",
+      "windows_found": [
+        "2026-08-03T00:00:00",
+        "2026-08-10T00:00:00",
+        "2026-08-17T00:00:00",
+        "2026-08-24T00:00:00",
+        "2026-08-31T00:00:00",
+        "2026-09-07T00:00:00",
+        "2026-09-14T00:00:00",
+        "2026-09-21T00:00:00"
+      ],
+      "windows_missing": []
+    },
+    {
+      "design": {
+        "role": "exploratory",
+        "active_roi": "ckgr_okavango",
+        "fleet": "earth-resources",
+        "planet_swath_case": "conservative",
+        "exclude_satellites": [
+          "SENTINEL-2A"
+        ]
+      },
+      "alpha": 0.05,
+      "n_windows": 8,
+      "H1a": {
+        "status": "SUPPORTED",
+        "evaluable_windows": 6,
+        "mean": 100.0,
+        "sd": 0.0,
+        "lcb_0.9500": 100.0,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H1b": {
+        "status": "NOT SUPPORTED",
+        "evaluable_windows": 5,
+        "mean": 54.52054794520548,
+        "sd": 44.08533324410042,
+        "lcb_0.9500": 12.489993889483038,
+        "rule": "one-sided 95.00% lower bound of the mean over windows >= 90%"
+      },
+      "H2": {
+        "status": "NOT EVALUABLE",
+        "evaluable_windows": 1,
+        "mean": 0.16638050854386394,
+        "sd": null,
+        "lcb_0.9500": null,
+        "rule": "one-sided 95.00% lower bound of the mean over windows > 0 points"
+      },
+      "role": "exploratory",
+      "windows_found": [
+        "2026-08-03T00:00:00",
+        "2026-08-10T00:00:00",
+        "2026-08-17T00:00:00",
+        "2026-08-24T00:00:00",
+        "2026-08-31T00:00:00",
+        "2026-09-07T00:00:00",
+        "2026-09-14T00:00:00",
+        "2026-09-21T00:00:00"
+      ],
+      "windows_missing": []
+    }
+  ],
+  "runs_excluded_release_or_mixed": []
+}

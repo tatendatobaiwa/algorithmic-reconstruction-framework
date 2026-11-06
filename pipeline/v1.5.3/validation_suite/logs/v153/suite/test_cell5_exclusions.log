@@ -1,0 +1,8 @@
+PASS exclusion window for FLOCK-3 over minutes [1438, 1440) removes exactly its 212 rows in 2 passes; all other rows identical
+PASS summary counts: 2 passes, 212 rows
+PASS no exclusions: nothing removed (end-cap rows not counted: 93)
+PASS Sentinel-2A tandem pause: matched with and without the NORAD suffix, 2B/Landsat not; window [4320, 83520) min from 10 Jan 2026
+PASS Starlink proxy: no exclusion windows
+PASS release exclusion table on a window outside it: every row kept
+
+6/6 checks passed

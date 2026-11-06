@@ -1,0 +1,18 @@
+# Versions used for the Paper 1 runs and tests (Python 3.11 to 3.13).
+# Orbit propagation (Cells 1 to 5 of the pipeline):
+orekit-jpype[jdk4py]==13.1.9.0
+jdk4py==25.0.2.1
+# Grid, geometry and data:
+h3==4.5.0
+pyshp==3.1.6
+shapely==2.2.0
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.11.2
+pillow==12.3.0
+# Amendment A8 only (reads Sentinel-2 cloud masks):
+rasterio==1.5.2
+affine==3.0.1
+# Tests:
+pytest

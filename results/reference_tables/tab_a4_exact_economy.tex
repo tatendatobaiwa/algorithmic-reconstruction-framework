@@ -1,0 +1,35 @@
+\begin{table}[H]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{3.5pt}
+\caption{Post hoc (amendment A4): ECC's image count against the exact minimum number of images, among
+those delivered by ECC's completion time, that reach 95\% of reachable tiles (clear sky; integer programme,
+HiGHS). Solved at every H1b tie or loss and at the onsets 0, 80, \dots, 1440~min. Excess: largest
+number of images ECC used above the exact minimum. Ties: H1b ties with FCFS. No saving: ties at which the
+exact minimum equals the FCFS count, so no selector could have used fewer images.}
+\label{tab:a4_exact_economy}
+\begin{tabular}{|l|r|r|r|r|r|}
+\hline
+Window & Solved & ECC $=$ exact & Excess & Ties & No saving \\
+\hline
+3 Aug & 19 & 19 & 0 & 0 & -- \\
+\hline
+10 Aug & 19 & 19 & 0 & 0 & -- \\
+\hline
+17 Aug & 19 & 19 & 0 & 0 & -- \\
+\hline
+24 Aug & 19 & 19 & 0 & 0 & -- \\
+\hline
+31 Aug & 19 & 19 & 0 & 0 & -- \\
+\hline
+7 Sep & 19 & 19 & 0 & 0 & -- \\
+\hline
+14 Sep & 38 & 38 & 0 & 26 & 26 \\
+\hline
+21 Sep & 19 & 8 & 1 & 0 & -- \\
+\hline
+All & 171 & 160 & 1 & 26 & 26 \\
+\hline
+\end{tabular}
+\end{table}

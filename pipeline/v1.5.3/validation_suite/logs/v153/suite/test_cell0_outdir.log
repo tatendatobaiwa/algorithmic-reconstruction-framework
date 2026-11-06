@@ -1,0 +1,9 @@
+PASS no earlier run: writes to ARF_Outputs_ckgr_okavango_earth-resources_planet-conservative
+PASS complete run of release 1.5.0 present: kept byte for byte; this run writes to ARF_Outputs_ckgr_okavango_earth-resources_planet-conservative_v153
+PASS repeat run of this release with the 1.5.0 run still present: same suffixed folder
+PASS complete run of this release (1.5.3): folder reused, as before
+PASS unreadable manifest: treated as another release
+PASS folder without a manifest (incomplete run): reused, as before
+PASS scratch /content removed
+
+7/7 checks passed

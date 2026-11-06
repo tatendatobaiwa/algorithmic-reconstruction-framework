@@ -1,0 +1,13 @@
+test_cell0 rc=0 2s 20 pass 0 fail
+test_cell0_outdir rc=0 0s 7 pass 0 fail
+test_cell1 rc=0 3s 6 pass 0 fail
+test_cell2 rc=0 3s 7 pass 0 fail
+test_cell3 rc=0 19s 4 pass 0 fail
+test_cell45 rc=0 4s 8 pass 0 fail
+test_cell5_exclusions rc=0 3s 6 pass 0 fail
+test_cell6_7c rc=0 49s 15 pass 0 fail
+test_cell7d rc=0 1s 6 pass 0 fail
+test_cells7to9 rc=0 12s 10 pass 0 fail
+test_presentation_v153 rc=0 12s 12 pass 0 fail
+test_confirmatory_analysis rc=0 1s 8 pass 0 fail (rerun after the 1.5.3 protocol with A2 was written)
+SUITE_DONE

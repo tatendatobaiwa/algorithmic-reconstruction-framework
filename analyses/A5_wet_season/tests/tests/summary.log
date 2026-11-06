@@ -1,0 +1,8 @@
+PASS 16 runs read, two cloud settings
+PASS earthenv H2 per window equals the runs' summaries
+PASS mean, SD and both Student-t lower bounds equal scipy
+PASS exact tests: 6 above, 1 equal (dropped), 1 below; p values equal scipy
+PASS observed scene cloud recomputed
+PASS dry-season comparison read
+PASS a5_table.tex compiles at IEEE width without overfull boxes
+7/7 passed

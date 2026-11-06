@@ -1,0 +1,21 @@
+{
+ "run_dir": "ARF_Outputs_ckgr_okavango_earth-resources_planet-conservative_from20260824",
+ "centroid": [
+  -21.462,
+  23.614
+ ],
+ "onsets": 73,
+ "onsets_with_floor": 73,
+ "pipeline_check": {
+  "checked": true,
+  "onsets": 73,
+  "floors_equal": true,
+  "reachable_equal": true
+ },
+ "median_floor_h": 12.55,
+ "median_W_h": 10.42,
+ "median_G_h": 0.8,
+ "median_L_h": 0.0,
+ "median_floor_h_onset_sun_up": 19.05,
+ "median_floor_h_onset_night": 10.55
+}

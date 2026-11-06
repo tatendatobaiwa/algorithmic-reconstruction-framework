@@ -1,0 +1,35 @@
+
+try:
+    import google.colab
+    IN_COLAB = True
+except ImportError:
+    IN_COLAB = False
+
+if IN_COLAB:
+    from google.colab import drive
+    drive.mount('/content/drive')
+    OUT_DIR = f"/content/drive/MyDrive/ARF_Outputs_{ACTIVE_ROI}_{FLEET_TAG}"
+    # v1.5.2: a complete run of ANOTHER release in this folder (its Cell 9
+    # manifest names the release) is kept, never overwritten: this run writes
+    # to <folder>_v<release digits> instead. Protects, e.g., the 12 October
+    # 2026 runs of release 1.5.0, whose arf_refined_events.csv files are the
+    # inputs of arf_colab_parity.py. A folder without a manifest (an incomplete
+    # run) is reused as before; an unreadable manifest counts as another release.
+    _prev_manifest = os.path.join(OUT_DIR, "arf_reproducibility_manifest.json")
+    if os.path.exists(_prev_manifest):
+        try:
+            with open(_prev_manifest) as _f:
+                _prev_release = json.load(_f).get("framework_version")
+        except Exception:
+            _prev_release = None
+        if _prev_release != __version__:
+            print(f"📁 {OUT_DIR} holds a complete run of release {_prev_release or '(unreadable manifest)'}: "
+                  f"kept unchanged; this run writes to its own folder.")
+            OUT_DIR += "_v" + __version__.replace(".", "")
+    os.makedirs(OUT_DIR, exist_ok=True)
+    print(f"📁 Google Drive mounted. Outputs will be saved to: {OUT_DIR}")
+else:
+    OUT_DIR = os.getcwd()
+    print(f"📁 Running locally. Outputs will be saved to: {OUT_DIR}")
+
+# =============================================================================

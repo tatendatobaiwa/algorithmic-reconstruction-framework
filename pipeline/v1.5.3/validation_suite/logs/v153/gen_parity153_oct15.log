@@ -1,0 +1,6 @@
+ARF_Outputs_ckgr_okavango_earth-resources_planet-conservative 115.3 s same as the Colab run
+ARF_Outputs_ckgr_okavango_earth-resources_planet-optimistic 134.3 s same as the Colab run
+ARF_Outputs_ckgr_okavango_planet-conservative_v152 83.9 s same as the Colab run
+ARF_Outputs_ckgr_okavango_planet-optimistic_v152 108.4 s same as the Colab run
+ARF_Outputs_ckgr_okavango_earth-resources_v152 15.4 s same as the Colab run
+/home/claude/arf/ship153/arf_parity_expected_v153.json: 5 runs

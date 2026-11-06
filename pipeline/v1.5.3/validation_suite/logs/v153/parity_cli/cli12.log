@@ -1,0 +1,17 @@
+ARF_Outputs_ckgr_okavango_earth-resources: MATCH
+ARF_Outputs_ckgr_okavango_earth-resources_planet-conservative: MATCH
+ARF_Outputs_ckgr_okavango_earth-resources_planet-optimistic: MATCH
+ARF_Outputs_ckgr_okavango_planet-conservative: MATCH
+ARF_Outputs_ckgr_okavango_planet-optimistic: MATCH
+ARF_Outputs_karoo_nature_reserve_earth-resources: MATCH
+ARF_Outputs_karoo_nature_reserve_earth-resources_planet-conservative: MATCH
+ARF_Outputs_karoo_nature_reserve_earth-resources_planet-optimistic: MATCH
+ARF_Outputs_karoo_nature_reserve_planet-conservative: MATCH
+ARF_Outputs_karoo_nature_reserve_planet-optimistic: MATCH
+ARF_Outputs_lower_zambezi_earth-resources: MATCH
+ARF_Outputs_lower_zambezi_earth-resources_planet-conservative: MATCH
+ARF_Outputs_lower_zambezi_earth-resources_planet-optimistic: MATCH
+ARF_Outputs_lower_zambezi_planet-conservative: MATCH
+ARF_Outputs_lower_zambezi_planet-optimistic: MATCH
+15/15 runs MATCH. Report: /tmp/claude-0/-home-claude/0e764075-7c3e-5c85-aa3f-f3424e1d4fac/scratchpad/paritycli/exp12/arf_parity_report.json
+DONE

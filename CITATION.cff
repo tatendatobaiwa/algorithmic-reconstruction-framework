@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Algorithmic Reconstruction Framework (ARF): earliest-completion image selection from Earth-observation fleets in orbit"
+authors:
+  - family-names: Tobaiwa
+    given-names: Tatenda Allen
+    affiliation: "Botswana International University of Science and Technology"
+version: "1.5.3"
+date-released: "2026-11-06"
+license: MIT
+repository-code: "https://github.com/tatendatobaiwa/algorithmic-reconstruction-framework"
+keywords:
+  - remote sensing
+  - satellite image selection
+  - set cover
+  - H3
+  - Orekit
+  - rapid mapping

@@ -1,0 +1,25 @@
+  Gap-fill exhausted candidate events with 3088 tiles still uncovered.
+  Gap-fill exhausted candidate events with 3088 tiles still uncovered.
+  Gap-fill exhausted candidate events with 3088 tiles still uncovered.
+  Gap-fill exhausted candidate events with 3088 tiles still uncovered.
+/home/claude/drive152/openPC: CHECK | csv 11/12 same | json 5 files, unexpected 0 | png same 1, changed ['arf_fig1_coverage_progression.png', 'arf_fig2_quality_progression.png', 'arf_fig3_latency_analysis.png', 'arf_fig4_coverage_budget.png', 'arf_fig5_onset_robustness.png', 'arf_fig8_cloud_robustness.png', 'arf_fig9_h1a_gap.png', 'arf_manuscript_figures.png'] | report lines changed 40, unexplained 0 | 222.4 s
+  Gap-fill exhausted candidate events with 2852 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2852 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2852 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2852 tiles still uncovered.
+/home/claude/drive152/openPO: CHECK | csv 11/12 same | json 5 files, unexpected 0 | png same 1, changed ['arf_fig1_coverage_progression.png', 'arf_fig2_quality_progression.png', 'arf_fig3_latency_analysis.png', 'arf_fig4_coverage_budget.png', 'arf_fig5_onset_robustness.png', 'arf_fig8_cloud_robustness.png', 'arf_fig9_h1a_gap.png', 'arf_manuscript_figures.png'] | report lines changed 40, unexplained 0 | 269.3 s
+  Gap-fill exhausted candidate events with 2851 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2851 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2851 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2851 tiles still uncovered.
+/home/claude/drive152/PC_v152: CHECK | csv 11/12 same | json 5 files, unexpected 0 | png same 1, changed ['arf_fig1_coverage_progression.png', 'arf_fig2_quality_progression.png', 'arf_fig3_latency_analysis.png', 'arf_fig4_coverage_budget.png', 'arf_fig5_onset_robustness.png', 'arf_fig8_cloud_robustness.png', 'arf_fig9_h1a_gap.png', 'arf_manuscript_figures.png'] | report lines changed 40, unexplained 0 | 177.7 s
+  Gap-fill exhausted candidate events with 2682 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2682 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2682 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2682 tiles still uncovered.
+/home/claude/drive152/PO_v152: CHECK | csv 11/12 same | json 5 files, unexpected 0 | png same 1, changed ['arf_fig1_coverage_progression.png', 'arf_fig2_quality_progression.png', 'arf_fig3_latency_analysis.png', 'arf_fig4_coverage_budget.png', 'arf_fig5_onset_robustness.png', 'arf_fig8_cloud_robustness.png', 'arf_fig9_h1a_gap.png', 'arf_manuscript_figures.png'] | report lines changed 40, unexplained 0 | 222.4 s
+  Gap-fill exhausted candidate events with 2487 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2487 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2487 tiles still uncovered.
+  Gap-fill exhausted candidate events with 2487 tiles still uncovered.
+/home/claude/drive152/open: CHECK | csv 11/12 same | json 5 files, unexpected 0 | png same 1, changed ['arf_fig1_coverage_progression.png', 'arf_fig2_quality_progression.png', 'arf_fig3_latency_analysis.png', 'arf_fig4_coverage_budget.png', 'arf_fig5_onset_robustness.png', 'arf_fig8_cloud_robustness.png', 'arf_fig9_h1a_gap.png', 'arf_manuscript_figures.png'] | report lines changed 40, unexplained 0 | 27.7 s

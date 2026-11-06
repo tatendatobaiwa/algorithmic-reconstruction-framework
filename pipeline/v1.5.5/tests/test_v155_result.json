@@ -1,0 +1,53 @@
+{
+ "1_unset_equals_154": {
+  "rows": 298497,
+  "identical": true,
+  "fleet_tag_same": true
+ },
+ "2_swath_32.5": {
+  "fleet_tag": "N100_from20260803_sun5_sw32.5km",
+  "tag_ok": true,
+  "all_satellites_carry_swath": true,
+  "passes": 78,
+  "edge_angle_range_deg": [
+   1.6182,
+   1.7501
+  ],
+  "edge_angle_matches_altitude": true,
+  "rows": 41010,
+  "rows_inside_edge": true,
+  "rows_in_daylight_sun_ge_5": true,
+  "footprint_radius_km": 24.575,
+  "rows_vs_unset": 0.1374,
+  "cells_per_pass_unset_vs_32.5": [
+   2178.8,
+   525.8
+  ],
+  "max_off_nadir_unset_deg": 9.22,
+  "footprint_radius_expected_km": 24.575,
+  "footprint_radius_ok": true
+ },
+ "3_cell0": {
+  "real_fleet": {
+   "raised": true,
+   "type": "ConfigurationError",
+   "msg": "PROXY_SWATH_KM applies to the Starlink proxy only (real fleets take theirs from MISSION_TABLE)."
+  },
+  "too_small": {
+   "raised": true,
+   "type": "ConfigurationError",
+   "msg": "PROXY_SWATH_KM=0.1 must be in [0.5, 400] km."
+  },
+  "too_large": {
+   "raised": true,
+   "type": "ConfigurationError",
+   "msg": "PROXY_SWATH_KM=500.0 must be in [0.5, 400] km."
+  },
+  "accepted": {
+   "raised": false,
+   "tag": "N100_sw8km",
+   "PROXY_SWATH_KM": 8.0
+  }
+ },
+ "passed": "12 of 12"
+}

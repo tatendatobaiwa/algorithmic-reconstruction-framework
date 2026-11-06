@@ -1,0 +1,42 @@
+ARF release 1.5.5 (4 November 2026): Starlink proxy ground swath in km, and the floor decomposition
+==================================================================================================
+Status: FOR REVIEW, NOT FOR RUNS. New dense-arm runs wait for amendment A14 to be registered
+(see ARF_paper2_plan_v2.pdf). No Colab launch cell is included on purpose.
+
+Why
+  Every Starlink-proxy run so far used an off-nadir half-angle of 9.22 deg. The code applies it
+  consistently as a half-angle (no programming error), but the value has no source in any release,
+  and at the sample's altitudes it gives a ground swath of about 155-180 km (Landsat-class), four to
+  six times PlanetScope's. 1.5.5 lets the proxy be given a sourced ground swath instead.
+
+What 1.5.5 changes (built from 1.5.4 by make_v155.py, exact counted replacements; refuses any other input)
+  Cell 0  new field proxy_swath_km: None = the 9.22 deg half-angle, as before; a value (0.5-400 km) =
+          the ground swath of every proxy satellite. Refused for real fleets. Folder tag _sw<km>km.
+  Cell 2  the swath attached to each proxy satellite; it is then handled exactly like a real
+          satellite with a sourced swath (edge angle at its own altitude, exact distance to the
+          ground track). Recorded in arf_cell2_summary.json.
+  Cell 5  log and console lines name the per-satellite swath.
+  All     version strings.
+  Real fleets: no line they use computes anything differently.
+
+Tested (tests/, sandbox, real Orekit, SYNTHETIC Starlink-like orbits, window 3 Aug 2026, N = 100)
+  test_v155.py: 12 of 12 checks pass (test_v155_result.json)
+    - unset: Cells 0-5 of 1.5.5 give the same 298,497 refined rows as 1.5.4, same folder tag
+    - 32.5 km: each pass's edge angle = off-nadir angle 16.25 km from the track at that satellite's
+      altitude (78/78 passes); every row inside it and sun >= limit; search radius as the formula
+    - Cell 0 refuses a real fleet, < 0.5 km and > 400 km
+  Cells 0-9 end to end at 32.5 km, sun >= 10 deg: no error, 145 s (cloud sweep off)
+  NOT tested: the live Space-Track query (unchanged from 1.5.4); a batch launch cell (not built).
+
+arf_floor_decomposition.py (release-independent; reads a run folder's CSV outputs)
+  Splits each onset's physical floor exactly into W (wait for the first usable pass), G (geometric
+  span to the pass that completes 95% of the reachable cells) and L (delivery latency of that pass),
+  and records the sun's elevation at the region's centroid at the onset. It recomputes every floor
+  from arf_refined_events.csv and STOPS unless each equals the pipeline's best_possible_clear_t95r_min.
+    Real fleet, Paper 1 window of 3 Aug 2026: 73/73 floors reproduced; median floor 12.1 h =
+      W 10.6 h + G 0.2 h + L 0 (tests/floor_decomposition_w20260803*.{csv,json})
+    Synthetic 1.5.5 run above: 73/73 floors reproduced (code test only, not a result)
+  Usage in Colab (on any completed run folder):
+    !python3 arf_floor_decomposition.py "/content/drive/MyDrive/<run folder>" 2026-08-03T00:00:00 /content/decomp.csv
+
+Not included: WDPCA boundary files (licence), Colab outputs, the synthetic element-set file.

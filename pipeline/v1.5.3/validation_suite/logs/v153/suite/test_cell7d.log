@@ -1,0 +1,8 @@
+PASS platform names: sentinel-2a/2b, landsat-8/9; PlanetScope not validated
+PASS pooled: 2 matched of 3 predicted and 3 real (two S2B scenes one minute apart are one overpass)
+PASS per-platform lags: Landsat 8 (456 h) not evaluated 6 days on, so its acquired-but-unpublished pass is neither a false prediction nor a miss; Landsat 9 (96 h) evaluated to day 2; Sentinel-2 48 h
+PASS per platform: S2A precision 0.0 (tracked, not acquiring), S2B precision 1.0 recall 0.5, L9 precision 1.0
+PASS rows: ['actual_only', 'matched', 'matched', 'predicted_only']
+PASS 30 h after the start: skipped: window not yet older than 48 h (re-run Cell 7D afte...
+
+6/6 checks passed

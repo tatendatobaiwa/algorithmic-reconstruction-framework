@@ -1,0 +1,885 @@
+{
+ "label": "POST HOC (amendment A7)",
+ "level_pct_of_reachable": 95.0,
+ "bootstrap": {
+  "B": 10000,
+  "seed": 20261030,
+  "unit": "window"
+ },
+ "times": "delivery times after the onset (pass time plus modelled downlink wait)",
+ "cloud_source_variants_skipped": 8,
+ "arms": {
+  "Primary: CKGR+Okavango, all 96, conservative": {
+   "windows": 8,
+   "onsets": 584,
+   "floor_h_median": {
+    "mean_over_windows": 12.625,
+    "ci95_window_bootstrap": [
+     12.379166666666666,
+     12.879166666666666
+    ]
+   },
+   "reach_pct_median": {
+    "mean_over_windows": 80.00163518927316,
+    "ci95_window_bootstrap": [
+     70.73928440029434,
+     89.40637519417872
+    ]
+   },
+   "region_t95_h_median": {
+    "mean_over_windows": 10.587499999999999,
+    "ci95_window_bootstrap": [
+     4.8916666666666675,
+     16.28333333333333
+    ]
+   },
+   "region_t95_reached_pct": {
+    "mean_over_windows": 24.828767123287673,
+    "ci95_window_bootstrap": [
+     7.876712328767123,
+     44.00684931506849
+    ]
+   },
+   "ecc_images_median": {
+    "mean_over_windows": 10.625,
+    "ci95_window_bootstrap": [
+     7.875,
+     13.375
+    ]
+   },
+   "coverage_first_images_median": {
+    "mean_over_windows": 19.875,
+    "ci95_window_bootstrap": [
+     15.5,
+     24.25
+    ]
+   },
+   "time_aware_images_median": {
+    "mean_over_windows": 20.125,
+    "ci95_window_bootstrap": [
+     15.625,
+     24.5
+    ]
+   },
+   "fcfs_unbudgeted_images_median": {
+    "mean_over_windows": 18.0,
+    "ci95_window_bootstrap": [
+     14.0,
+     21.875
+    ]
+   },
+   "ecc_saving_vs_coverage_first_mean": {
+    "mean_over_windows": 9.58904109589041,
+    "ci95_window_bootstrap": [
+     7.102568493150684,
+     11.674871575342463
+    ]
+   },
+   "ecc_saving_vs_fcfs_mean": {
+    "mean_over_windows": 7.333904109589041,
+    "ci95_window_bootstrap": [
+     5.13013698630137,
+     9.537671232876711
+    ]
+   },
+   "ecc_fewer_than_coverage_first_pct": {
+    "mean_over_windows": 100.0,
+    "ci95_window_bootstrap": [
+     100.0,
+     100.0
+    ]
+   },
+   "ecc_gap_min_max": {
+    "mean_over_windows": 0.0,
+    "ci95_window_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "cloud_floor_h_median": {
+    "mean_over_windows": 32.93541666666667,
+    "ci95_window_bootstrap": [
+     32.74583333333332,
+     33.14791666666667
+    ]
+   },
+   "h1b_pct": {
+    "mean_over_windows": 95.54794520547945,
+    "ci95_window_bootstrap": [
+     86.64383561643835,
+     100.0
+    ]
+   },
+   "h2_diff": {
+    "mean_over_windows": 2.2791983484588343,
+    "ci95_window_bootstrap": [
+     1.1186738614994693,
+     3.5187139747363263
+    ]
+   }
+  },
+  "PlanetScope optimistic swath": {
+   "windows": 8,
+   "onsets": 584,
+   "floor_h_median": {
+    "mean_over_windows": 12.59375,
+    "ci95_window_bootstrap": [
+     12.352083333333333,
+     12.852083333333333
+    ]
+   },
+   "reach_pct_median": {
+    "mean_over_windows": 86.32675169650886,
+    "ci95_window_bootstrap": [
+     79.93418363175537,
+     92.8358269969749
+    ]
+   },
+   "region_t95_h_median": {
+    "mean_over_windows": 13.256666666666666,
+    "ci95_window_bootstrap": [
+     7.056666666666667,
+     19.35
+    ]
+   },
+   "region_t95_reached_pct": {
+    "mean_over_windows": 25.0,
+    "ci95_window_bootstrap": [
+     8.047945205479452,
+     44.01113013698624
+    ]
+   },
+   "ecc_images_median": {
+    "mean_over_windows": 9.5,
+    "ci95_window_bootstrap": [
+     7.625,
+     11.25
+    ]
+   },
+   "coverage_first_images_median": {
+    "mean_over_windows": 18.75,
+    "ci95_window_bootstrap": [
+     14.75,
+     22.875
+    ]
+   },
+   "time_aware_images_median": {
+    "mean_over_windows": 19.125,
+    "ci95_window_bootstrap": [
+     15.0,
+     23.5
+    ]
+   },
+   "fcfs_unbudgeted_images_median": {
+    "mean_over_windows": 17.125,
+    "ci95_window_bootstrap": [
+     13.875,
+     20.5
+    ]
+   },
+   "ecc_saving_vs_coverage_first_mean": {
+    "mean_over_windows": 10.14041095890411,
+    "ci95_window_bootstrap": [
+     7.768835616438356,
+     12.42666952054794
+    ]
+   },
+   "ecc_saving_vs_fcfs_mean": {
+    "mean_over_windows": 7.972602739726027,
+    "ci95_window_bootstrap": [
+     6.28595890410959,
+     9.816780821917808
+    ]
+   },
+   "ecc_fewer_than_coverage_first_pct": {
+    "mean_over_windows": 100.0,
+    "ci95_window_bootstrap": [
+     100.0,
+     100.0
+    ]
+   },
+   "ecc_gap_min_max": {
+    "mean_over_windows": 0.0,
+    "ci95_window_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "cloud_floor_h_median": {
+    "mean_over_windows": 33.003125000000004,
+    "ci95_window_bootstrap": [
+     32.80729166666667,
+     33.202083333333334
+    ]
+   },
+   "h1b_pct": {
+    "mean_over_windows": 100.0,
+    "ci95_window_bootstrap": [
+     100.0,
+     100.0
+    ]
+   },
+   "h2_diff": {
+    "mean_over_windows": 2.760557190744829,
+    "ci95_window_bootstrap": [
+     1.5680954132940896,
+     4.185458568391791
+    ]
+   }
+  },
+  "Without Sentinel-2A": {
+   "windows": 8,
+   "onsets": 584,
+   "floor_h_median": {
+    "mean_over_windows": 12.725000000000001,
+    "ci95_window_bootstrap": [
+     12.504166666666666,
+     12.945833333333333
+    ]
+   },
+   "reach_pct_median": {
+    "mean_over_windows": 73.7173984138664,
+    "ci95_window_bootstrap": [
+     65.57619982012919,
+     82.84073256479437
+    ]
+   },
+   "region_t95_h_median": {
+    "mean_over_windows": 10.725,
+    "ci95_window_bootstrap": [
+     5.166666666666667,
+     16.28333333333333
+    ]
+   },
+   "region_t95_reached_pct": {
+    "mean_over_windows": 12.5,
+    "ci95_window_bootstrap": [
+     0.0,
+     29.623287671232877
+    ]
+   },
+   "ecc_images_median": {
+    "mean_over_windows": 12.0,
+    "ci95_window_bootstrap": [
+     9.0,
+     15.125
+    ]
+   },
+   "coverage_first_images_median": {
+    "mean_over_windows": 21.0,
+    "ci95_window_bootstrap": [
+     17.5,
+     24.5
+    ]
+   },
+   "time_aware_images_median": {
+    "mean_over_windows": 21.125,
+    "ci95_window_bootstrap": [
+     17.625,
+     24.625
+    ]
+   },
+   "fcfs_unbudgeted_images_median": {
+    "mean_over_windows": 18.125,
+    "ci95_window_bootstrap": [
+     14.375,
+     21.875
+    ]
+   },
+   "ecc_saving_vs_coverage_first_mean": {
+    "mean_over_windows": 9.039383561643836,
+    "ci95_window_bootstrap": [
+     6.41091609589041,
+     11.347602739726028
+    ]
+   },
+   "ecc_saving_vs_fcfs_mean": {
+    "mean_over_windows": 6.1284246575342465,
+    "ci95_window_bootstrap": [
+     4.347602739726028,
+     7.960830479452051
+    ]
+   },
+   "ecc_fewer_than_coverage_first_pct": {
+    "mean_over_windows": 100.0,
+    "ci95_window_bootstrap": [
+     100.0,
+     100.0
+    ]
+   },
+   "ecc_gap_min_max": {
+    "mean_over_windows": 0.0,
+    "ci95_window_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "cloud_floor_h_median": {
+    "mean_over_windows": 33.07291666666667,
+    "ci95_window_bootstrap": [
+     32.85104166666666,
+     33.27083333333333
+    ]
+   },
+   "h1b_pct": {
+    "mean_over_windows": 95.54794520547945,
+    "ci95_window_bootstrap": [
+     86.64383561643835,
+     100.0
+    ]
+   },
+   "h2_diff": {
+    "mean_over_windows": 1.7658000163518934,
+    "ci95_window_bootstrap": [
+     0.8514737143324348,
+     2.756393845556372
+    ]
+   }
+  },
+  "Earth-resources only (no PlanetScope)": {
+   "windows": 8,
+   "onsets": 465,
+   "floor_h_median": {
+    "mean_over_windows": 10.637500000000001,
+    "ci95_window_bootstrap": [
+     7.8957291666666665,
+     13.079166666666667
+    ]
+   },
+   "reach_pct_median": {
+    "mean_over_windows": 52.976044477148236,
+    "ci95_window_bootstrap": [
+     33.20660616466356,
+     71.08065571089854
+    ]
+   },
+   "region_t95_h_median": {
+    "mean_over_windows": 14.855555555555554,
+    "ci95_window_bootstrap": [
+     4.616666666666667,
+     23.666666666666668
+    ]
+   },
+   "region_t95_reached_pct": {
+    "mean_over_windows": 12.609398782343987,
+    "ci95_window_bootstrap": [
+     0.17123287671232876,
+     29.328386605783862
+    ]
+   },
+   "ecc_images_median": {
+    "mean_over_windows": 2.0,
+    "ci95_window_bootstrap": [
+     1.5,
+     2.625
+    ]
+   },
+   "coverage_first_images_median": {
+    "mean_over_windows": 2.5,
+    "ci95_window_bootstrap": [
+     1.875,
+     3.25
+    ]
+   },
+   "time_aware_images_median": {
+    "mean_over_windows": 2.5,
+    "ci95_window_bootstrap": [
+     1.875,
+     3.25
+    ]
+   },
+   "fcfs_unbudgeted_images_median": {
+    "mean_over_windows": 2.875,
+    "ci95_window_bootstrap": [
+     2.125,
+     3.75
+    ]
+   },
+   "ecc_saving_vs_coverage_first_mean": {
+    "mean_over_windows": 0.5924657534246576,
+    "ci95_window_bootstrap": [
+     0.2208904109589041,
+     0.9965753424657535
+    ]
+   },
+   "ecc_saving_vs_fcfs_mean": {
+    "mean_over_windows": 0.9657534246575343,
+    "ci95_window_bootstrap": [
+     0.4503424657534247,
+     1.5513698630136987
+    ]
+   },
+   "ecc_fewer_than_coverage_first_pct": {
+    "mean_over_windows": 46.40410958904109,
+    "ci95_window_bootstrap": [
+     16.95205479452055,
+     78.5958904109589
+    ]
+   },
+   "ecc_gap_min_max": {
+    "mean_over_windows": 0.0,
+    "ci95_window_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "cloud_floor_h_median": {
+    "mean_over_windows": 26.65833333333334,
+    "ci95_window_bootstrap": [
+     17.808281249999997,
+     32.63333333333333
+    ]
+   },
+   "h1b_pct": {
+    "mean_over_windows": 62.32876712328767,
+    "ci95_window_bootstrap": [
+     28.995433789954337,
+     89.49771689497716
+    ]
+   },
+   "h2_diff": {
+    "mean_over_windows": 0.07787588913416724,
+    "ci95_window_bootstrap": [
+     0.0024527839097377322,
+     0.15329899435859673
+    ]
+   }
+  },
+  "Earth-resources only, without Sentinel-2A": {
+   "windows": 8,
+   "onsets": 465,
+   "floor_h_median": {
+    "mean_over_windows": 10.568750000000001,
+    "ci95_window_bootstrap": [
+     7.85625,
+     12.989895833333332
+    ]
+   },
+   "reach_pct_median": {
+    "mean_over_windows": 40.69066306925026,
+    "ci95_window_bootstrap": [
+     22.428409369634537,
+     56.71776633145287
+    ]
+   },
+   "region_t95_h_median": {
+    "mean_over_windows": 23.666666666666668,
+    "ci95_window_bootstrap": [
+     null,
+     null
+    ]
+   },
+   "region_t95_reached_pct": {
+    "mean_over_windows": 0.17123287671232876,
+    "ci95_window_bootstrap": [
+     0.0,
+     0.5136986301369862
+    ]
+   },
+   "ecc_images_median": {
+    "mean_over_windows": 1.75,
+    "ci95_window_bootstrap": [
+     1.375,
+     2.0
+    ]
+   },
+   "coverage_first_images_median": {
+    "mean_over_windows": 2.125,
+    "ci95_window_bootstrap": [
+     1.5,
+     2.875
+    ]
+   },
+   "time_aware_images_median": {
+    "mean_over_windows": 2.125,
+    "ci95_window_bootstrap": [
+     1.5,
+     2.875
+    ]
+   },
+   "fcfs_unbudgeted_images_median": {
+    "mean_over_windows": 2.375,
+    "ci95_window_bootstrap": [
+     1.625,
+     3.25
+    ]
+   },
+   "ecc_saving_vs_coverage_first_mean": {
+    "mean_over_windows": 0.46061643835616434,
+    "ci95_window_bootstrap": [
+     0.1695205479452055,
+     0.7876712328767124
+    ]
+   },
+   "ecc_saving_vs_fcfs_mean": {
+    "mean_over_windows": 0.6643835616438356,
+    "ci95_window_bootstrap": [
+     0.2945205479452055,
+     1.1061643835616437
+    ]
+   },
+   "ecc_fewer_than_coverage_first_pct": {
+    "mean_over_windows": 33.9041095890411,
+    "ci95_window_bootstrap": [
+     13.356164383561643,
+     58.56592465753419
+    ]
+   },
+   "ecc_gap_min_max": {
+    "mean_over_windows": 0.0,
+    "ci95_window_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "cloud_floor_h_median": {
+    "mean_over_windows": 23.602083333333333,
+    "ci95_window_bootstrap": [
+     14.666614583333333,
+     32.45432291666666
+    ]
+   },
+   "h1b_pct": {
+    "mean_over_windows": 54.52054794520548,
+    "ci95_window_bootstrap": [
+     21.643835616438356,
+     87.39726027397259
+    ]
+   },
+   "h2_diff": {
+    "mean_over_windows": 0.16638050854386394,
+    "ci95_window_bootstrap": [
+     null,
+     null
+    ]
+   }
+  },
+  "Lower Zambezi": {
+   "windows": 8,
+   "onsets": 584,
+   "floor_h_median": {
+    "mean_over_windows": 12.23125,
+    "ci95_window_bootstrap": [
+     11.995833333333334,
+     12.495833333333334
+    ]
+   },
+   "reach_pct_median": {
+    "mean_over_windows": 84.52380952380952,
+    "ci95_window_bootstrap": [
+     65.49479166666667,
+     98.54910714285714
+    ]
+   },
+   "region_t95_h_median": {
+    "mean_over_windows": 12.178571428571429,
+    "ci95_window_bootstrap": [
+     8.283333333333333,
+     15.53095238095238
+    ]
+   },
+   "region_t95_reached_pct": {
+    "mean_over_windows": 53.5958904109589,
+    "ci95_window_bootstrap": [
+     33.73287671232877,
+     72.43150684931507
+    ]
+   },
+   "ecc_images_median": {
+    "mean_over_windows": 3.0,
+    "ci95_window_bootstrap": [
+     1.5,
+     4.75
+    ]
+   },
+   "coverage_first_images_median": {
+    "mean_over_windows": 4.375,
+    "ci95_window_bootstrap": [
+     2.25,
+     6.875
+    ]
+   },
+   "time_aware_images_median": {
+    "mean_over_windows": 4.375,
+    "ci95_window_bootstrap": [
+     2.25,
+     6.875
+    ]
+   },
+   "fcfs_unbudgeted_images_median": {
+    "mean_over_windows": 4.25,
+    "ci95_window_bootstrap": [
+     2.375,
+     6.375
+    ]
+   },
+   "ecc_saving_vs_coverage_first_mean": {
+    "mean_over_windows": 1.256849315068493,
+    "ci95_window_bootstrap": [
+     0.7996575342465753,
+     1.7791523972602734
+    ]
+   },
+   "ecc_saving_vs_fcfs_mean": {
+    "mean_over_windows": 1.1369863013698631,
+    "ci95_window_bootstrap": [
+     0.7294520547945206,
+     1.582191780821918
+    ]
+   },
+   "ecc_fewer_than_coverage_first_pct": {
+    "mean_over_windows": 74.31506849315068,
+    "ci95_window_bootstrap": [
+     58.732876712328775,
+     90.41095890410959
+    ]
+   },
+   "ecc_gap_min_max": {
+    "mean_over_windows": 0.0,
+    "ci95_window_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "cloud_floor_h_median": {
+    "mean_over_windows": 25.18854166666667,
+    "ci95_window_bootstrap": [
+     17.793697916666666,
+     31.295885416666668
+    ]
+   },
+   "h1b_pct": {
+    "mean_over_windows": 89.72195042400521,
+    "ci95_window_bootstrap": [
+     79.24820613176779,
+     99.70238095238096
+    ]
+   },
+   "h2_diff": {
+    "mean_over_windows": 1.1734693877551023,
+    "ci95_window_bootstrap": [
+     0.44430272108843577,
+     1.9961734693877549
+    ]
+   }
+  },
+  "Karoo Nature Reserve": {
+   "windows": 8,
+   "onsets": 513,
+   "floor_h_median": {
+    "mean_over_windows": 11.277083333333334,
+    "ci95_window_bootstrap": [
+     8.979166666666668,
+     13.274999999999999
+    ]
+   },
+   "reach_pct_median": {
+    "mean_over_windows": 77.734375,
+    "ci95_window_bootstrap": [
+     53.125,
+     96.484375
+    ]
+   },
+   "region_t95_h_median": {
+    "mean_over_windows": 10.62857142857143,
+    "ci95_window_bootstrap": [
+     7.092857142857143,
+     13.854761904761906
+    ]
+   },
+   "region_t95_reached_pct": {
+    "mean_over_windows": 66.60958904109589,
+    "ci95_window_bootstrap": [
+     41.60958904109589,
+     91.0958904109589
+    ]
+   },
+   "ecc_images_median": {
+    "mean_over_windows": 1.125,
+    "ci95_window_bootstrap": [
+     1.0,
+     1.375
+    ]
+   },
+   "coverage_first_images_median": {
+    "mean_over_windows": 1.375,
+    "ci95_window_bootstrap": [
+     1.125,
+     1.75
+    ]
+   },
+   "time_aware_images_median": {
+    "mean_over_windows": 1.375,
+    "ci95_window_bootstrap": [
+     1.125,
+     1.75
+    ]
+   },
+   "fcfs_unbudgeted_images_median": {
+    "mean_over_windows": 1.375,
+    "ci95_window_bootstrap": [
+     1.0,
+     1.875
+    ]
+   },
+   "ecc_saving_vs_coverage_first_mean": {
+    "mean_over_windows": 0.2910958904109589,
+    "ci95_window_bootstrap": [
+     0.04452054794520548,
+     0.6267123287671232
+    ]
+   },
+   "ecc_saving_vs_fcfs_mean": {
+    "mean_over_windows": 0.3938356164383562,
+    "ci95_window_bootstrap": [
+     0.1558219178082192,
+     0.6438784246575336
+    ]
+   },
+   "ecc_fewer_than_coverage_first_pct": {
+    "mean_over_windows": 24.657534246575338,
+    "ci95_window_bootstrap": [
+     4.4520547945205475,
+     52.39726027397259
+    ]
+   },
+   "ecc_gap_min_max": {
+    "mean_over_windows": 0.0,
+    "ci95_window_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "cloud_floor_h_median": {
+    "mean_over_windows": 14.579166666666666,
+    "ci95_window_bootstrap": [
+     8.537447916666666,
+     23.402135416666667
+    ]
+   },
+   "h1b_pct": {
+    "mean_over_windows": 97.87234042553192,
+    "ci95_window_bootstrap": [
+     95.74468085106383,
+     100.0
+    ]
+   },
+   "h2_diff": {
+    "mean_over_windows": 1.09375,
+    "ci95_window_bootstrap": [
+     0.234375,
+     1.953125
+    ]
+   }
+  },
+  "Primary design, wet season (A5)": {
+   "windows": 8,
+   "onsets": 584,
+   "floor_h_median": {
+    "mean_over_windows": 12.420833333333334,
+    "ci95_window_bootstrap": [
+     12.295833333333333,
+     12.533333333333333
+    ]
+   },
+   "reach_pct_median": {
+    "mean_over_windows": 80.7323603957158,
+    "ci95_window_bootstrap": [
+     69.03053715967624,
+     91.3788478047584
+    ]
+   },
+   "region_t95_h_median": {
+    "mean_over_windows": 15.61,
+    "ci95_window_bootstrap": [
+     9.45,
+     20.95
+    ]
+   },
+   "region_t95_reached_pct": {
+    "mean_over_windows": 28.253424657534246,
+    "ci95_window_bootstrap": [
+     8.21917808219178,
+     47.77397260273973
+    ]
+   },
+   "ecc_images_median": {
+    "mean_over_windows": 12.0,
+    "ci95_window_bootstrap": [
+     8.25,
+     16.375
+    ]
+   },
+   "coverage_first_images_median": {
+    "mean_over_windows": 19.625,
+    "ci95_window_bootstrap": [
+     16.125,
+     23.375
+    ]
+   },
+   "time_aware_images_median": {
+    "mean_over_windows": 19.375,
+    "ci95_window_bootstrap": [
+     15.875,
+     23.25
+    ]
+   },
+   "fcfs_unbudgeted_images_median": {
+    "mean_over_windows": 18.25,
+    "ci95_window_bootstrap": [
+     13.25,
+     23.375
+    ]
+   },
+   "ecc_saving_vs_coverage_first_mean": {
+    "mean_over_windows": 8.167808219178081,
+    "ci95_window_bootstrap": [
+     6.784246575342465,
+     9.601027397260273
+    ]
+   },
+   "ecc_saving_vs_fcfs_mean": {
+    "mean_over_windows": 6.241438356164384,
+    "ci95_window_bootstrap": [
+     4.797945205479452,
+     7.830479452054794
+    ]
+   },
+   "ecc_fewer_than_coverage_first_pct": {
+    "mean_over_windows": 100.0,
+    "ci95_window_bootstrap": [
+     100.0,
+     100.0
+    ]
+   },
+   "ecc_gap_min_max": {
+    "mean_over_windows": 0.0,
+    "ci95_window_bootstrap": [
+     0.0,
+     0.0
+    ]
+   },
+   "cloud_floor_h_median": {
+    "mean_over_windows": 33.05104166666667,
+    "ci95_window_bootstrap": [
+     32.92708333333333,
+     33.15625
+    ]
+   },
+   "h1b_pct": {
+    "mean_over_windows": 99.82876712328766,
+    "ci95_window_bootstrap": [
+     99.48630136986301,
+     100.0
+    ]
+   },
+   "h2_diff": {
+    "mean_over_windows": 1.896053061891914,
+    "ci95_window_bootstrap": [
+     0.6783237776960179,
+     3.2913805085438645
+    ]
+   }
+  }
+ }
+}

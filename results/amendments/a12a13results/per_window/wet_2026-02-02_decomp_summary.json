@@ -1,0 +1,21 @@
+{
+ "run_dir": "2026-02-02",
+ "centroid": [
+  -21.462,
+  23.614
+ ],
+ "onsets": 73,
+ "onsets_with_floor": 73,
+ "pipeline_check": {
+  "checked": true,
+  "onsets": 73,
+  "floors_equal": true,
+  "reachable_equal": true
+ },
+ "median_floor_h": 12.42,
+ "median_W_h": 10.9,
+ "median_G_h": 0.52,
+ "median_L_h": 0.0,
+ "median_floor_h_onset_sun_up": 18.08,
+ "median_floor_h_onset_night": 10.25
+}

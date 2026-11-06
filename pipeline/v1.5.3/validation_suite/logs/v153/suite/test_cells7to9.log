@@ -1,0 +1,14 @@
+  Gap-fill exhausted candidate events with 44 tiles still uncovered.
+  Gap-fill exhausted candidate events with 44 tiles still uncovered.
+PASS figure widths (in): fig1 3.43, fig2 3.43, fig3 3.43, fig4 3.43, manuscript 7.09, fig5 7.09, fig9 7.09, fig6 7.09, fig8 7.07 (one column 3.5, two columns 7.16; bbox_inches='tight' trims or pads a little)
+PASS Figure 3: physical floor and H1a margin in hours, no 10-min target; Figure 5 without the 10-min line; Figure 9 shows the H1a margin
+PASS Figure 3 data: floor 2845 min and the time to 95% of 427 reachable tiles at each of 1 budgets equal an independent recomputation; margin = Cell 7C's (94.1 min)
+PASS arf_coverage_vs_time.csv: each curve reaches its final coverage at Cell 6's completion latency (clear, cloud)
+PASS Cell 7B: an image with no downlink (wait None) is left out of the curve, no crash
+PASS H3 overall: one supported + one not -> NOT SUPPORTED ❌; supported + not evaluable -> SUPPORTED ✅; only not evaluable -> NOT EVALUABLE
+PASS Cell 8 with two scenarios in the ledger: full report, both scenarios listed
+PASS manifest records JPype1 (1.7.1) and Java (None; no JVM in this harness)
+PASS cell versions consistent; 52/52 expected files found, including arf_coverage_vs_time.csv and arf_fig9_h1a_gap
+PASS scenario key by fleet tag: ['lower_zambezi__Nearth-resources_planet-optimistic']; Cell 9 prints the fleet tag
+
+10/10 checks passed

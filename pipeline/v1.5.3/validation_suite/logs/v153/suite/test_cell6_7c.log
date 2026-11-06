@@ -1,0 +1,17 @@
+PASS facility greedy == independent greedy on f(S) = sum_t max w u (160 random instances)
+PASS coverage-first greedy == independent unit-weight greedy (160 instances)
+PASS greedy / brute-force optimum >= 1 - 1/e on every instance (worst 1.0000)
+PASS weighted ILP (HiGHS) objective == brute-force optimum of f (160 instances)
+PASS f is submodular on 300 random nested pairs A subset B (gain of x at A >= gain at B)
+PASS TIME_AWARE_OBJECTIVE='legacy' selects exactly as v1.4.0 (80 instances)
+PASS cloud_model='iid' mask is bit-identical to v1.4.0's mask (20 seeds)
+PASS expected-coverage planner == independent greedy on E[sum_t 1 - prod p] (60 instances)
+PASS adaptive selector is causal: decisions up to each arrival unchanged when the cloud of later images is redrawn (654 checks, both planning modes, both objectives)
+PASS latent field: unit variance (1.001); spatial correlation vs exp(-d^2/L^2), L = 50 km: mean |error| 0.009, max 0.042 over 599 tile pairs (2,000 draws)
+PASS cloud flags: marginal 0.3419 (target 0.35); P(cloudy at t and t+90 min) 0.2086 vs bivariate-normal 0.2150 (rho = exp(-dt/T) = 0.607); 1,500 seeds x 672 tiles
+PASS iid model: marginal 0.3508, joint 0.1220 vs 0.35^2 = 0.1225
+PASS paired_summary lower bound == SciPy one-sided 95% t interval (50 samples)
+PASS Clopper-Pearson one-sided 95% bound == SciPy exact; 29 onsets for 90%
+PASS plan_expected_coverage == the adaptive selector's planner run once; realized_coverage == brute force
+
+15/15 checks passed

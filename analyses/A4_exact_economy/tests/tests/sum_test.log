@@ -1,0 +1,39 @@
+A4 sensitivity (POST HOC): 32 runs; variants {'earthenv': 8, 'ilp48': 8, 'k10': 8, 'protocol': 8}
+
+S1 budget
+ k  windows  h1a_mean  h1a_min  h1b_mean  h1b_min  gap_median_min  gap_max_min  ecc_reached_pct_min  ecc_images_median  h2_mean
+10        8     100.0    100.0     100.0    100.0             0.0          0.0                100.0                2.0     0.37
+30        8     100.0    100.0     100.0    100.0             0.0          0.0                100.0                2.0     0.60
+
+S2 cloud probability
+    window  p_const  p_earthenv_mean  h2_const  h2_earthenv  earthenv_cov_adaptive  earthenv_cov_openloop_expected  earthenv_cov_openloop_clear  earthenv_cov_oracle
+2026-08-03     0.35             0.08     0.603        0.603                  85.44                          84.837                       83.506               85.255
+2026-08-10     0.35             0.08     0.603        0.603                  85.44                          84.837                       83.506               85.255
+2026-08-17     0.35             0.08     0.603        0.603                  85.44                          84.837                       83.506               85.255
+2026-08-24     0.35             0.08     0.603        0.603                  85.44                          84.837                       83.506               85.255
+2026-08-31     0.35             0.08     0.603        0.603                  85.44                          84.837                       83.506               85.255
+2026-09-07     0.35             0.08     0.603        0.603                  85.44                          84.837                       83.506               85.255
+2026-09-14     0.35             0.08     0.603        0.603                  85.44                          84.837                       83.506               85.255
+2026-09-21     0.35             0.08     0.603        0.603                  85.44                          84.837                       83.506               85.255
+
+S3 exact optimum, full window, and determinism
+    window horizon_min  pairs ecc_greedy_images ecc_exact_images ecc_exact_status maxcov_status   time_aware_ratio  seconds_max  files_compared  files_identical files_differing
+2026-08-03        2880  57467                 2                2          optimal       optimal 0.4911195334583675         5.27               7                7                
+2026-08-10        2880  57467                 2                2          optimal       optimal 0.4911195334583675         5.27               7                7                
+2026-08-17        2880  57467                 2                2          optimal       optimal 0.4911195334583675         5.27               7                7                
+2026-08-24        2880  57467                 2                2          optimal       optimal 0.4911195334583675         5.27               7                7                
+2026-08-31        2880  57467                 2                2          optimal       optimal 0.4911195334583675         5.27               7                7                
+2026-09-07        2880  57467                 2                2          optimal       optimal 0.4911195334583675         5.27               7                7                
+2026-09-14        2880  57467                 2                2          optimal       optimal 0.4911195334583675         5.27               7                7                
+2026-09-21        2880  57467                 2                2          optimal       optimal 0.4911195334583675         5.27               7                7                
+
+Files: /tmp/a4sum_42p3irdm/ARF_batch/sensitivity_a4/a4_runs.csv, a4_budget.csv, a4_cloud.csv, a4_ilp48.csv, a4_summary.json, a4_tables.tex
+PASS variants read: {'earthenv': 8, 'ilp48': 8, 'k10': 8, 'protocol': 8}
+PASS k = 10: H1a and H1b equal the protocol reader's window outcomes
+PASS k = 10: ECC gap above the floor recomputed (median 0, max 0 min)
+budget rows: [{"k": 10, "windows": 8, "h1a_mean": 100.0, "h1a_min": 100.0, "h1b_mean": 100.0, "h1b_min": 100.0, "gap_median_min": 0.0, "gap_max_min": 0.0, "ecc_reached_pct_min": 100.0, "ecc_images_median": 2.0, "h2_mean": 0.3662823971874715}, {"k": 30, "windows": 8, "h1a_mean": 100.0, "h1a_min": 100.0, "h1b_mean": 100.0, "h1b_min": 100.0, "gap_median_min": 0.0, "gap_max_min": 0.0, "ecc_reached_pct_min": 100.0, "ecc_images_median": 2.0, "h2_mean": 0.6033848417954382}]
+PASS ilp48 replay: the 7 result files equal the protocol run's
+PASS ilp48: one 48-h instance, solved to optimality
+PASS cloud table built from the variant's record
+PASS a4_tables.tex compiles at IEEE width without overfull boxes
+7/7 passed

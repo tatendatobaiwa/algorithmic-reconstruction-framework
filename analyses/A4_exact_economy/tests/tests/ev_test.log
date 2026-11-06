@@ -1,0 +1,138 @@
+Paper 1 evidence, release 1.5.3, 8 windows (2026-08-03, 2026-08-10, 2026-08-17, 2026-08-24, 2026-08-31, 2026-09-07, 2026-09-14, 2026-09-21)
+
+E1 selectors at the H1a level (median over onsets per window)
+    window  best_possible_t_median_min  earliest_completion_t_median_min  fcfs_unbudgeted_t_median_min  coverage_first_t_median_min  time_aware_t_median_min  earliest_completion_images_median  fcfs_unbudgeted_images_median  coverage_first_images_median  time_aware_images_median
+2026-08-03                       739.0                             739.0                         739.0                        739.0                    699.0                                2.0                            8.0                           6.0                       7.0
+2026-08-10                       778.0                             778.0                         778.0                        778.0                    778.0                               15.0                           26.0                          28.0                      28.0
+2026-08-17                       778.0                             778.0                         778.0                        778.0                    778.0                               15.0                           26.0                          28.0                      28.0
+2026-08-24                       730.0                             730.0                         730.0                        730.0                    730.0                                5.0                           18.0                          18.0                      19.0
+2026-08-31                       755.0                             755.0                         755.0                        755.0                    755.0                                5.0                           19.0                          21.0                      21.0
+2026-09-07                       778.0                             778.0                         778.0                        778.0                    778.0                               15.0                           26.0                          28.0                      28.0
+2026-09-14                       778.0                             778.0                         778.0                        778.0                    778.0                               15.0                           26.0                          28.0                      28.0
+2026-09-21                       730.0                             730.0                         730.0                        730.0                    730.0                                5.0                           18.0                          18.0                      19.0
+
+E2 exact optimum: {"ecc_instances": 8, "ecc_matches": 8, "ecc_extra_images_max": 0.0, "coverage_first_ratio_min": 1.0, "time_aware_ratio_min": 0.9914633191153688, "fcfs_ratio_min": 0.9182475775427484, "ilp_seconds_max": 1.48}
+
+E3 H2 bracket
+    window  cov_adaptive  cov_openloop_expected  cov_openloop_clear  cov_oracle  diff_vs_expected_mean  diff_vs_expected_lcb95  share_oracle_gain_median
+2026-08-03         85.00                  84.63               83.36       84.88                   0.37                   -0.11                      0.91
+2026-08-10         66.18                  66.39               66.02       67.58                  -0.21                   -0.64                     -0.14
+2026-08-17         57.79                  57.96               57.07       58.85                  -0.17                   -0.42                     -0.31
+2026-08-24         70.73                  70.26               69.90       71.30                   0.47                    0.10                      0.41
+2026-08-31         65.69                  65.52               65.27       66.34                   0.17                   -0.20                      0.29
+2026-09-07         66.18                  66.39               66.02       67.58                  -0.21                   -0.64                     -0.14
+2026-09-14         57.79                  57.96               57.07       58.85                  -0.17                   -0.42                     -0.31
+2026-09-21         70.73                  70.26               69.90       71.30                   0.47                    0.10                      0.41
+
+   H2 difference across the cloud-scale sweep (median over windows)
+model       length_km
+correlated  10.0        -0.22
+            25.0         0.16
+            50.0        -0.19
+            100.0        0.24
+            200.0        0.60
+iid         0.0         -0.17
+
+E4 archive:
+   platform  windows_evaluated  predicted  actual  matched  precision  recall  archive_lag_h
+  landsat-8                  8          0       0        0        NaN     NaN          456.0
+  landsat-9                  8          8       8        8        1.0     1.0           96.0
+sentinel-2a                  8          8       8        8        1.0     1.0           48.0
+sentinel-2b                  8          8       8        8        1.0     1.0           48.0
+sentinel-2c                  8          0       0        0        NaN     NaN           48.0
+   observed scene cloud vs model: {"scenes_with_cloud": 24, "mean_pct": 0.0021073725490195747, "median_pct": 6.811764705882353e-05, "share_below_10pct": 100.0, "share_above_50pct": 0.0, "model_probability_pct": 35.0, "note": "observed: real acquisitions' scene cloud cover from the archive catalogue (Cell 7D); model: the protocol's constant per-tile cloud probability"}
+
+E5 exact tests (post hoc): {
+ "note": "POST HOC: exact one-sided tests over windows (window = unit of inference); the protocol's decisions are the Student-t lower bounds of arf_confirmatory_analysis.py",
+ "H1a_vs_threshold": {
+  "windows": 8,
+  "above": 8,
+  "equal": 0,
+  "below": 0,
+  "sign_p": 0.00390625,
+  "wilcoxon_p": 0.00390625,
+  "min_attainable_p": 0.00390625
+ },
+ "H1b_vs_threshold": {
+  "windows": 8,
+  "above": 8,
+  "equal": 0,
+  "below": 0,
+  "sign_p": 0.00390625,
+  "wilcoxon_p": 0.00390625,
+  "min_attainable_p": 0.00390625
+ },
+ "H2_vs_zero": {
+  "windows": 8,
+  "above": 4,
+  "equal": 0,
+  "below": 4,
+  "sign_p": 0.63671875,
+  "wilcoxon_p": 0.23046875,
+  "min_attainable_p": 0.00390625
+ }
+}
+
+Files: /tmp/p1test_4x8k47iu/ARF_batch/paper1_evidence/p1_windows.csv, p1_cloud_scale_sweep.csv, p1_archive_by_platform.csv, p1_archive_pooled.csv, p1_archive_scenes.csv, p1_summary.json, p1_tables.tex
+PASS 8 windows read, others ignored
+PASS per-window values equal the source files (H2, oracle, ILP matches, ECC median, FCFS images)
+PASS H2 exact tests equal scipy directly
+PASS H1a counts add to 8
+PASS archive scenes pooled (3 per window) and observed cloud mean recomputed
+PASS archive pooled per platform (S2A matched 8 of 8; Landsat-8 none predicted)
+PASS p1_tables.tex compiles (two columns of 3.5 in, IEEE text width 7.16 in)
+PASS no overfull boxes
+\begin{table*}[!t]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.2}
+\caption{Selectors at the H1a level (95\% of reachable tiles, clear sky), primary design, eight windows. Each cell: median over windows of the per-window median over onsets [range over windows]. FCFS: first-come-first-served, unbudgeted.}
+\label{tab:p1_baselines}
+\begin{tabular}{|l|r|r|r|}
+\hline
+Selector & Time to level (min) & Images & Onsets reaching level (\%) \\
+\hline
+Physical floor (all passes) & 766 [730--778] & all & 100.0 [100.0--100.0] \\
+\hline
+ECC ($k=30$) & 766 [730--778] & 10 [2--15] & 100.0 [100.0--100.0] \\
+\hline
+FCFS & 766 [730--778] & 22 [8--26] & 100.0 [100.0--100.0] \\
+\hline
+Coverage-first greedy ($k=30$) & 766 [730--778] & 24 [6--28] & 100.0 [100.0--100.0] \\
+\hline
+Time-aware greedy ($k=30$) & 766 [699--778] & 24 [7--28] & 100.0 [94.5--100.0] \\
+\hline
+\end{tabular}
+\end{table*}
+
+\begin{table}[!t]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.2}
+\caption{Greedy selection against the exact integer optimum on the Cell 7C sub-problems (6-h horizons, clear sky), pooled over the eight primary windows.}
+\label{tab:p1_ilp}
+\begin{tabular}{|p{2.45in}|r|}
+\hline
+Quantity & Value \\
+\hline
+Sub-problems where ECC's greedy cover uses the exact minimum of images & 8/8 \\
+\hline
+Largest excess of ECC over the exact minimum & 0 images \\
+\hline
+Coverage-first greedy / exact maximum coverage (worst) & 1.000 \\
+\hline
+Time-aware greedy / exact maximum coverage (worst) & 0.991 \\
+\hline
+FCFS / exact maximum coverage (worst) & 0.918 \\
+\hline
+Longest exact solve (s) & 1.5 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table*}[!t]
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.2}
+\caption{Coverage under cloud (\%), same number of images, time-aware objective, 20 realisatio
+8/8 passed

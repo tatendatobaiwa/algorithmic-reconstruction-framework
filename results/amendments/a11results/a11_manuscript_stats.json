@@ -1,0 +1,57 @@
+{
+ "label": "POST HOC (A11, correcting A10 and A6)",
+ "onsets": 584,
+ "saving_gb_median_per_onset": [
+  8.28000027587962,
+  12.959426070859903
+ ],
+ "reduction_pct_median_per_onset": [
+  26.119392713650328,
+  26.55000081669628
+ ],
+ "reduction_pct_iqr_low_rate": [
+  4.160664224345294,
+  50.22507253891554
+ ],
+ "reduction_pct_range": [
+  0.0,
+  92.52370190757507
+ ],
+ "onsets_saving_positive": 558,
+ "onsets_saving_zero": 26,
+ "onsets_ecc_more_data": 0,
+ "planetscope_share_of_saving_high_pooled": 0.9928112925068902,
+ "planetscope_share_min_window": 0.9665835382450261,
+ "window_mean_of_median_saving_gb": {
+  "low": {
+   "mean": 9.636862573678407,
+   "ci95": [
+    4.062874689565027,
+    15.800927277369558
+   ]
+  },
+  "high": {
+   "mean": 15.074643892960443,
+   "ci95": [
+    6.354637733628856,
+    24.720518608176313
+   ]
+  }
+ },
+ "window_mean_of_median_reduction_pct": {
+  "low": {
+   "mean": 29.128231083017887,
+   "ci95": [
+    13.452828796076547,
+    45.842865582067574
+   ]
+  },
+  "high": {
+   "mean": 29.959276024640317,
+   "ci95": [
+    13.588476736252133,
+    47.64658115157457
+   ]
+  }
+ }
+}
